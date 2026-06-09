@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block content %}
+{% if next_md %}
+<div class="card" style="border-color:var(--accent-dim)">
+  <div class="row-between">
+    <div><h2 style="margin-bottom:4px">Next matchday</h2>
+      <div style="font-family:var(--display);font-size:20px;font-weight:700">{{ next_md.label }}</div>
+      <div class="muted mono" style="font-size:13px">{{ next_md.date.strftime('%a %d %b') }} · locks {{ next_md.lock_time.strftime('%H:%M') }}</div>
+    </div><span class="pill open">OPEN</span>
+  </div>
+</div>
+
+{% if my_entry and my_entry_league %}
+<div class="card" id="my-team">
+  <div class="row-between" style="margin-bottom:12px">
+    <h2 style="margin:0">My team <span class="mono muted" style="font-size:12px;font-weight:400">· {{ my_entry.formation }}</span></h2>
+    <div style="display:flex;gap:8px">
+      <a href="{{ url_for('play', league_id=my_entry_league.id, matchday_id=next_md.id) }}" class="btn sm ghost">Edit</a>
+      <a href="{{ url_for('my_team', league_id=my_entry_league.id, matchday_id=next_md.id) }}" class="btn sm">View</a>
+    </div>
+  </div>
+  {% set starters = my_picks | selectattr("slot", "lt", 5) | list %}
+  {% set subs = my_picks | selectattr("slot", "ge", 5) | list %}
+  {% set role_color = {"GK": "#ffb300", "DEF": "#39c0ff", "MID": "#00e676", "FWD": "#ff5a8a"} %}
+  <div style="display:flex;flex-direction:column;gap:5px;margin-bottom:{% if subs %}10px{% else %}0{% endif %}">
+    {% for pk in starters | sort(attribute='slot') %}
+    <div style="display:flex;align-items:center;gap:8px;padding:7px 10px;background:var(--bg);border:1px solid var(--line);border-radius:10px">
+      <span style="font-family:var(--mono);font-size:10px;font-weight:700;color:{{ role_color[pk.role] }};width:28px">{{ pk.role }}</span>
+      <span style="font-weight:600;flex:1;font-size:14px">{{ pk.player.name }}</span>
+      <span style="font-size:16px">{{ pk.player.team | teamflag }}</span>
+      <span style="font-family:var(--mono);font-size:12px;color:var(--accent)">{{ pk.player.value }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% if subs %}
+  <div class="muted mono" style="font-size:11px;letter-spacing:.1em;margin-bottom:6px">SUBS</div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    {% for pk in subs | sort(attribute='slot') %}
+    <div style="display:flex;align-items:center;gap:6px;padding:5px 10px;background:var(--bg);border:1px solid var(--line);border-radius:8px">
+      <span style="font-family:var(--mono);font-size:10px;font-weight:700;color:{{ role_color[pk.role] }}">{{ pk.role }}</span>
+      <span style="font-size:13px;font-weight:600">{{ pk.player.name.split()[-1] }}</span>
+      <span style="font-size:14px">{{ pk.player.team | teamflag }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% elif next_md and leagues %}
+<div class="card" style="text-align:center;padding:20px">
+  <p class="muted" style="margin-bottom:12px">No team picked yet for {{ next_md.label }}.</p>
+  <a href="{{ url_for('play', league_id=leagues[0].id, matchday_id=next_md.id) }}" class="btn primary sm">Pick your team →</a>
+</div>
+{% endif %}
+{% endif %}
+<div class="card" id="leagues">
+  <h2 style="margin:0 0 8px">Your leagues</h2>
+  {% if leagues %}{% for lg in leagues %}
+    <a href="{{ url_for('league_view', league_id=lg.id) }}" class="fixture" style="text-decoration:none">
+      <span>{{ lg.name }}</span><span class="mono muted">{{ lg.code }} ›</span></a>
+  {% endfor %}{% else %}<p class="muted">No leagues yet. Create one or join with a code.</p>{% endif %}
+</div>
+<div class="grid-2">
+  <div class="card"><h2>Create a league</h2>
+    <form method="post" action="{{ url_for('league_create') }}">
+      <label>League name</label><input type="text" name="name" placeholder="The Lads' WC League" required>
+      <button class="btn primary block mt" type="submit">Create</button></form></div>
+  <div class="card"><h2>Join a league</h2>
+    <form method="post" action="{{ url_for('league_join') }}">
+      <label>League code</label><input type="text" name="code" maxlength="8" placeholder="ABC123" style="text-transform:uppercase" required>
+      <button class="btn block mt" type="submit">Join</button></form></div>
+</div>
+{% if ref_link %}
+<div class="card" id="invite" style="border-color:var(--accent-dim)">
+  <h2>Invite friends</h2>
+  <p class="muted" style="font-size:13px;margin-bottom:10px">
+    Share your link. Every mate who joins boosts your transfer budget.</p>
+  <div class="row-between" style="gap:8px">
+    <input type="text" id="refLink" value="{{ ref_link }}" readonly
+           style="font-family:var(--mono);font-size:12px">
+    <button class="btn sm" id="copyRef" type="button">Copy</button>
+  </div>
+  <div class="mono muted mt" style="font-size:12px">Your current budget: <b style="color:var(--accent)">{{ my_budget }}</b></div>
+</div>
+<script>
+  document.getElementById('copyRef').addEventListener('click', function(){
+    var i=document.getElementById('refLink'); i.select(); i.setSelectionRange(0,99999);
+    navigator.clipboard.writeText(i.value).then(()=>{ this.textContent='Copied'; setTimeout(()=>this.textContent='Copy',1500); });
+  });
+</script>
+{% endif %}
+
+<div class="card" id="ranking"><h2>★ World ranking</h2>
+  {% if ranking %}<table class="table"><tr><th>#</th><th>Player</th><th class="num">Pts</th></tr>
+    {% for row in ranking %}<tr><td class="rank-pill {{ 'rank-1' if loop.index==1 }}">{{ loop.index }}</td>
+      <td>{{ row[0] }}</td><td class="num">{{ '%.1f'|format(row[1] or 0) }}</td></tr>{% endfor %}</table>
+  {% else %}<p class="muted">No scores yet — be the first onto the board.</p>{% endif %}
+</div>
+{% endblock %}

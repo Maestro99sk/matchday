@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Play · {{ matchday.label }}{% endblock %}
+{% block content %}
+<div class="row-between">
+  <div><h2 style="margin-bottom:2px">{{ matchday.label }}</h2>
+    <span class="muted mono" style="font-size:12px">{{ league.name }}</span></div>
+  {% if locked %}<span class="pill live">LOCKED</span>{% else %}<span class="pill open">OPEN</span>{% endif %}
+</div>
+
+<div class="card mt"><div class="section-title">Today's fixtures</div>
+  {% for fx in fixtures %}<div class="fixture"><span>{{ fx.home_team }}</span>
+    <span class="vs">v</span><span>{{ fx.away_team }}</span></div>{% endfor %}
+</div>
+
+{% if locked %}
+<div class="card center"><p class="muted">Locked — the games have kicked off. Scores appear after full time.</p></div>
+{% else %}
+
+<!-- formation selector -->
+<div class="formation-selector">
+  <button class="arrow" id="fPrev" aria-label="Previous formation">‹</button>
+  <div class="formation-mid">
+    <div class="formation-name" id="fName">1-2-1</div>
+    <div class="formation-sub" id="fSub"></div>
+  </div>
+  <button class="arrow" id="fNext" aria-label="Next formation">›</button>
+</div>
+<div class="formation-dots" id="fDots"></div>
+
+<!-- budget -->
+<div class="budget-pill">
+  <span class="muted mono" style="font-size:12px">BUDGET REMAINING</span>
+  <span class="num" id="remaining">{{ budget }}</span>
+</div>
+
+<!-- pitch -->
+<div class="pitch" id="pitch">
+  <svg viewBox="0 0 100 150" preserveAspectRatio="none" aria-hidden="true">
+    <rect x="1" y="1" width="98" height="148" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="0.5"/>
+    <line x1="1" y1="75" x2="99" y2="75" stroke="rgba(255,255,255,.16)" stroke-width="0.5"/>
+    <circle cx="50" cy="75" r="12" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="0.5"/>
+    <rect x="30" y="128" width="40" height="21" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="0.5"/>
+    <rect x="30" y="1" width="40" height="21" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="0.5"/>
+  </svg>
+</div>
+
+<p class="muted center" style="font-size:13px;margin:14px 6px">Max {{ max_starters_per_team }} starters &amp; {{ max_subs_per_team }} sub from one nation. Tap a slot to fill it.</p>
+
+<!-- subs bench -->
+<div id="bench"></div>
+
+<!-- scoring key -->
+<details class="scoring-key">
+  <summary>Scoring guide</summary>
+  <div class="scoring-grid">
+    <div class="sc-row pos"><span>Goal</span><span>+{{ scoring.goal }}</span></div>
+    <div class="sc-row pos"><span>Assist</span><span>+{{ scoring.assist }}</span></div>
+    <div class="sc-row pos"><span>Clean sheet (GK/DEF)</span><span>+{{ scoring.clean_sheet_gk_def }}</span></div>
+    <div class="sc-row pos"><span>Clean sheet (MID)</span><span>+{{ scoring.clean_sheet_mid }}</span></div>
+    <div class="sc-row neg"><span>Yellow card</span><span>{{ scoring.yellow }}</span></div>
+    <div class="sc-row neg"><span>Red card</span><span>{{ scoring.red }}</span></div>
+  </div>
+</details>
+
+<!-- tray -->
+<div id="tray"></div>
+
+<div class="row-between mt">
+  <div class="mono muted" id="progress" style="font-size:13px">0/5 picked</div>
+  <button class="btn primary" id="confirmBtn" style="flex:1;opacity:.4;pointer-events:none">Tap a slot to fill</button>
+</div>
+
+<script id="cfg" type="application/json">
+{
+  "submitUrl": "{{ url_for('play_submit', league_id=league.id, matchday_id=matchday.id) }}",
+  "budget": {{ budget }},
+  "maxStartersPerTeam": {{ max_starters_per_team }},
+  "maxSubsPerTeam": {{ max_subs_per_team }},
+  "formations": {{ formations|tojson }},
+  "pool": {{ pool|tojson }},
+  "existing": {{ existing|tojson if existing else 'null' }}
+}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/play.js') }}"></script>
+{% endblock %}

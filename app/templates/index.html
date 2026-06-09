@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="hero">
+  <h1>Pick five.<br><span class="glow">Beat your mates.</span></h1>
+  <div class="scoreline">⚽ FORMATION · BUDGET · GOALS · CARDS</div>
+  <p>Every World Cup matchday: choose a formation, fill it with five players from the day's
+     games, stay under budget. Score points on goals, assists, clean sheets and cards.</p>
+  <div class="mt" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+    <a href="{{ url_for('register') }}" class="btn primary">Create account</a>
+    <a href="{{ url_for('login') }}" class="btn ghost">Log in</a>
+  </div>
+</div>
+<div class="grid-2 mt">
+  <div class="card"><h2>How it works</h2>
+    <p class="muted">1 · Pick one of six 5-a-side formations (always one keeper).<br>
+       2 · Fill each slot from the day's players — total value under the budget.<br>
+       3 · Max two players from any one nation.<br>
+       4 · Points roll in on goals, assists, clean sheets &amp; cards.</p></div>
+  <div class="card"><h2>Leagues</h2>
+    <p class="muted">Create a league, share the code, add mates by username. Points accumulate
+       across the whole group stage. Climb the table; top the world ranking.</p></div>
+</div>
+{% endblock %}

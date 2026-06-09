@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Admin · Settle{% endblock %}
+{% block content %}
+<div class="card"><h2>Admin · settle a matchday</h2>
+  <p class="muted" style="font-size:13px">Enter real stat lines; saving scores every lineup and updates tables + ranking.</p>
+  <form method="get"><label>Matchday</label>
+    <select name="md" onchange="this.form.submit()">
+      <option value="">— choose —</option>
+      {% for m in matchdays %}<option value="{{ m.id }}" {{ 'selected' if md and m.id==md.id }}>{{ m.label }}{{ ' (settled)' if m.settled }}</option>{% endfor %}
+    </select></form>
+</div>
+{% if md %}
+<div class="card" style="border-color:var(--accent-dim)">
+  <h2 style="margin-bottom:6px">{{ md.label }} — auto-settle</h2>
+  <p class="muted" style="font-size:13px;margin-bottom:12px">Fetches goals, assists, cards &amp; clean sheets from the API after all fixtures finish. Requires <code>API_FOOTBALL_KEY</code> in your environment.</p>
+  <form method="post" action="{{ url_for('admin_auto_settle', matchday_id=md.id) }}">
+    <button class="btn primary block" type="submit" onclick="this.textContent='Fetching…';this.disabled=true;this.form.submit()">⚡ Auto-fetch &amp; settle</button>
+  </form>
+</div>
+
+<form method="post"><input type="hidden" name="matchday_id" value="{{ md.id }}">
+  <div class="card"><h2>{{ md.label }} — manual results</h2>
+    <p class="muted" style="font-size:12px;margin-bottom:10px">Use this to override or correct stats.</p>
+    <table class="table"><tr><th>Player</th><th class="num">G</th><th class="num">A</th><th class="num">CS</th><th class="num">Y</th><th class="num">R</th></tr>
+    {% for p in players %}<tr>
+      <td>{{ p.name }} <span class="pos-badge">{{ p.pos }}</span> <span class="muted mono" style="font-size:10px">{{ p.team }}</span></td>
+      <td class="num"><input type="number" name="g_{{ p.id }}" value="0" min="0" style="width:50px"></td>
+      <td class="num"><input type="number" name="a_{{ p.id }}" value="0" min="0" style="width:50px"></td>
+      <td class="num"><input type="checkbox" name="cs_{{ p.id }}" style="width:auto"></td>
+      <td class="num"><input type="number" name="y_{{ p.id }}" value="0" min="0" style="width:50px"></td>
+      <td class="num"><input type="number" name="r_{{ p.id }}" value="0" min="0" style="width:50px"></td>
+    </tr>{% endfor %}</table>
+    <button class="btn primary block mt" type="submit">Settle &amp; score manually</button>
+  </div></form>
+{% endif %}
+{% endblock %}
