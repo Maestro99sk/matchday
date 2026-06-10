@@ -21,7 +21,7 @@
 <form method="post"><input type="hidden" name="matchday_id" value="{{ md.id }}">
   <div class="card"><h2>{{ md.label }} — manual results</h2>
     <p class="muted" style="font-size:12px;margin-bottom:10px">Use this to override or correct stats.</p>
-    <table class="table"><tr><th>Player</th><th class="num">G</th><th class="num">A</th><th class="num">CS</th><th class="num">Y</th><th class="num">R</th></tr>
+    <table class="table"><tr><th>Player</th><th class="num">G</th><th class="num">A</th><th class="num">CS</th><th class="num">Y</th><th class="num">R</th><th class="num" title="Did Not Play">DNP</th></tr>
     {% for p in players %}<tr>
       <td>{{ p.name }} <span class="pos-badge">{{ p.pos }}</span> <span class="muted mono" style="font-size:10px">{{ p.team }}</span></td>
       <td class="num"><input type="number" name="g_{{ p.id }}" value="0" min="0" style="width:50px"></td>
@@ -29,6 +29,7 @@
       <td class="num"><input type="checkbox" name="cs_{{ p.id }}" style="width:auto"></td>
       <td class="num"><input type="number" name="y_{{ p.id }}" value="0" min="0" style="width:50px"></td>
       <td class="num"><input type="number" name="r_{{ p.id }}" value="0" min="0" style="width:50px"></td>
+      <td class="num"><input type="checkbox" name="dnp_{{ p.id }}" style="width:auto" title="Did not play — triggers auto-sub"></td>
     </tr>{% endfor %}</table>
     <button class="btn primary block mt" type="submit">Settle &amp; score manually</button>
   </div></form>

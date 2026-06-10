@@ -74,6 +74,7 @@ class Result(db.Model):
     clean_sheet = db.Column(db.Boolean, default=False)
     yellows = db.Column(db.Integer, default=0)
     reds = db.Column(db.Integer, default=0)
+    played = db.Column(db.Boolean, default=True)  # False = DNP, triggers same-nation auto-sub
     __table_args__ = (db.UniqueConstraint("matchday_id", "player_id", name="uq_result"),)
 
 

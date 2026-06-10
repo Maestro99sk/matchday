@@ -8,6 +8,15 @@ def run():
     app = create_app()
     with app.app_context():
         db.create_all()
+        # Migrate: add played column to results if missing (SQLite safe)
+        try:
+            db.session.execute(db.text(
+                "ALTER TABLE results ADD COLUMN played BOOLEAN DEFAULT 1"
+            ))
+            db.session.commit()
+            print("Migrated: added results.played column.")
+        except Exception:
+            pass  # column already exists
         # Reseed matchdays/fixtures only — leaves users, leagues, entries intact.
         for fx in Fixture.query.all():
             db.session.delete(fx)

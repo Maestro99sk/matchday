@@ -123,6 +123,24 @@ def fetch_fixture_stats(home_team, away_team, match_date):
     if pdata.get("errors"):
         return None, f"API error fetching player stats: {pdata['errors']}"
 
+    # --- fetch starting lineup to determine who played ---
+    starters_set = set()
+    try:
+        lr = requests.get(
+            f"{BASE}/fixtures/lineups",
+            params={"fixture": fixture_id},
+            headers=_headers(),
+            timeout=15,
+        )
+        lr.raise_for_status()
+        for team_block in lr.json().get("response", []):
+            for p in team_block.get("startXI", []):
+                name = (p.get("player") or {}).get("name")
+                if name:
+                    starters_set.add(_norm(name))
+    except requests.RequestException:
+        pass  # if lineup fetch fails, assume everyone played
+
     stats = {}
     for team_block in pdata.get("response", []):
         api_team = team_block["team"]["name"]
@@ -135,12 +153,16 @@ def fetch_fixture_stats(home_team, away_team, match_date):
             s = (p.get("statistics") or [{}])[0]
             g_block = s.get("goals") or {}
             c_block = s.get("cards") or {}
+            mins = (s.get("games") or {}).get("minutes") or 0
+            # played = was in starting XI or came on as sub (minutes > 0)
+            played = bool(starters_set and _norm(name) in starters_set) or int(mins) > 0
             stats[name] = {
                 "goals":       int(g_block.get("total") or 0),
                 "assists":     int(g_block.get("assists") or 0),
                 "clean_sheet": clean_sheet,
                 "yellows":     int(c_block.get("yellow") or 0),
                 "reds":        int(c_block.get("red") or 0),
+                "played":      played,
             }
 
     return stats, None

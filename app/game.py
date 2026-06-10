@@ -141,11 +141,34 @@ def score_player(result, pos):
 
 
 def score_entry(picks, results_by_player):
-    """Flat lineup sum: each picked player earns their event points."""
+    """
+    Score a lineup with same-nation auto-subs.
+    If a starter's result has played=False, their bench player of the same role
+    AND same nation replaces them. Cross-nation subs never trigger.
+    """
+    starter_picks = [p for p in picks if p.slot < 5]
+    # bench keyed by role, only one sub per role
+    sub_by_role = {p.role: p for p in picks if p.slot >= 5}
+
     total = 0.0
-    for pk in picks:
+    for pk in starter_picks:
         player = PLAYERS_BY_ID.get(pk.player_id)
         if not player:
             continue
-        total += score_player(results_by_player.get(pk.player_id), player["pos"])
+        result = results_by_player.get(pk.player_id)
+        did_not_play = result is not None and not getattr(result, "played", True)
+
+        if did_not_play:
+            sub_pk = sub_by_role.get(pk.role)
+            if sub_pk:
+                sub_player = PLAYERS_BY_ID.get(sub_pk.player_id)
+                # Only sub in if same nation — prevents cheap-starter / expensive-bench exploit
+                if sub_player and sub_player["team"] == player["team"]:
+                    sub_result = results_by_player.get(sub_pk.player_id)
+                    total += score_player(sub_result, sub_player["pos"])
+                    continue
+            # no valid same-nation sub → starter scores 0
+        else:
+            total += score_player(result, player["pos"])
+
     return round(total, 1)

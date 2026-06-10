@@ -341,9 +341,11 @@ def create_app():
                 cs = bool(request.form.get(f"cs_{pid}"))
                 y = int(request.form.get(f"y_{pid}", 0) or 0)
                 r = int(request.form.get(f"r_{pid}", 0) or 0)
-                if g or a or cs or y or r:
+                dnp = bool(request.form.get(f"dnp_{pid}"))
+                if g or a or cs or y or r or dnp:
                     db.session.add(Result(matchday_id=md.id, player_id=pid, goals=g,
-                                          assists=a, clean_sheet=cs, yellows=y, reds=r))
+                                          assists=a, clean_sheet=cs, yellows=y, reds=r,
+                                          played=not dnp))
             db.session.commit()
             results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
             for e in Entry.query.filter_by(matchday_id=md.id).all():
@@ -393,6 +395,7 @@ def create_app():
                 matchday_id=md.id, player_id=pid,
                 goals=s["goals"], assists=s["assists"], clean_sheet=s["clean_sheet"],
                 yellows=s["yellows"], reds=s["reds"],
+                played=s.get("played", True),
             ))
         db.session.commit()
 
