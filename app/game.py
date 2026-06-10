@@ -2,13 +2,38 @@
 import json
 import os
 from collections import Counter
-from .config import FORMATIONS, BUDGET, MAX_STARTERS_PER_TEAM, MAX_SUBS_PER_TEAM, SCORING
+from .config import FORMATIONS, BUDGET, MAX_STARTERS_PER_TEAM, MAX_SUBS_PER_TEAM, SCORING, FIFA_ELO
 
 _BASE = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(_BASE, "players.json"), encoding="utf-8") as f:
     PLAYERS = json.load(f)
 
 PLAYERS_BY_ID = {p["id"]: p for p in PLAYERS}
+
+
+_ELO_MID = 1600    # roughly average WC team
+_ELO_SCALE = 1500  # divisor that gives ±~25% range across the WC field
+
+
+def _elo_multiplier(opponent_elo):
+    """Tougher opponent → lower multiplier (cheaper players, less expected output)."""
+    raw = 1.0 + (_ELO_MID - opponent_elo) / _ELO_SCALE
+    return max(0.75, min(1.25, raw))
+
+
+def adjust_pool_values(pool, fixtures):
+    """Return new pool list with values scaled by opponent ELO difficulty."""
+    opp_elo = {}
+    for fx in fixtures:
+        home_elo = FIFA_ELO.get(fx.home_team, _ELO_MID)
+        away_elo = FIFA_ELO.get(fx.away_team, _ELO_MID)
+        opp_elo[fx.home_team] = away_elo
+        opp_elo[fx.away_team] = home_elo
+    adjusted = []
+    for p in pool:
+        mult = _elo_multiplier(opp_elo.get(p["team"], _ELO_MID))
+        adjusted.append({**p, "value": max(1, round(p["value"] * mult))})
+    return adjusted
 
 
 def players_for_teams(teams):

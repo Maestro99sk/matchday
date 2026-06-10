@@ -240,3 +240,24 @@ SCORING = {
     "yellow": -2,
     "red": -5,
 }
+
+# FIFA World Ranking ELO points (June 2026). Used to scale player values per fixture.
+# Tougher opponent → lower cost. Keys match our app's team names.
+FIFA_ELO = {
+    "Argentina": 1877, "Spain": 1875, "France": 1871, "England": 1827,
+    "Brazil": 1766, "Portugal": 1765, "Morocco": 1755, "Netherlands": 1754,
+    "Belgium": 1742, "Germany": 1736, "Croatia": 1715, "Italy": 1705,
+    "Colombia": 1698, "Mexico": 1687, "Senegal": 1684, "Uruguay": 1673,
+    "United States": 1671, "Japan": 1662, "Switzerland": 1650, "Iran": 1620,
+    "Denmark": 1619, "Turkey": 1606, "Ecuador": 1599, "Austria": 1597,
+    "South Korea": 1592, "Nigeria": 1588, "Australia": 1579, "Algeria": 1571,
+    "Egypt": 1562, "Canada": 1559, "Norway": 1557, "Ukraine": 1549,
+    "Ivory Coast": 1541, "Panama": 1539, "Czech Republic": 1506, "Paraguay": 1505,
+    "Serbia": 1502, "Scotland": 1503, "Sweden": 1510, "Venezuela": 1469,
+    "Uzbekistan": 1459, "Peru": 1458, "Chile": 1458, "Costa Rica": 1457,
+    "Qatar": 1450, "DR Congo": 1474, "Cameroon": 1481, "Tunisia": 1476,
+    "South Africa": 1428, "Saudi Arabia": 1424, "Poland": 1526, "Wales": 1517,
+    "Ghana": 1347, "New Zealand": 1276, "Honduras": 1379, "Jamaica": 1358,
+    "Haiti": 1293, "Bosnia and Herzegovina": 1387, "Jordan": 1388,
+    "Curacao": 1295, "Iraq": 1446, "Cape Verde": 1371,
+}
