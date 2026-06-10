@@ -412,4 +412,9 @@ def create_app():
         matchdays = Matchday.query.order_by(Matchday.date).all()
         return render_template("schedule.html", matchdays=matchdays)
 
+    # ---- privacy policy ----
+    @app.route("/privacy")
+    def privacy():
+        return render_template("privacy.html")
+
     return app

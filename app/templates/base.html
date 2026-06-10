@@ -22,6 +22,18 @@
     {% endwith %}
     {% block content %}{% endblock %}
   </div>
+  <!-- ======================================================
+       AD FOOTER — paste your Propeller Ads / AdSense code
+       inside .ad-footer-inner below.
+       ====================================================== -->
+  <div class="ad-footer">
+    <span class="ad-footer-label">Advertisement</span>
+    <div class="ad-footer-inner">
+      <!-- PASTE AD CODE HERE -->
+    </div>
+    <a href="{{ url_for('privacy') }}" class="ad-privacy-link">Privacy</a>
+  </div>
+
   {% if current_user() %}
   <nav class="tabbar">
     <a href="{{ url_for('dashboard') }}" class="{{ 'active' if request.endpoint=='dashboard' }}"><span class="ico">⌂</span> Home</a>

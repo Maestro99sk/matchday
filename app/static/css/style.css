@@ -25,7 +25,7 @@ html, body { background: var(--bg); color: var(--ink); font-family: var(--sans);
 
 body {
   min-height: 100vh;
-  padding-bottom: 72px; /* room for bottom tab bar on mobile */
+  padding-bottom: 136px; /* tabbar (64px) + ad footer (60px) + buffer */
   background-image:
     radial-gradient(circle at 20% 0%, rgba(0,230,118,0.06), transparent 40%),
     radial-gradient(circle at 100% 100%, rgba(255,179,0,0.04), transparent 35%);
@@ -172,6 +172,37 @@ input:focus, select:focus { outline: none; border-color: var(--accent); }
   border-radius: 18px; padding: 24px; max-width: 360px; width: 100%; text-align: center; }
 .ad-interstitial .countdown { font-family: var(--mono); color: var(--muted); font-size: 13px;
   margin-top: 14px; }
+
+/* ---- ad footer ---- */
+.ad-footer {
+  position: fixed; bottom: 64px; left: 0; right: 0; z-index: 55;
+  background: rgba(7,9,15,0.97); border-top: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  padding: 4px 8px; min-height: 60px; max-height: 100px; overflow: hidden;
+}
+.ad-footer-inner {
+  width: 100%; max-width: 728px; display: flex; align-items: center;
+  justify-content: center; min-height: 50px;
+}
+.ad-footer-label {
+  font-family: var(--mono); font-size: 9px; color: var(--muted);
+  letter-spacing: 0.15em; text-transform: uppercase; position: absolute;
+  top: 2px; left: 8px;
+}
+.ad-privacy-link {
+  font-family: var(--mono); font-size: 9px; color: var(--muted);
+  letter-spacing: 0.1em; position: absolute; bottom: 2px; right: 8px;
+  text-decoration: none;
+}
+.ad-privacy-link:hover { color: var(--ink); }
+@media (min-width: 760px) {
+  .ad-footer {
+    position: static; border-top: 1px solid var(--line); border-radius: 0;
+    background: var(--panel); padding: 10px 16px; margin-top: 0;
+    min-height: 100px; max-height: 120px;
+  }
+  body { padding-bottom: 0; }
+}
 
 /* ---- bottom tab bar (mobile) ---- */
 .tabbar {

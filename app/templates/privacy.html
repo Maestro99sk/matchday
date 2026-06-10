@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Privacy Policy · Matchday{% endblock %}
+{% block content %}
+<div class="card">
+  <h2 style="margin-bottom:4px">Privacy Policy</h2>
+  <p class="muted mono" style="font-size:12px">Last updated: June 2026</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <p style="margin-bottom:14px">This privacy policy explains how Matchday WC Pick-5 ("we", "the site") collects, uses and protects your information when you use this service.</p>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">1. Information we collect</h3>
+  <ul style="padding-left:18px;display:flex;flex-direction:column;gap:6px">
+    <li><b>Username</b> — chosen by you at registration. We do not collect your real name or email address.</li>
+    <li><b>Password</b> — stored as a one-way cryptographic hash (pbkdf2:sha256). We cannot read your password.</li>
+    <li><b>IP address</b> — recorded at registration only, used solely to prevent referral bonus abuse. Not used for tracking or profiling.</li>
+    <li><b>Session cookie</b> — a single secure cookie that keeps you logged in. It contains no personal data.</li>
+    <li><b>Game data</b> — your team picks, scores and league membership are stored to run the game.</li>
+  </ul>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">2. How we use your information</h3>
+  <ul style="padding-left:18px;display:flex;flex-direction:column;gap:6px">
+    <li>To operate the fantasy football game and display your results.</li>
+    <li>To calculate referral bonuses and prevent fraudulent self-referrals.</li>
+    <li>We do not sell, rent or share your data with third parties.</li>
+  </ul>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">3. Cookies</h3>
+  <p>We use one session cookie to keep you logged in. No tracking cookies, no analytics cookies, no third-party cookies are set by us directly.</p>
+  <p style="margin-top:8px">Third-party advertising partners (including Google AdSense / Propeller Ads) may set their own cookies to serve relevant ads. You can opt out via your browser settings or <a href="https://optout.aboutads.info" style="color:var(--accent)">aboutads.info</a>.</p>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">4. Advertising</h3>
+  <p>This site displays advertisements. Ad providers may use cookies and similar technologies to show you relevant ads based on your browsing. We do not pass any personal account data to advertisers.</p>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">5. Data retention</h3>
+  <p>Your account data is retained for the duration of the World Cup 2026 tournament. You may request deletion at any time by contacting us.</p>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">6. Your rights</h3>
+  <p>You have the right to access, correct or delete your data. To exercise these rights contact us at <span style="color:var(--accent);font-family:var(--mono)">tembleton77@gmail.com</span>.</p>
+
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:18px 0 8px">7. Changes</h3>
+  <p>We may update this policy as the service develops. Continued use of the site after changes constitutes acceptance.</p>
+</div>
+
+<div style="text-align:center;padding:8px 0 16px">
+  <a href="{{ url_for('index') }}" class="btn sm ghost">← Back</a>
+</div>
+{% endblock %}
