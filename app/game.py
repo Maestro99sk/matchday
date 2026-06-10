@@ -23,6 +23,35 @@ def players_for_teams(teams):
 SUB_SLOT_ROLE = {5: "GK", 6: "DEF", 7: "MID", 8: "FWD"}
 
 
+def min_lineup_cost(pool):
+    """Cheapest valid 5-starter + 4-sub lineup from pool. Used to floor the budget."""
+    by_pos = {}
+    for p in pool:
+        by_pos.setdefault(p["pos"], []).append(p["value"])
+    for pos in by_pos:
+        by_pos[pos].sort()
+
+    sub_cost = sum(by_pos.get(pos, [999])[0] for pos in ("GK", "DEF", "MID", "FWD"))
+
+    min_start = float("inf")
+    for shape in FORMATIONS.values():
+        needed = Counter(shape)
+        cost = 0
+        valid = True
+        for pos, count in needed.items():
+            vals = by_pos.get(pos, [])
+            if len(vals) < count:
+                valid = False
+                break
+            cost += sum(vals[:count])
+        if valid:
+            min_start = min(min_start, cost)
+
+    if min_start == float("inf"):
+        return BUDGET
+    return sub_cost + min_start
+
+
 def validate_lineup(formation, picks, budget=BUDGET,
                     max_starters=MAX_STARTERS_PER_TEAM, max_subs=MAX_SUBS_PER_TEAM):
     """

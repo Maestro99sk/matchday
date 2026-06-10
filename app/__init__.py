@@ -8,7 +8,7 @@ from flask import (Flask, render_template, request, redirect, url_for,
 
 from .models import (db, User, League, Membership, Matchday, Fixture, Result, Entry, Pick)
 from .game import (PLAYERS, PLAYERS_BY_ID, players_for_teams, validate_lineup,
-                   score_entry)
+                   score_entry, min_lineup_cost)
 from .config import (FORMATIONS, BUDGET, MAX_STARTERS_PER_TEAM, MAX_SUBS_PER_TEAM,
                      SCORING, budget_for, limits_for_pool, REFERRAL_BONUS_PCT,
                      REFERRAL_BONUS_CAP_PCT, MATCHDAYS)
@@ -211,7 +211,7 @@ def create_app():
         for fx in md.fixtures:
             teams.add(fx.home_team); teams.add(fx.away_team)
         pool = players_for_teams(teams)
-        my_budget = budget_for(u.referral_count or 0)
+        my_budget = max(budget_for(u.referral_count or 0), min_lineup_cost(pool))
         max_starters, max_subs = limits_for_pool(len(teams))
         entry = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=md.id).first()
         existing = None
@@ -249,8 +249,10 @@ def create_app():
             if not pl or pl["team"] not in teams:
                 return jsonify(ok=False, msg="A picked player isn't in today's games."), 400
         max_starters, max_subs = limits_for_pool(len(teams))
+        pool_players = players_for_teams(teams)
+        effective_budget = max(budget_for(u.referral_count or 0), min_lineup_cost(pool_players))
         ok, msg, total = validate_lineup(formation, picks,
-                                         budget=budget_for(u.referral_count or 0),
+                                         budget=effective_budget,
                                          max_starters=max_starters, max_subs=max_subs)
         if not ok:
             return jsonify(ok=False, msg=msg), 400
