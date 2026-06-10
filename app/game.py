@@ -44,14 +44,17 @@ def players_for_teams(teams):
     return out
 
 
-_SUB_POS_ORDER = ["GK", "DEF", "MID", "FWD"]
-
-
 def sub_slot_roles(formation):
-    """Map sub slot numbers to roles based on the formation's unique positions."""
+    """4-slot bench that mirrors the formation: MID if present, else extra DEF or FWD."""
     shape = FORMATIONS[formation]
-    unique = [p for p in _SUB_POS_ORDER if p in shape]
-    return {5 + i: role for i, role in enumerate(unique)}
+    counts = Counter(shape)
+    slots = ["GK", "DEF"]
+    if counts.get("MID", 0) > 0:
+        slots.append("MID")
+    else:
+        slots.append("DEF" if counts.get("DEF", 0) >= counts.get("FWD", 0) else "FWD")
+    slots.append("FWD")
+    return {5 + i: role for i, role in enumerate(slots)}
 
 
 def min_lineup_cost(pool):

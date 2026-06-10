@@ -18,12 +18,19 @@
     "3-1":   [[50,88],[22,62],[50,64],[78,62],[50,26]],
     "1-3":   [[50,88],[50,64],[22,30],[50,24],[78,30]],
   };
-  const BENCH_POS_ORDER = ["GK", "DEF", "MID", "FWD"];
   function benchSlots() {
     const shp = shape();
-    return BENCH_POS_ORDER
-      .filter(pos => shp.includes(pos))
-      .map((role, i) => ({slot: 5 + i, role}));
+    const cnt = {};
+    shp.forEach(p => { cnt[p] = (cnt[p] || 0) + 1; });
+    const slots = ["GK", "DEF"];
+    if (cnt["MID"]) {
+      slots.push("MID");
+    } else {
+      // replace MID slot with whichever outfield pos has more starters
+      slots.push((cnt["DEF"] || 0) >= (cnt["FWD"] || 0) ? "DEF" : "FWD");
+    }
+    slots.push("FWD");
+    return slots.map((role, i) => ({slot: 5 + i, role}));
   }
   const FLAGS = {
     "Czech Republic":"🇨🇿","Mexico":"🇲🇽","South Africa":"🇿🇦","South Korea":"🇰🇷",
