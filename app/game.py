@@ -120,5 +120,3 @@ def score_entry(picks, results_by_player):
             continue
         total += score_player(results_by_player.get(pk.player_id), player["pos"])
     return round(total, 1)
-["pos"])
-    return round(total, 1)
