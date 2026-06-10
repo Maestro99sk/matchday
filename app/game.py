@@ -23,7 +23,8 @@ def players_for_teams(teams):
 SUB_SLOT_ROLE = {5: "GK", 6: "DEF", 7: "MID", 8: "FWD"}
 
 
-def validate_lineup(formation, picks, budget=BUDGET):
+def validate_lineup(formation, picks, budget=BUDGET,
+                    max_starters=MAX_STARTERS_PER_TEAM, max_subs=MAX_SUBS_PER_TEAM):
     """
     formation: key in FORMATIONS
     picks: list of dicts {slot, role, player_id}
@@ -85,12 +86,12 @@ def validate_lineup(formation, picks, budget=BUDGET):
         sub_team_counts[player["team"]] += 1
         total += player["value"]
 
-    over_start = [t for t, c in starter_team_counts.items() if c > MAX_STARTERS_PER_TEAM]
+    over_start = [t for t, c in starter_team_counts.items() if c > max_starters]
     if over_start:
-        return False, f"Max {MAX_STARTERS_PER_TEAM} starters from one nation ({over_start[0]} has more).", 0
-    over_subs = [t for t, c in sub_team_counts.items() if c > MAX_SUBS_PER_TEAM]
+        return False, f"Max {max_starters} starters from one nation ({over_start[0]} has more).", 0
+    over_subs = [t for t, c in sub_team_counts.items() if c > max_subs]
     if over_subs:
-        return False, f"Max {MAX_SUBS_PER_TEAM} sub from one nation ({over_subs[0]} has more).", 0
+        return False, f"Max {max_subs} sub from one nation ({over_subs[0]} has more).", 0
     if total > budget:
         return False, f"Over budget: {total}/{budget}.", total
     return True, "ok", total
@@ -118,4 +119,6 @@ def score_entry(picks, results_by_player):
         if not player:
             continue
         total += score_player(results_by_player.get(pk.player_id), player["pos"])
+    return round(total, 1)
+["pos"])
     return round(total, 1)
