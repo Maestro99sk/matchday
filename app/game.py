@@ -44,8 +44,14 @@ def players_for_teams(teams):
     return out
 
 
-# Slot indices 5-8 are the subs bench: one per position in this order
-SUB_SLOT_ROLE = {5: "GK", 6: "DEF", 7: "MID", 8: "FWD"}
+_SUB_POS_ORDER = ["GK", "DEF", "MID", "FWD"]
+
+
+def sub_slot_roles(formation):
+    """Map sub slot numbers to roles based on the formation's unique positions."""
+    shape = FORMATIONS[formation]
+    unique = [p for p in _SUB_POS_ORDER if p in shape]
+    return {5 + i: role for i, role in enumerate(unique)}
 
 
 def min_lineup_cost(pool):
@@ -124,12 +130,13 @@ def validate_lineup(formation, picks, budget=BUDGET,
         starter_nations_by_role.setdefault(role, set()).add(player["team"])
         total += player["value"]
 
+    slot_role_map = sub_slot_roles(formation)
     for pk in sub_picks:
         slot = int(pk["slot"])
         if slot in seen_slots:
             return False, "Duplicate sub slot.", 0
         seen_slots.add(slot)
-        expected = SUB_SLOT_ROLE.get(slot)
+        expected = slot_role_map.get(slot)
         if not expected:
             return False, "Invalid sub slot.", 0
         player = PLAYERS_BY_ID.get(int(pk["player_id"]))

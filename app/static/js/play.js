@@ -18,12 +18,13 @@
     "3-1":   [[50,88],[22,62],[50,64],[78,62],[50,26]],
     "1-3":   [[50,88],[50,64],[22,30],[50,24],[78,30]],
   };
-  const BENCH_SLOTS = [
-    {slot: 5, role: "GK"},
-    {slot: 6, role: "DEF"},
-    {slot: 7, role: "MID"},
-    {slot: 8, role: "FWD"},
-  ];
+  const BENCH_POS_ORDER = ["GK", "DEF", "MID", "FWD"];
+  function benchSlots() {
+    const shp = shape();
+    return BENCH_POS_ORDER
+      .filter(pos => shp.includes(pos))
+      .map((role, i) => ({slot: 5 + i, role}));
+  }
   const FLAGS = {
     "Czech Republic":"🇨🇿","Mexico":"🇲🇽","South Africa":"🇿🇦","South Korea":"🇰🇷",
     "Canada":"🇨🇦","Bosnia and Herzegovina":"🇧🇦","United States":"🇺🇸","Paraguay":"🇵🇾",
@@ -173,7 +174,8 @@
     remaining.className = "num" + (rem < 0 ? " over" : "");
 
     const filled = Object.keys(lineup).length;
-    progress.textContent = `${filled}/${shp.length} starters · ${Object.keys(subsLineup).length}/4 subs`;
+    const bs = benchSlots();
+    progress.textContent = `${filled}/${shp.length} starters · ${Object.keys(subsLineup).length}/${bs.length} subs`;
     const ok = filled === shp.length && rem >= 0;
     confirmBtn.style.opacity = ok ? 1 : .4;
     confirmBtn.style.pointerEvents = ok ? "auto" : "none";
@@ -187,7 +189,7 @@
     let html = `<div class="bench-wrap">
       <div class="bench-label">SUBS BENCH</div>
       <div class="bench-slots">`;
-    BENCH_SLOTS.forEach(({slot, role}) => {
+    benchSlots().forEach(({slot, role}) => {
       const player = subsLineup[slot];
       const color = ROLE_COLOR[role];
       const active = activeSlot === slot;
@@ -234,7 +236,7 @@
     if (activeSlot === null) { tray.innerHTML = ""; return; }
     const isSub = activeSlot >= 5;
     const role = isSub
-      ? BENCH_SLOTS.find(b => b.slot === activeSlot).role
+      ? benchSlots().find(b => b.slot === activeSlot).role
       : shape()[activeSlot];
     const color = ROLE_COLOR[role];
     const usedIds = new Set([
@@ -313,7 +315,7 @@
     }));
     const subPicks = Object.keys(subsLineup).map(slot => ({
       slot: parseInt(slot, 10),
-      role: BENCH_SLOTS.find(b => b.slot === parseInt(slot, 10)).role,
+      role: benchSlots().find(b => b.slot === parseInt(slot, 10)).role,
       player_id: subsLineup[slot].id,
     }));
     if (starterPicks.length !== shp.length) return;
