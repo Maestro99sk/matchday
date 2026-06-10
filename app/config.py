@@ -2,6 +2,14 @@ from datetime import datetime, date
 
 MATCHDAYS = [
     {
+        "label": "June 10 (Trial)",
+        "date": date(2026, 6, 10),
+        "lock": datetime(2026, 6, 10, 17, 30),  # 1:30pm ET — before 4pm ET kickoff
+        "fixtures": [
+            ("England", "Costa Rica"),           # International Friendly, 4pm ET
+        ],
+    },
+    {
         "label": "June 11",
         "date": date(2026, 6, 11),
         "lock": datetime(2026, 6, 11, 17, 0),   # 1pm ET — before 3pm ET opener

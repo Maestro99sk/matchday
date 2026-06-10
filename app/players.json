@@ -12478,5 +12478,145 @@
     "club": "Austin FC",
     "rating": 60.0,
     "value": 42
+  },
+  {
+    "id": 1266,
+    "name": "Keylor Navas",
+    "team": "Costa Rica",
+    "tier": 2,
+    "pos": "GK",
+    "club": "Free agent",
+    "rating": 88.0,
+    "value": 72
+  },
+  {
+    "id": 1267,
+    "name": "Patrick Sequeira",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "GK",
+    "club": "Luton Town",
+    "rating": 79.0,
+    "value": 52
+  },
+  {
+    "id": 1268,
+    "name": "Oscar Duarte",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "DEF",
+    "club": "Al-Qadsiah",
+    "rating": 80.0,
+    "value": 54
+  },
+  {
+    "id": 1269,
+    "name": "Francisco Calvo",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "DEF",
+    "club": "CF Montreal",
+    "rating": 79.0,
+    "value": 51
+  },
+  {
+    "id": 1270,
+    "name": "Carlos Mora",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "DEF",
+    "club": "Herediano",
+    "rating": 77.0,
+    "value": 47
+  },
+  {
+    "id": 1271,
+    "name": "Bryan Oviedo",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "DEF",
+    "club": "Odense BK",
+    "rating": 78.0,
+    "value": 49
+  },
+  {
+    "id": 1272,
+    "name": "Celso Borges",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "MID",
+    "club": "Deportivo Saprissa",
+    "rating": 80.0,
+    "value": 53
+  },
+  {
+    "id": 1273,
+    "name": "Yeltsin Tejeda",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "MID",
+    "club": "Unattached",
+    "rating": 79.0,
+    "value": 50
+  },
+  {
+    "id": 1274,
+    "name": "Douglas Sequeira",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "MID",
+    "club": "Herediano",
+    "rating": 77.0,
+    "value": 46
+  },
+  {
+    "id": 1275,
+    "name": "Gerson Torres",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "MID",
+    "club": "Deportivo Saprissa",
+    "rating": 76.0,
+    "value": 44
+  },
+  {
+    "id": 1276,
+    "name": "Joel Campbell",
+    "team": "Costa Rica",
+    "tier": 2,
+    "pos": "FWD",
+    "club": "Real Betis",
+    "rating": 82.0,
+    "value": 60
+  },
+  {
+    "id": 1277,
+    "name": "Anthony Contreras",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "FWD",
+    "club": "Pumas UNAM",
+    "rating": 78.0,
+    "value": 49
+  },
+  {
+    "id": 1278,
+    "name": "Johan Venegas",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "FWD",
+    "club": "Deportivo Saprissa",
+    "rating": 77.0,
+    "value": 46
+  },
+  {
+    "id": 1279,
+    "name": "Alvaro Zamora",
+    "team": "Costa Rica",
+    "tier": 3,
+    "pos": "FWD",
+    "club": "Herediano",
+    "rating": 76.0,
+    "value": 43
   }
 ]
