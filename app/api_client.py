@@ -9,7 +9,6 @@ from difflib import SequenceMatcher
 
 import requests
 
-API_KEY = os.environ.get("API_FOOTBALL_KEY", "")
 BASE = "https://v3.football.api-sports.io"
 WC_LEAGUE = 1
 WC_SEASON = 2026
@@ -59,7 +58,7 @@ def _player_score(api_name, our_name):
 
 
 def _headers():
-    return {"x-apisports-key": API_KEY}
+    return {"x-apisports-key": os.environ.get("API_FOOTBALL_KEY", "")}
 
 
 def fetch_fixture_stats(home_team, away_team, match_date):
@@ -70,7 +69,7 @@ def fetch_fixture_stats(home_team, away_team, match_date):
     stats_dict maps api_player_name -> {goals, assists, clean_sheet, yellows, reds}.
     On failure returns (None, error_string).
     """
-    if not API_KEY:
+    if not os.environ.get("API_FOOTBALL_KEY", ""):
         return None, "API_FOOTBALL_KEY environment variable not set."
 
     # --- find the fixture ---
