@@ -2,195 +2,194 @@ from datetime import datetime, date
 
 MATCHDAYS = [
     {
-        # Opener + 9pm ET games (9pm ET = 1am UTC June 12 = 2am BST)
         "label": "June 11",
         "date": date(2026, 6, 11),
-        "lock": datetime(2026, 6, 11, 19, 0),  # 3pm ET — before first kickoff
+        "lock": datetime(2026, 6, 11, 17, 0),   # 1pm ET — before 3pm ET opener
         "fixtures": [
-            ("Mexico", "South Africa"),
-            ("South Korea", "Czech Republic"),
-            ("Canada", "Bosnia and Herzegovina"),
+            ("Mexico", "South Africa"),           # 3pm ET
+            ("South Korea", "Czech Republic"),    # 10pm ET
         ],
     },
     {
         "label": "June 12",
         "date": date(2026, 6, 12),
-        "lock": datetime(2026, 6, 12, 19, 0),
+        "lock": datetime(2026, 6, 12, 17, 0),   # 1pm ET
         "fixtures": [
-            ("United States", "Paraguay"),
-            ("Qatar", "Switzerland"),
-            ("Brazil", "Morocco"),
+            ("Canada", "Bosnia and Herzegovina"), # 3pm ET
+            ("United States", "Paraguay"),        # 9pm ET
         ],
     },
     {
         "label": "June 13",
         "date": date(2026, 6, 13),
-        "lock": datetime(2026, 6, 13, 19, 0),
+        "lock": datetime(2026, 6, 13, 17, 0),   # 1pm ET
         "fixtures": [
-            ("Haiti", "Scotland"),
-            ("Australia", "Turkey"),
-            ("Germany", "Curacao"),
-            ("Netherlands", "Japan"),
-            ("Ivory Coast", "Ecuador"),
+            ("Qatar", "Switzerland"),             # 3pm ET
+            ("Brazil", "Morocco"),                # 6pm ET
+            ("Haiti", "Scotland"),                # 9pm ET
         ],
     },
     {
         "label": "June 14",
         "date": date(2026, 6, 14),
-        "lock": datetime(2026, 6, 14, 19, 0),
+        "lock": datetime(2026, 6, 14, 2, 0),    # 10pm ET June 13 — before midnight first game
         "fixtures": [
-            ("Sweden", "Tunisia"),
-            ("Spain", "Cape Verde"),
-            ("Belgium", "Egypt"),
-            ("Saudi Arabia", "Uruguay"),
+            ("Australia", "Turkey"),              # 12am ET (9pm PT June 13)
+            ("Germany", "Curacao"),               # 1pm ET
+            ("Japan", "Netherlands"),             # 4pm ET
+            ("Ivory Coast", "Ecuador"),           # 7pm ET
+            ("Sweden", "Tunisia"),                # 10pm ET
         ],
     },
     {
         "label": "June 15",
         "date": date(2026, 6, 15),
-        "lock": datetime(2026, 6, 15, 19, 0),
+        "lock": datetime(2026, 6, 15, 14, 0),   # 10am ET — before noon first game
         "fixtures": [
-            ("Iran", "New Zealand"),
-            ("France", "Senegal"),
-            ("Iraq", "Norway"),
+            ("Spain", "Cape Verde"),              # 12pm ET
+            ("Belgium", "Egypt"),                 # 3pm ET
+            ("Saudi Arabia", "Uruguay"),          # 6pm ET
+            ("Iran", "New Zealand"),              # 9pm ET
         ],
     },
     {
         "label": "June 16",
         "date": date(2026, 6, 16),
-        "lock": datetime(2026, 6, 16, 19, 0),
+        "lock": datetime(2026, 6, 16, 17, 0),   # 1pm ET
         "fixtures": [
-            ("Argentina", "Algeria"),
-            ("Austria", "Jordan"),
-            ("Portugal", "DR Congo"),
-            ("England", "Croatia"),
-            ("Ghana", "Panama"),
+            ("France", "Senegal"),                # 3pm ET
+            ("Iraq", "Norway"),                   # 6pm ET
+            ("Argentina", "Algeria"),             # 9pm ET
         ],
     },
     {
         "label": "June 17",
         "date": date(2026, 6, 17),
-        "lock": datetime(2026, 6, 17, 19, 0),
+        "lock": datetime(2026, 6, 17, 2, 0),    # 10pm ET June 16 — before midnight first game
         "fixtures": [
-            ("Uzbekistan", "Colombia"),
-            ("Czech Republic", "South Africa"),
-            ("Switzerland", "Bosnia and Herzegovina"),
-            ("Canada", "Qatar"),
+            ("Austria", "Jordan"),                # 12am ET (9pm PT June 16)
+            ("Portugal", "DR Congo"),             # 1pm ET
+            ("England", "Croatia"),               # 4pm ET
+            ("Ghana", "Panama"),                  # 7pm ET
+            ("Uzbekistan", "Colombia"),           # 10pm ET
         ],
     },
     {
         "label": "June 18",
         "date": date(2026, 6, 18),
-        "lock": datetime(2026, 6, 18, 19, 0),
+        "lock": datetime(2026, 6, 18, 14, 0),   # 10am ET — before noon first game
         "fixtures": [
-            ("Mexico", "South Korea"),
-            ("United States", "Australia"),
-            ("Scotland", "Morocco"),
+            ("Czech Republic", "South Africa"),   # 12pm ET
+            ("Switzerland", "Bosnia and Herzegovina"), # 3pm ET
+            ("Canada", "Qatar"),                  # 6pm ET
+            ("Mexico", "South Korea"),            # 9pm ET
         ],
     },
     {
         "label": "June 19",
         "date": date(2026, 6, 19),
-        "lock": datetime(2026, 6, 19, 19, 0),
+        "lock": datetime(2026, 6, 19, 17, 0),   # 1pm ET
         "fixtures": [
-            ("Brazil", "Haiti"),
-            ("Turkey", "Paraguay"),
-            ("Netherlands", "Sweden"),
-            ("Germany", "Ivory Coast"),
+            ("United States", "Australia"),       # 3pm ET
+            ("Scotland", "Morocco"),              # 6pm ET
+            ("Brazil", "Haiti"),                  # 8:30pm ET
+            ("Turkey", "Paraguay"),               # 11pm ET
         ],
     },
     {
         "label": "June 20",
         "date": date(2026, 6, 20),
-        "lock": datetime(2026, 6, 20, 19, 0),
+        "lock": datetime(2026, 6, 20, 16, 0),   # noon ET — before 1pm first game
         "fixtures": [
-            ("Ecuador", "Curacao"),
-            ("Tunisia", "Japan"),
-            ("Spain", "Saudi Arabia"),
-            ("Belgium", "Iran"),
-            ("Uruguay", "Cape Verde"),
+            ("Netherlands", "Sweden"),            # 1pm ET
+            ("Germany", "Ivory Coast"),           # 4pm ET
+            ("Ecuador", "Curacao"),               # 8pm ET
         ],
     },
     {
         "label": "June 21",
         "date": date(2026, 6, 21),
-        "lock": datetime(2026, 6, 21, 19, 0),
+        "lock": datetime(2026, 6, 21, 2, 0),    # 10pm ET June 20 — before midnight first game
         "fixtures": [
-            ("New Zealand", "Egypt"),
-            ("Argentina", "Austria"),
-            ("France", "Iraq"),
+            ("Tunisia", "Japan"),                 # 12am ET (9pm PT June 20)
+            ("Spain", "Saudi Arabia"),            # 12pm ET
+            ("Belgium", "Iran"),                  # 3pm ET
+            ("Uruguay", "Cape Verde"),            # 6pm ET
+            ("Egypt", "New Zealand"),             # 9pm ET
         ],
     },
     {
         "label": "June 22",
         "date": date(2026, 6, 22),
-        "lock": datetime(2026, 6, 22, 19, 0),
+        "lock": datetime(2026, 6, 22, 16, 0),   # noon ET — before 1pm first game
         "fixtures": [
-            ("Norway", "Senegal"),
-            ("Jordan", "Algeria"),
-            ("Portugal", "Uzbekistan"),
-            ("England", "Ghana"),
-            ("Panama", "Croatia"),
+            ("Argentina", "Austria"),             # 1pm ET
+            ("France", "Iraq"),                   # 5pm ET
+            ("Senegal", "Norway"),                # 8pm ET
+            ("Algeria", "Jordan"),                # 11pm ET
         ],
     },
     {
         "label": "June 23",
         "date": date(2026, 6, 23),
-        "lock": datetime(2026, 6, 23, 19, 0),
+        "lock": datetime(2026, 6, 23, 16, 0),   # noon ET — before 1pm first game
         "fixtures": [
-            ("Colombia", "DR Congo"),
-            ("Switzerland", "Canada"),
-            ("Bosnia and Herzegovina", "Qatar"),
-            ("Morocco", "Haiti"),
-            ("Scotland", "Brazil"),
+            ("Portugal", "Uzbekistan"),           # 1pm ET
+            ("England", "Ghana"),                 # 4pm ET
+            ("Croatia", "Panama"),                # 7pm ET
+            ("Colombia", "DR Congo"),             # 10pm ET
         ],
     },
     {
         "label": "June 24",
         "date": date(2026, 6, 24),
-        "lock": datetime(2026, 6, 24, 19, 0),
+        "lock": datetime(2026, 6, 24, 17, 0),   # 1pm ET — before simultaneous 3pm kickoffs
         "fixtures": [
-            ("South Africa", "South Korea"),
-            ("Czech Republic", "Mexico"),
-            ("Curacao", "Ivory Coast"),
-            ("Ecuador", "Germany"),
-            ("Tunisia", "Netherlands"),
-            ("Japan", "Sweden"),
+            ("Bosnia and Herzegovina", "Qatar"),  # 3pm ET (simultaneous)
+            ("Switzerland", "Canada"),            # 3pm ET (simultaneous)
+            ("Morocco", "Haiti"),                 # 6pm ET (simultaneous)
+            ("Brazil", "Scotland"),               # 6pm ET (simultaneous)
+            ("Mexico", "Czech Republic"),         # 9pm ET (simultaneous)
+            ("South Korea", "South Africa"),      # 9pm ET (simultaneous)
         ],
     },
     {
         "label": "June 25",
         "date": date(2026, 6, 25),
-        "lock": datetime(2026, 6, 25, 19, 0),
+        "lock": datetime(2026, 6, 25, 18, 0),   # 2pm ET — before simultaneous 4pm kickoffs
         "fixtures": [
-            ("Turkey", "United States"),
-            ("Paraguay", "Australia"),
-            ("Norway", "France"),
-            ("Senegal", "Iraq"),
+            ("Curacao", "Ivory Coast"),           # 4pm ET (simultaneous)
+            ("Ecuador", "Germany"),               # 4pm ET (simultaneous)
+            ("Japan", "Sweden"),                  # 7pm ET (simultaneous)
+            ("Tunisia", "Netherlands"),           # 7pm ET (simultaneous)
+            ("Paraguay", "Australia"),            # 10pm ET (simultaneous)
+            ("Turkey", "United States"),          # 10pm ET (simultaneous)
         ],
     },
     {
         "label": "June 26",
         "date": date(2026, 6, 26),
-        "lock": datetime(2026, 6, 26, 19, 0),
+        "lock": datetime(2026, 6, 26, 17, 0),   # 1pm ET — before simultaneous 3pm kickoffs
         "fixtures": [
-            ("Cape Verde", "Saudi Arabia"),
-            ("Uruguay", "Spain"),
-            ("New Zealand", "Belgium"),
-            ("Egypt", "Iran"),
-            ("Panama", "England"),
-            ("Croatia", "Ghana"),
-            ("Colombia", "Portugal"),
-            ("DR Congo", "Uzbekistan"),
+            ("Iraq", "Senegal"),                  # 3pm ET (simultaneous)
+            ("Norway", "France"),                 # 3pm ET (simultaneous)
+            ("Cape Verde", "Saudi Arabia"),       # 8pm ET (simultaneous)
+            ("Uruguay", "Spain"),                 # 8pm ET (simultaneous)
+            ("Egypt", "Iran"),                    # 11pm ET (simultaneous)
+            ("New Zealand", "Belgium"),           # 11pm ET (simultaneous)
         ],
     },
     {
         "label": "June 27",
         "date": date(2026, 6, 27),
-        "lock": datetime(2026, 6, 27, 19, 0),
+        "lock": datetime(2026, 6, 27, 19, 0),   # 3pm ET — before simultaneous 5pm kickoffs
         "fixtures": [
-            ("Algeria", "Austria"),
-            ("Jordan", "Argentina"),
+            ("Ghana", "Croatia"),                 # 5pm ET (simultaneous)
+            ("Panama", "England"),                # 5pm ET (simultaneous)
+            ("Colombia", "Portugal"),             # 7:30pm ET (simultaneous)
+            ("DR Congo", "Uzbekistan"),           # 7:30pm ET (simultaneous)
+            ("Algeria", "Austria"),               # 10pm ET (simultaneous)
+            ("Jordan", "Argentina"),              # 10pm ET (simultaneous)
         ],
     },
 ]
