@@ -4,7 +4,18 @@ Cron script: auto-settle any locked, unsettled matchday.
 Run every 30 minutes via cron:
   */30 * * * * cd /var/www/matchday && source venv/bin/activate && python3 -m app.cron_settle >> /var/log/matchday_settle.log 2>&1
 """
+import os
 from datetime import datetime
+
+# Load .env so API keys are available outside systemd
+_env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+if os.path.exists(_env_path):
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
 
 from . import create_app
 from .models import db, Matchday, Result, Entry
