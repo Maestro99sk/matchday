@@ -224,7 +224,6 @@ def create_app():
                                formations=FORMATIONS, existing=existing,
                                budget=my_budget, base_budget=BUDGET,
                                max_starters_per_team=max_starters,
-                               max_subs_per_team=max_subs,
                                scoring=SCORING)
 
     @app.route("/play/<int:league_id>/<int:matchday_id>/submit", methods=["POST"])
@@ -248,12 +247,12 @@ def create_app():
             pl = PLAYERS_BY_ID.get(int(pk.get("player_id", -1)))
             if not pl or pl["team"] not in teams:
                 return jsonify(ok=False, msg="A picked player isn't in today's games."), 400
-        max_starters, max_subs = limits_for_pool(len(teams))
+        max_starters, _ = limits_for_pool(len(teams))
         pool_players = players_for_teams(teams)
         effective_budget = max(budget_for(u.referral_count or 0), min_lineup_cost(pool_players))
         ok, msg, total = validate_lineup(formation, picks,
                                          budget=effective_budget,
-                                         max_starters=max_starters, max_subs=max_subs)
+                                         max_starters=max_starters)
         if not ok:
             return jsonify(ok=False, msg=msg), 400
         entry = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=md.id).first()

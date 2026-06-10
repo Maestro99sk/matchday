@@ -44,7 +44,7 @@
   </svg>
 </div>
 
-<p class="muted center" style="font-size:13px;margin:14px 6px">Max {{ max_starters_per_team }} starters &amp; {{ max_subs_per_team }} sub from one nation. Tap a slot to fill it.</p>
+<p class="muted center" style="font-size:13px;margin:14px 6px">Max {{ max_starters_per_team }} starters from one nation. Subs must match their starter's nation. Tap a slot to fill it.</p>
 
 <!-- subs bench -->
 <div id="bench"></div>
@@ -75,7 +75,6 @@
   "submitUrl": "{{ url_for('play_submit', league_id=league.id, matchday_id=matchday.id) }}",
   "budget": {{ budget }},
   "maxStartersPerTeam": {{ max_starters_per_team }},
-  "maxSubsPerTeam": {{ max_subs_per_team }},
   "formations": {{ formations|tojson }},
   "pool": {{ pool|tojson }},
   "existing": {{ existing|tojson if existing else 'null' }}

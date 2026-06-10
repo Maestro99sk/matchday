@@ -75,7 +75,8 @@ def validate_lineup(formation, picks, budget=BUDGET,
     seen_slots = set()
     seen_players = set()
     starter_team_counts = Counter()
-    sub_team_counts = Counter()
+    # Track which nations have starters in each role, for sub nation-matching
+    starter_nations_by_role = {}
     total = 0
 
     for pk in starter_picks:
@@ -91,9 +92,11 @@ def validate_lineup(formation, picks, budget=BUDGET,
         if player["id"] in seen_players:
             return False, f"{player['name']} picked twice.", 0
         seen_players.add(player["id"])
-        if shape[slot] != player["pos"]:
-            return False, f"{player['name']} ({player['pos']}) can't fill a {shape[slot]} slot.", 0
+        role = shape[slot]
+        if role != player["pos"]:
+            return False, f"{player['name']} ({player['pos']}) can't fill a {role} slot.", 0
         starter_team_counts[player["team"]] += 1
+        starter_nations_by_role.setdefault(role, set()).add(player["team"])
         total += player["value"]
 
     for pk in sub_picks:
@@ -112,15 +115,15 @@ def validate_lineup(formation, picks, budget=BUDGET,
         seen_players.add(player["id"])
         if player["pos"] != expected:
             return False, f"{player['name']} ({player['pos']}) can't fill the {expected} sub slot.", 0
-        sub_team_counts[player["team"]] += 1
+        # Sub must be from the same nation as the starter in this role
+        valid_nations = starter_nations_by_role.get(expected, set())
+        if player["team"] not in valid_nations:
+            return False, f"{player['name']} ({player['team']}) must be from the same nation as your {expected} starter.", 0
         total += player["value"]
 
     over_start = [t for t, c in starter_team_counts.items() if c > max_starters]
     if over_start:
         return False, f"Max {max_starters} starters from one nation ({over_start[0]} has more).", 0
-    over_subs = [t for t, c in sub_team_counts.items() if c > max_subs]
-    if over_subs:
-        return False, f"Max {max_subs} sub from one nation ({over_subs[0]} has more).", 0
     if total > budget:
         return False, f"Over budget: {total}/{budget}.", total
     return True, "ok", total

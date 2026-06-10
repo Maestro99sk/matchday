@@ -106,10 +106,12 @@
     return c;
   }
 
-  function subTeamCounts() {
-    const c = {};
-    Object.values(subsLineup).forEach(p => { c[p.team] = (c[p.team] || 0) + 1; });
-    return c;
+  // Nations that have a starter in a given role — sub must come from one of these
+  function starterNationsForRole(role) {
+    const nations = new Set();
+    const shp = shape();
+    shp.forEach((r, i) => { if (r === role && lineup[i]) nations.add(lineup[i].team); });
+    return nations;
   }
 
   function activePlayerValue() {
@@ -242,13 +244,19 @@
     const currentPlayer = isSub ? subsLineup[activeSlot] : lineup[activeSlot];
     const rem = cfg.budget - totalSpent() + (currentPlayer ? currentPlayer.value : 0);
 
-    const eligible = cfg.pool.filter(p => p.pos === role);
-    const counts = isSub ? subTeamCounts() : starterTeamCounts();
-    const maxForSlot = isSub ? cfg.maxSubsPerTeam : cfg.maxStartersPerTeam;
+    const allEligible = cfg.pool.filter(p => p.pos === role);
+
+    // For sub slots: only show players from nations that have a starter in this role
+    const starterNations = isSub ? starterNationsForRole(role) : null;
+    const noStarterYet = isSub && starterNations.size === 0;
+    const eligible = isSub ? allEligible.filter(p => starterNations.has(p.team)) : allEligible;
+
+    const counts = isSub ? {} : starterTeamCounts();
+    const maxForSlot = cfg.maxStartersPerTeam;
     const cards = eligible.map(p => {
       const currentlyHere = currentPlayer && currentPlayer.id === p.id;
       const usedElsewhere = usedIds.has(p.id) && !currentlyHere;
-      const teamFull = (counts[p.team] || 0) >= maxForSlot &&
+      const teamFull = !isSub && (counts[p.team] || 0) >= maxForSlot &&
                        !(currentPlayer && currentPlayer.team === p.team);
       const tooDear = p.value > rem;
       const disabled = usedElsewhere || teamFull || tooDear;
@@ -266,12 +274,19 @@
     }).join("");
 
     const label = isSub ? `<b style="color:${color}">${role}</b> sub` : `<b style="color:${color}">${role}</b>`;
+    let listHtml;
+    if (noStarterYet) {
+      listHtml = `<p class="muted center">Pick your ${role} starter first — your sub must be from the same nation.</p>`;
+    } else if (eligible.length === 0) {
+      listHtml = `<p class="muted center">No ${role} available from your starter's nation.</p>`;
+    } else {
+      listHtml = `<div class="tray-list">${cards}</div>`;
+    }
     tray.innerHTML = `
       <div class="tray">
         <div class="tray-head"><span>Pick a ${label}</span>
           <button class="btn ghost sm" id="trayCancel">Cancel</button></div>
-        ${eligible.length ? `<div class="tray-list">${cards}</div>`
-          : `<p class="muted center">No ${role} available in today's games.</p>`}
+        ${listHtml}
       </div>`;
     document.getElementById("trayCancel").onclick = () => { activeSlot = null; render(); };
     tray.querySelectorAll(".tray-card").forEach(btn => {
