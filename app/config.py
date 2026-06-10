@@ -4,7 +4,7 @@ MATCHDAYS = [
     {
         "label": "June 10 (Trial)",
         "date": date(2026, 6, 10),
-        "lock": datetime(2026, 6, 10, 17, 30),  # 1:30pm ET — before 4pm ET kickoff
+        "lock": datetime(2026, 6, 10, 19, 30),  # 3:30pm ET — 30 mins before 4pm ET kickoff
         "fixtures": [
             ("England", "Costa Rica"),           # International Friendly, 4pm ET
         ],
