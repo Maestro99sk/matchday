@@ -7,7 +7,7 @@
     "pos": "GK",
     "club": "PSV Eindhoven",
     "rating": 86.0,
-    "value": 71
+    "value": 50
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "pos": "GK",
     "club": "Slavia Prague",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "pos": "GK",
     "club": "Braga",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "pos": "DEF",
     "club": "TSG Hoffenheim",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "pos": "DEF",
     "club": "Slavia Prague",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "pos": "DEF",
     "club": "Wolverhampton Wanderers",
     "rating": 72.2,
-    "value": 55
+    "value": 38
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "pos": "DEF",
     "club": "Slavia Prague",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "pos": "DEF",
     "club": "Sparta Prague",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "pos": "DEF",
     "club": "Slavia Prague",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "pos": "DEF",
     "club": "Slavia Prague",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "pos": "DEF",
     "club": "TSG Hoffenheim",
     "rating": 69.2,
-    "value": 51
+    "value": 36
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "pos": "DEF",
     "club": "Slavia Prague",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "pos": "MID",
     "club": "West Ham United",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "pos": "MID",
     "club": "Hradec Kralove",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "pos": "MID",
     "club": "Slavia Prague",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "pos": "MID",
     "club": "Slavia Prague",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "pos": "MID",
     "club": "Lyon",
     "rating": 70.4,
-    "value": 60
+    "value": 42
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "pos": "MID",
     "club": "Viktoria Plzen",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "pos": "MID",
     "club": "Sparta Prague",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "pos": "MID",
     "club": "Viktoria Plzen",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "pos": "MID",
     "club": "Viktoria Plzen",
     "rating": 58.8,
-    "value": 42
+    "value": 29
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "pos": "FWD",
     "club": "Bayer Leverkusen",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "pos": "FWD",
     "club": "TSG Hoffenheim",
     "rating": 74.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "pos": "FWD",
     "club": "Sparta Prague",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "pos": "FWD",
     "club": "Slavia Prague",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "pos": "FWD",
     "club": "Slavia Prague",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "pos": "GK",
     "club": "AEL Limassol",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "pos": "GK",
     "club": "Guadalajara",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "pos": "GK",
     "club": "Santos Laguna",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "pos": "DEF",
     "club": "Toluca",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 31,
@@ -307,7 +307,7 @@
     "pos": "DEF",
     "club": "Lokomotiv Moscow",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
     "pos": "DEF",
     "club": "PAOK",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "pos": "DEF",
     "club": "Genoa",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "pos": "DEF",
     "club": "America",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "pos": "DEF",
     "club": "AZ",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "pos": "MID",
     "club": "Fenerbahce",
     "rating": 86.0,
-    "value": 90
+    "value": 63
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "pos": "MID",
     "club": "AEK Athens",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "pos": "MID",
     "club": "Guadalajara",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
     "pos": "MID",
     "club": "Guadalajara",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 40,
@@ -397,7 +397,7 @@
     "pos": "MID",
     "club": "Dynamo Moscow",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 41,
@@ -407,7 +407,7 @@
     "pos": "MID",
     "club": "Cruz Azul",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "pos": "MID",
     "club": "Tijuana",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "pos": "MID",
     "club": "Guadalajara",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 44,
@@ -437,7 +437,7 @@
     "pos": "MID",
     "club": "Atletico Madrid",
     "rating": 76.8,
-    "value": 72
+    "value": 50
   },
   {
     "id": 45,
@@ -447,7 +447,7 @@
     "pos": "MID",
     "club": "Real Betis",
     "rating": 68.4,
-    "value": 57
+    "value": 40
   },
   {
     "id": 46,
@@ -457,7 +457,7 @@
     "pos": "FWD",
     "club": "Fulham",
     "rating": 78.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "pos": "FWD",
     "club": "Toluca",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 48,
@@ -477,7 +477,7 @@
     "pos": "FWD",
     "club": "Milan",
     "rating": 80.2,
-    "value": 89
+    "value": 62
   },
   {
     "id": 49,
@@ -487,7 +487,7 @@
     "pos": "FWD",
     "club": "Anderlecht",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "pos": "FWD",
     "club": "Al-Qadsiah",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 51,
@@ -507,7 +507,7 @@
     "pos": "FWD",
     "club": "UNAM",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "pos": "FWD",
     "club": "Guadalajara",
     "rating": 59.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 53,
@@ -527,7 +527,7 @@
     "pos": "GK",
     "club": "Mamelodi Sundowns",
     "rating": 64.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 54,
@@ -537,7 +537,7 @@
     "pos": "GK",
     "club": "Siwelele",
     "rating": 60.6,
-    "value": 29
+    "value": 20
   },
   {
     "id": 55,
@@ -547,7 +547,7 @@
     "pos": "GK",
     "club": "Orlando Pirates",
     "rating": 58.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 56,
@@ -557,7 +557,7 @@
     "pos": "DEF",
     "club": "Mamelodi Sundowns",
     "rating": 64.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 57,
@@ -567,7 +567,7 @@
     "pos": "DEF",
     "club": "Mamelodi Sundowns",
     "rating": 60.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 58,
@@ -577,7 +577,7 @@
     "pos": "DEF",
     "club": "Orlando Pirates",
     "rating": 58.2,
-    "value": 30
+    "value": 21
   },
   {
     "id": 59,
@@ -587,7 +587,7 @@
     "pos": "DEF",
     "club": "Chicago Fire FC",
     "rating": 56.8,
-    "value": 28
+    "value": 20
   },
   {
     "id": 60,
@@ -597,7 +597,7 @@
     "pos": "DEF",
     "club": "Hannover 96",
     "rating": 56.4,
-    "value": 28
+    "value": 20
   },
   {
     "id": 61,
@@ -607,7 +607,7 @@
     "pos": "DEF",
     "club": "Molde",
     "rating": 56.0,
-    "value": 28
+    "value": 20
   },
   {
     "id": 62,
@@ -617,7 +617,7 @@
     "pos": "DEF",
     "club": "Mamelodi Sundowns",
     "rating": 55.6,
-    "value": 27
+    "value": 20
   },
   {
     "id": 63,
@@ -627,7 +627,7 @@
     "pos": "DEF",
     "club": "Polokwane City",
     "rating": 55.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 64,
@@ -637,7 +637,7 @@
     "pos": "DEF",
     "club": "Orlando Pirates",
     "rating": 54.8,
-    "value": 26
+    "value": 20
   },
   {
     "id": 65,
@@ -647,7 +647,7 @@
     "pos": "DEF",
     "club": "Kaizer Chiefs",
     "rating": 54.4,
-    "value": 26
+    "value": 20
   },
   {
     "id": 66,
@@ -657,7 +657,7 @@
     "pos": "DEF",
     "club": "Philadelphia Union",
     "rating": 54.4,
-    "value": 26
+    "value": 20
   },
   {
     "id": 67,
@@ -667,7 +667,7 @@
     "pos": "MID",
     "club": "Mamelodi Sundowns",
     "rating": 64.0,
-    "value": 41
+    "value": 29
   },
   {
     "id": 68,
@@ -677,7 +677,7 @@
     "pos": "MID",
     "club": "Tondela",
     "rating": 60.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 69,
@@ -687,7 +687,7 @@
     "pos": "MID",
     "club": "Orlando Pirates",
     "rating": 58.2,
-    "value": 34
+    "value": 24
   },
   {
     "id": 70,
@@ -697,7 +697,7 @@
     "pos": "MID",
     "club": "Mamelodi Sundowns",
     "rating": 56.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 71,
@@ -707,7 +707,7 @@
     "pos": "FWD",
     "club": "Mamelodi Sundowns",
     "rating": 64.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 72,
@@ -717,7 +717,7 @@
     "pos": "FWD",
     "club": "Burnley",
     "rating": 60.6,
-    "value": 42
+    "value": 29
   },
   {
     "id": 73,
@@ -727,7 +727,7 @@
     "pos": "FWD",
     "club": "Orlando Pirates",
     "rating": 58.2,
-    "value": 39
+    "value": 27
   },
   {
     "id": 74,
@@ -737,7 +737,7 @@
     "pos": "FWD",
     "club": "Orlando Pirates",
     "rating": 56.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 75,
@@ -747,7 +747,7 @@
     "pos": "FWD",
     "club": "Mamelodi Sundowns",
     "rating": 56.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 76,
@@ -757,7 +757,7 @@
     "pos": "FWD",
     "club": "Orlando Pirates",
     "rating": 56.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 77,
@@ -767,7 +767,7 @@
     "pos": "FWD",
     "club": "AEL Limassol",
     "rating": 55.6,
-    "value": 35
+    "value": 24
   },
   {
     "id": 78,
@@ -777,7 +777,7 @@
     "pos": "FWD",
     "club": "Orlando Pirates",
     "rating": 55.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 79,
@@ -787,7 +787,7 @@
     "pos": "GK",
     "club": "FC Tokyo",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 80,
@@ -797,7 +797,7 @@
     "pos": "GK",
     "club": "Ulsan HD",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 81,
@@ -807,7 +807,7 @@
     "pos": "GK",
     "club": "Jeonbuk Hyundai Motors",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 82,
@@ -817,7 +817,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 86.0,
-    "value": 78
+    "value": 55
   },
   {
     "id": 83,
@@ -827,7 +827,7 @@
     "pos": "DEF",
     "club": "Daejeon Hana Citizen",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 84,
@@ -837,7 +837,7 @@
     "pos": "DEF",
     "club": "Red Star Belgrade",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 85,
@@ -847,7 +847,7 @@
     "pos": "DEF",
     "club": "Austria Wien",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 86,
@@ -857,7 +857,7 @@
     "pos": "DEF",
     "club": "Zhejiang",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 87,
@@ -867,7 +867,7 @@
     "pos": "DEF",
     "club": "Kashima Antlers",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 88,
@@ -877,7 +877,7 @@
     "pos": "DEF",
     "club": "Midtjylland",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 89,
@@ -887,7 +887,7 @@
     "pos": "DEF",
     "club": "Borussia Monchengladbach",
     "rating": 69.2,
-    "value": 51
+    "value": 36
   },
   {
     "id": 90,
@@ -897,7 +897,7 @@
     "pos": "DEF",
     "club": "Gangwon FC",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 91,
@@ -907,7 +907,7 @@
     "pos": "DEF",
     "club": "Jeonbuk Hyundai Motors",
     "rating": 58.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 92,
@@ -917,7 +917,7 @@
     "pos": "MID",
     "club": "Mainz 05",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 93,
@@ -927,7 +927,7 @@
     "pos": "MID",
     "club": "Wolverhampton Wanderers",
     "rating": 74.6,
-    "value": 68
+    "value": 48
   },
   {
     "id": 94,
@@ -937,7 +937,7 @@
     "pos": "MID",
     "club": "Feyenoord",
     "rating": 80.2,
-    "value": 78
+    "value": 55
   },
   {
     "id": 95,
@@ -947,7 +947,7 @@
     "pos": "MID",
     "club": "Paris Saint-Germain",
     "rating": 78.8,
-    "value": 76
+    "value": 53
   },
   {
     "id": 96,
@@ -957,7 +957,7 @@
     "pos": "MID",
     "club": "Birmingham City",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 97,
@@ -967,7 +967,7 @@
     "pos": "MID",
     "club": "Jeonbuk Hyundai Motors",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 98,
@@ -977,7 +977,7 @@
     "pos": "MID",
     "club": "Ulsan HD",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 99,
@@ -987,7 +987,7 @@
     "pos": "MID",
     "club": "Stoke City",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 100,
@@ -997,7 +997,7 @@
     "pos": "MID",
     "club": "Swansea City",
     "rating": 58.8,
-    "value": 42
+    "value": 29
   },
   {
     "id": 101,
@@ -1007,7 +1007,7 @@
     "pos": "MID",
     "club": "Celtic",
     "rating": 68.4,
-    "value": 57
+    "value": 40
   },
   {
     "id": 102,
@@ -1017,7 +1017,7 @@
     "pos": "FWD",
     "club": "Los Angeles FC",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 103,
@@ -1027,7 +1027,7 @@
     "pos": "FWD",
     "club": "Midtjylland",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 104,
@@ -1037,7 +1037,7 @@
     "pos": "FWD",
     "club": "Besiktas",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 105,
@@ -1047,7 +1047,7 @@
     "pos": "GK",
     "club": "FC St. Pauli",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 106,
@@ -1057,7 +1057,7 @@
     "pos": "GK",
     "club": "Rijeka",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 107,
@@ -1067,7 +1067,7 @@
     "pos": "GK",
     "club": "Slaven Belupo",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 108,
@@ -1077,7 +1077,7 @@
     "pos": "DEF",
     "club": "Atalanta",
     "rating": 84.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 109,
@@ -1087,7 +1087,7 @@
     "pos": "DEF",
     "club": "Sampdoria",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 110,
@@ -1097,7 +1097,7 @@
     "pos": "DEF",
     "club": "Benfica",
     "rating": 78.2,
-    "value": 59
+    "value": 41
   },
   {
     "id": 111,
@@ -1107,7 +1107,7 @@
     "pos": "DEF",
     "club": "Schalke 04",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 112,
@@ -1117,7 +1117,7 @@
     "pos": "DEF",
     "club": "Sassuolo",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 113,
@@ -1127,7 +1127,7 @@
     "pos": "DEF",
     "club": "Gaziantep",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 114,
@@ -1137,7 +1137,7 @@
     "pos": "DEF",
     "club": "Rijeka",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 115,
@@ -1147,7 +1147,7 @@
     "pos": "DEF",
     "club": "Lens",
     "rating": 67.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 116,
@@ -1157,7 +1157,7 @@
     "pos": "MID",
     "club": "Hull City",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 117,
@@ -1167,7 +1167,7 @@
     "pos": "MID",
     "club": "Brondby",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 118,
@@ -1177,7 +1177,7 @@
     "pos": "MID",
     "club": "Young Boys",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 119,
@@ -1187,7 +1187,7 @@
     "pos": "MID",
     "club": "Karlsruher SC",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 120,
@@ -1197,7 +1197,7 @@
     "pos": "MID",
     "club": "Astana",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 121,
@@ -1207,7 +1207,7 @@
     "pos": "MID",
     "club": "PSV Eindhoven",
     "rating": 76.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 122,
@@ -1217,7 +1217,7 @@
     "pos": "MID",
     "club": "Viktoria Plzen",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 123,
@@ -1227,7 +1227,7 @@
     "pos": "MID",
     "club": "Pafos",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 124,
@@ -1237,7 +1237,7 @@
     "pos": "MID",
     "club": "Red Bull Salzburg",
     "rating": 56.8,
-    "value": 36
+    "value": 25
   },
   {
     "id": 125,
@@ -1247,7 +1247,7 @@
     "pos": "MID",
     "club": "Slovan Liberec",
     "rating": 56.4,
-    "value": 35
+    "value": 24
   },
   {
     "id": 126,
@@ -1257,7 +1257,7 @@
     "pos": "FWD",
     "club": "Schalke 04",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 127,
@@ -1267,7 +1267,7 @@
     "pos": "FWD",
     "club": "VfB Stuttgart",
     "rating": 72.6,
-    "value": 66
+    "value": 46
   },
   {
     "id": 128,
@@ -1277,7 +1277,7 @@
     "pos": "FWD",
     "club": "Jagiellonia Bialystok",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 129,
@@ -1287,7 +1287,7 @@
     "pos": "FWD",
     "club": "Borussia Monchengladbach",
     "rating": 68.8,
-    "value": 59
+    "value": 41
   },
   {
     "id": 130,
@@ -1297,7 +1297,7 @@
     "pos": "FWD",
     "club": "Universitatea Cluj",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 131,
@@ -1307,7 +1307,7 @@
     "pos": "GK",
     "club": "Inter Miami CF",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 132,
@@ -1317,7 +1317,7 @@
     "pos": "DEF",
     "club": "Celtic",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 133,
@@ -1327,7 +1327,7 @@
     "pos": "DEF",
     "club": "Dender",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 134,
@@ -1337,7 +1337,7 @@
     "pos": "DEF",
     "club": "Middlesbrough",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 135,
@@ -1347,7 +1347,7 @@
     "pos": "DEF",
     "club": "Chicago Fire FC",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 136,
@@ -1357,7 +1357,7 @@
     "pos": "MID",
     "club": "Los Angeles FC",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 137,
@@ -1367,7 +1367,7 @@
     "pos": "MID",
     "club": "Los Angeles FC",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 138,
@@ -1377,7 +1377,7 @@
     "pos": "MID",
     "club": "Sassuolo",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 139,
@@ -1387,7 +1387,7 @@
     "pos": "FWD",
     "club": "Southampton",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 140,
@@ -1397,7 +1397,7 @@
     "pos": "FWD",
     "club": "Juventus",
     "rating": 82.6,
-    "value": 94
+    "value": 66
   },
   {
     "id": 141,
@@ -1407,7 +1407,7 @@
     "pos": "MID",
     "club": "Hull City",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 142,
@@ -1417,7 +1417,7 @@
     "pos": "FWD",
     "club": "Villarreal",
     "rating": 72.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 143,
@@ -1427,7 +1427,7 @@
     "pos": "DEF",
     "club": "Rangers",
     "rating": 70.4,
-    "value": 53
+    "value": 37
   },
   {
     "id": 144,
@@ -1437,7 +1437,7 @@
     "pos": "MID",
     "club": "Los Angeles FC",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 145,
@@ -1447,7 +1447,7 @@
     "pos": "DEF",
     "club": "Nice",
     "rating": 70.0,
-    "value": 52
+    "value": 36
   },
   {
     "id": 146,
@@ -1457,7 +1457,7 @@
     "pos": "GK",
     "club": "Orlando City SC",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 147,
@@ -1467,7 +1467,7 @@
     "pos": "FWD",
     "club": "Villarreal",
     "rating": 70.0,
-    "value": 60
+    "value": 42
   },
   {
     "id": 148,
@@ -1477,7 +1477,7 @@
     "pos": "GK",
     "club": "Barnsley",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 149,
@@ -1487,7 +1487,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 77.6,
-    "value": 64
+    "value": 45
   },
   {
     "id": 150,
@@ -1497,7 +1497,7 @@
     "pos": "FWD",
     "club": "Norwich City",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 151,
@@ -1507,7 +1507,7 @@
     "pos": "MID",
     "club": "Toronto FC",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 152,
@@ -1517,7 +1517,7 @@
     "pos": "DEF",
     "club": "Toronto FC",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 153,
@@ -1527,7 +1527,7 @@
     "pos": "DEF",
     "club": "Hajduk Split",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 154,
@@ -1537,7 +1537,7 @@
     "pos": "FWD",
     "club": "Union Saint-Gilloise",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 155,
@@ -1547,7 +1547,7 @@
     "pos": "MID",
     "club": "Anderlecht",
     "rating": 58.8,
-    "value": 42
+    "value": 29
   },
   {
     "id": 156,
@@ -1557,7 +1557,7 @@
     "pos": "GK",
     "club": "Al-Rayyan",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 157,
@@ -1567,7 +1567,7 @@
     "pos": "DEF",
     "club": "Al-Sadd",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 158,
@@ -1577,7 +1577,7 @@
     "pos": "DEF",
     "club": "Al-Wakrah",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 159,
@@ -1587,7 +1587,7 @@
     "pos": "DEF",
     "club": "Al-Arabi",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 160,
@@ -1597,7 +1597,7 @@
     "pos": "MID",
     "club": "Al-Rayyan",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 161,
@@ -1607,7 +1607,7 @@
     "pos": "MID",
     "club": "Al-Rayyan",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 162,
@@ -1617,7 +1617,7 @@
     "pos": "FWD",
     "club": "Al-Rayyan",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 163,
@@ -1627,7 +1627,7 @@
     "pos": "FWD",
     "club": "Al-Duhail",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 164,
@@ -1637,7 +1637,7 @@
     "pos": "FWD",
     "club": "Al-Gharafa",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 165,
@@ -1647,7 +1647,7 @@
     "pos": "FWD",
     "club": "Al-Sadd",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 166,
@@ -1657,7 +1657,7 @@
     "pos": "FWD",
     "club": "Al-Sadd",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 167,
@@ -1667,7 +1667,7 @@
     "pos": "MID",
     "club": "Al-Duhail",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 168,
@@ -1677,7 +1677,7 @@
     "pos": "DEF",
     "club": "Al-Gharafa",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 169,
@@ -1687,7 +1687,7 @@
     "pos": "DEF",
     "club": "Cultural Leonesa",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 170,
@@ -1697,7 +1697,7 @@
     "pos": "FWD",
     "club": "Al-Wakrah",
     "rating": 58.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 171,
@@ -1707,7 +1707,7 @@
     "pos": "DEF",
     "club": "Al-Sadd",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 172,
@@ -1717,7 +1717,7 @@
     "pos": "FWD",
     "club": "Al-Gharafa",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 173,
@@ -1727,7 +1727,7 @@
     "pos": "DEF",
     "club": "Al-Duhail",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 174,
@@ -1737,7 +1737,7 @@
     "pos": "FWD",
     "club": "Al-Duhail",
     "rating": 57.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 175,
@@ -1747,7 +1747,7 @@
     "pos": "MID",
     "club": "Al-Arabi",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 176,
@@ -1757,7 +1757,7 @@
     "pos": "GK",
     "club": "Al-Duhail",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 177,
@@ -1767,7 +1767,7 @@
     "pos": "GK",
     "club": "Al-Sadd",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 178,
@@ -1777,7 +1777,7 @@
     "pos": "MID",
     "club": "Al-Wakrah",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 179,
@@ -1787,7 +1787,7 @@
     "pos": "FWD",
     "club": "Al-Duhail",
     "rating": 56.8,
-    "value": 40
+    "value": 28
   },
   {
     "id": 180,
@@ -1797,7 +1797,7 @@
     "pos": "DEF",
     "club": "Al-Arabi",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 181,
@@ -1807,7 +1807,7 @@
     "pos": "MID",
     "club": "Al-Shamal",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 182,
@@ -1817,7 +1817,7 @@
     "pos": "GK",
     "club": "Borussia Dortmund",
     "rating": 89.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 183,
@@ -1827,7 +1827,7 @@
     "pos": "DEF",
     "club": "Hamburger SV",
     "rating": 71.0,
-    "value": 59
+    "value": 41
   },
   {
     "id": 184,
@@ -1837,7 +1837,7 @@
     "pos": "DEF",
     "club": "Mainz 05",
     "rating": 77.6,
-    "value": 71
+    "value": 50
   },
   {
     "id": 185,
@@ -1847,7 +1847,7 @@
     "pos": "DEF",
     "club": "Borussia Monchengladbach",
     "rating": 75.2,
-    "value": 67
+    "value": 47
   },
   {
     "id": 186,
@@ -1857,7 +1857,7 @@
     "pos": "DEF",
     "club": "Inter Milan",
     "rating": 81.8,
-    "value": 79
+    "value": 55
   },
   {
     "id": 187,
@@ -1867,7 +1867,7 @@
     "pos": "MID",
     "club": "Monaco",
     "rating": 81.0,
-    "value": 89
+    "value": 62
   },
   {
     "id": 188,
@@ -1877,7 +1877,7 @@
     "pos": "FWD",
     "club": "Rennes",
     "rating": 81.0,
-    "value": 101
+    "value": 71
   },
   {
     "id": 189,
@@ -1887,7 +1887,7 @@
     "pos": "MID",
     "club": "Bologna",
     "rating": 77.6,
-    "value": 82
+    "value": 57
   },
   {
     "id": 190,
@@ -1897,7 +1897,7 @@
     "pos": "MID",
     "club": "SC Freiburg",
     "rating": 75.2,
-    "value": 77
+    "value": 54
   },
   {
     "id": 191,
@@ -1907,7 +1907,7 @@
     "pos": "MID",
     "club": "Sunderland",
     "rating": 73.8,
-    "value": 74
+    "value": 52
   },
   {
     "id": 192,
@@ -1917,7 +1917,7 @@
     "pos": "FWD",
     "club": "Nottingham Forest",
     "rating": 77.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 193,
@@ -1927,7 +1927,7 @@
     "pos": "GK",
     "club": "Lorient",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 194,
@@ -1937,7 +1937,7 @@
     "pos": "DEF",
     "club": "Real Betis",
     "rating": 73.4,
-    "value": 64
+    "value": 45
   },
   {
     "id": 195,
@@ -1947,7 +1947,7 @@
     "pos": "MID",
     "club": "Milan",
     "rating": 81.4,
-    "value": 90
+    "value": 63
   },
   {
     "id": 196,
@@ -1957,7 +1957,7 @@
     "pos": "MID",
     "club": "Sevilla",
     "rating": 73.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 197,
@@ -1967,7 +1967,7 @@
     "pos": "MID",
     "club": "Young Boys",
     "rating": 62.6,
-    "value": 53
+    "value": 37
   },
   {
     "id": 198,
@@ -1977,7 +1977,7 @@
     "pos": "FWD",
     "club": "Sevilla",
     "rating": 75.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 199,
@@ -1987,7 +1987,7 @@
     "pos": "DEF",
     "club": "Valencia",
     "rating": 63.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 200,
@@ -1997,7 +1997,7 @@
     "pos": "FWD",
     "club": "Leeds United",
     "rating": 73.8,
-    "value": 84
+    "value": 59
   },
   {
     "id": 201,
@@ -2007,7 +2007,7 @@
     "pos": "MID",
     "club": "Pisa",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 202,
@@ -2017,7 +2017,7 @@
     "pos": "GK",
     "club": "Young Boys",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 203,
@@ -2027,7 +2027,7 @@
     "pos": "MID",
     "club": "FC Augsburg",
     "rating": 71.8,
-    "value": 70
+    "value": 49
   },
   {
     "id": 204,
@@ -2037,7 +2037,7 @@
     "pos": "FWD",
     "club": "Burnley",
     "rating": 63.4,
-    "value": 62
+    "value": 43
   },
   {
     "id": 205,
@@ -2047,7 +2047,7 @@
     "pos": "DEF",
     "club": "Eintracht Frankfurt",
     "rating": 72.6,
-    "value": 62
+    "value": 43
   },
   {
     "id": 206,
@@ -2057,7 +2057,7 @@
     "pos": "DEF",
     "club": "VfB Stuttgart",
     "rating": 72.2,
-    "value": 62
+    "value": 43
   },
   {
     "id": 207,
@@ -2067,7 +2067,7 @@
     "pos": "FWD",
     "club": "Fortuna Dusseldorf",
     "rating": 63.0,
-    "value": 61
+    "value": 43
   },
   {
     "id": 208,
@@ -2077,7 +2077,7 @@
     "pos": "GK",
     "club": "Liverpool",
     "rating": 92.0,
-    "value": 99
+    "value": 69
   },
   {
     "id": 209,
@@ -2087,7 +2087,7 @@
     "pos": "DEF",
     "club": "Roma",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 210,
@@ -2097,7 +2097,7 @@
     "pos": "DEF",
     "club": "Arsenal",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 211,
@@ -2107,7 +2107,7 @@
     "pos": "DEF",
     "club": "Paris Saint-Germain",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 212,
@@ -2117,7 +2117,7 @@
     "pos": "MID",
     "club": "Manchester United",
     "rating": 92.0,
-    "value": 127
+    "value": 89
   },
   {
     "id": 213,
@@ -2127,7 +2127,7 @@
     "pos": "DEF",
     "club": "Flamengo",
     "rating": 66.8,
-    "value": 58
+    "value": 41
   },
   {
     "id": 214,
@@ -2137,7 +2137,7 @@
     "pos": "FWD",
     "club": "Real Madrid",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 215,
@@ -2147,7 +2147,7 @@
     "pos": "MID",
     "club": "Newcastle United",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 216,
@@ -2157,7 +2157,7 @@
     "pos": "FWD",
     "club": "Manchester United",
     "rating": 88.6,
-    "value": 133
+    "value": 93
   },
   {
     "id": 217,
@@ -2167,7 +2167,7 @@
     "pos": "FWD",
     "club": "Santos",
     "rating": 68.2,
-    "value": 79
+    "value": 55
   },
   {
     "id": 218,
@@ -2177,7 +2177,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 84.8,
-    "value": 122
+    "value": 85
   },
   {
     "id": 219,
@@ -2187,7 +2187,7 @@
     "pos": "GK",
     "club": "Gremio",
     "rating": 70.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 220,
@@ -2197,7 +2197,7 @@
     "pos": "DEF",
     "club": "Flamengo",
     "rating": 66.4,
-    "value": 57
+    "value": 40
   },
   {
     "id": 221,
@@ -2207,7 +2207,7 @@
     "pos": "DEF",
     "club": "Juventus",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 222,
@@ -2217,7 +2217,7 @@
     "pos": "DEF",
     "club": "Flamengo",
     "rating": 65.6,
-    "value": 56
+    "value": 39
   },
   {
     "id": 223,
@@ -2227,7 +2227,7 @@
     "pos": "DEF",
     "club": "Zenit Saint Petersburg",
     "rating": 65.2,
-    "value": 55
+    "value": 38
   },
   {
     "id": 224,
@@ -2237,7 +2237,7 @@
     "pos": "MID",
     "club": "Al-Ittihad",
     "rating": 78.2,
-    "value": 91
+    "value": 64
   },
   {
     "id": 225,
@@ -2247,7 +2247,7 @@
     "pos": "MID",
     "club": "Botafogo",
     "rating": 66.8,
-    "value": 67
+    "value": 47
   },
   {
     "id": 226,
@@ -2257,7 +2257,7 @@
     "pos": "FWD",
     "club": "Lyon",
     "rating": 76.4,
-    "value": 99
+    "value": 69
   },
   {
     "id": 227,
@@ -2267,7 +2267,7 @@
     "pos": "MID",
     "club": "Flamengo",
     "rating": 66.4,
-    "value": 66
+    "value": 46
   },
   {
     "id": 228,
@@ -2277,7 +2277,7 @@
     "pos": "FWD",
     "club": "Zenit Saint Petersburg",
     "rating": 66.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 229,
@@ -2287,7 +2287,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 83.6,
-    "value": 118
+    "value": 83
   },
   {
     "id": 230,
@@ -2297,7 +2297,7 @@
     "pos": "GK",
     "club": "Fenerbahce",
     "rating": 86.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 231,
@@ -2307,7 +2307,7 @@
     "pos": "DEF",
     "club": "Al-Ahli",
     "rating": 74.8,
-    "value": 73
+    "value": 51
   },
   {
     "id": 232,
@@ -2317,7 +2317,7 @@
     "pos": "FWD",
     "club": "Brentford",
     "rating": 75.2,
-    "value": 96
+    "value": 67
   },
   {
     "id": 233,
@@ -2327,7 +2327,7 @@
     "pos": "FWD",
     "club": "Bournemouth",
     "rating": 74.8,
-    "value": 95
+    "value": 66
   },
   {
     "id": 234,
@@ -2337,7 +2337,7 @@
     "pos": "GK",
     "club": "Bastia",
     "rating": 64.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 235,
@@ -2347,7 +2347,7 @@
     "pos": "GK",
     "club": "Sochaux",
     "rating": 60.6,
-    "value": 29
+    "value": 20
   },
   {
     "id": 236,
@@ -2357,7 +2357,7 @@
     "pos": "GK",
     "club": "Cosmos Koblenz",
     "rating": 58.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 237,
@@ -2367,7 +2367,7 @@
     "pos": "DEF",
     "club": "LDU Quito",
     "rating": 64.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 238,
@@ -2377,7 +2377,7 @@
     "pos": "DEF",
     "club": "Angers",
     "rating": 60.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 239,
@@ -2387,7 +2387,7 @@
     "pos": "DEF",
     "club": "Nancy",
     "rating": 58.2,
-    "value": 30
+    "value": 21
   },
   {
     "id": 240,
@@ -2397,7 +2397,7 @@
     "pos": "DEF",
     "club": "Gent",
     "rating": 56.8,
-    "value": 28
+    "value": 20
   },
   {
     "id": 241,
@@ -2407,7 +2407,7 @@
     "pos": "DEF",
     "club": "Colorado Springs Switchbacks FC",
     "rating": 56.4,
-    "value": 28
+    "value": 20
   },
   {
     "id": 242,
@@ -2417,7 +2417,7 @@
     "pos": "DEF",
     "club": "Zulte Waregem",
     "rating": 56.0,
-    "value": 28
+    "value": 20
   },
   {
     "id": 243,
@@ -2427,7 +2427,7 @@
     "pos": "DEF",
     "club": "Lugano",
     "rating": 55.6,
-    "value": 27
+    "value": 20
   },
   {
     "id": 244,
@@ -2437,7 +2437,7 @@
     "pos": "DEF",
     "club": "Young Boys",
     "rating": 55.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 245,
@@ -2447,7 +2447,7 @@
     "pos": "MID",
     "club": "Vizela",
     "rating": 64.0,
-    "value": 41
+    "value": 29
   },
   {
     "id": 246,
@@ -2457,7 +2457,7 @@
     "pos": "MID",
     "club": "Philadelphia Union",
     "rating": 60.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 247,
@@ -2467,7 +2467,7 @@
     "pos": "MID",
     "club": "El Paso Locomotive FC",
     "rating": 58.2,
-    "value": 34
+    "value": 24
   },
   {
     "id": 248,
@@ -2477,7 +2477,7 @@
     "pos": "MID",
     "club": "Wolverhampton Wanderers",
     "rating": 66.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 249,
@@ -2487,7 +2487,7 @@
     "pos": "MID",
     "club": "Violette",
     "rating": 56.4,
-    "value": 32
+    "value": 22
   },
   {
     "id": 250,
@@ -2497,7 +2497,7 @@
     "pos": "MID",
     "club": "Tatran Presov",
     "rating": 56.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 251,
@@ -2507,7 +2507,7 @@
     "pos": "FWD",
     "club": "Esteghlal",
     "rating": 64.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 252,
@@ -2517,7 +2517,7 @@
     "pos": "FWD",
     "club": "Caykur Rizespor",
     "rating": 60.6,
-    "value": 42
+    "value": 29
   },
   {
     "id": 253,
@@ -2527,7 +2527,7 @@
     "pos": "FWD",
     "club": "Toronto FC",
     "rating": 58.2,
-    "value": 39
+    "value": 27
   },
   {
     "id": 254,
@@ -2537,7 +2537,7 @@
     "pos": "FWD",
     "club": "FC Dallas",
     "rating": 56.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 255,
@@ -2547,7 +2547,7 @@
     "pos": "FWD",
     "club": "Almere City",
     "rating": 56.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 256,
@@ -2557,7 +2557,7 @@
     "pos": "FWD",
     "club": "Auxerre",
     "rating": 56.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 257,
@@ -2567,7 +2567,7 @@
     "pos": "FWD",
     "club": "Vizela",
     "rating": 55.6,
-    "value": 35
+    "value": 24
   },
   {
     "id": 258,
@@ -2577,7 +2577,7 @@
     "pos": "FWD",
     "club": "Sunderland",
     "rating": 65.2,
-    "value": 49
+    "value": 34
   },
   {
     "id": 259,
@@ -2587,7 +2587,7 @@
     "pos": "FWD",
     "club": "Ferencvaros",
     "rating": 54.8,
-    "value": 34
+    "value": 24
   },
   {
     "id": 260,
@@ -2597,7 +2597,7 @@
     "pos": "GK",
     "club": "Al-Hilal",
     "rating": 81.0,
-    "value": 70
+    "value": 49
   },
   {
     "id": 261,
@@ -2607,7 +2607,7 @@
     "pos": "GK",
     "club": "RS Berkane",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 262,
@@ -2617,7 +2617,7 @@
     "pos": "GK",
     "club": "AS FAR",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 263,
@@ -2627,7 +2627,7 @@
     "pos": "DEF",
     "club": "Paris Saint-Germain",
     "rating": 89.0,
-    "value": 93
+    "value": 65
   },
   {
     "id": 264,
@@ -2637,7 +2637,7 @@
     "pos": "DEF",
     "club": "Marseille",
     "rating": 77.6,
-    "value": 71
+    "value": 50
   },
   {
     "id": 265,
@@ -2647,7 +2647,7 @@
     "pos": "DEF",
     "club": "Manchester United",
     "rating": 83.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 266,
@@ -2657,7 +2657,7 @@
     "pos": "DEF",
     "club": "Al Ahly",
     "rating": 63.8,
-    "value": 48
+    "value": 34
   },
   {
     "id": 267,
@@ -2667,7 +2667,7 @@
     "pos": "DEF",
     "club": "PSV Eindhoven",
     "rating": 81.4,
-    "value": 78
+    "value": 55
   },
   {
     "id": 268,
@@ -2677,7 +2677,7 @@
     "pos": "DEF",
     "club": "Crystal Palace",
     "rating": 73.0,
-    "value": 63
+    "value": 44
   },
   {
     "id": 269,
@@ -2687,7 +2687,7 @@
     "pos": "DEF",
     "club": "Fulham",
     "rating": 72.6,
-    "value": 62
+    "value": 43
   },
   {
     "id": 270,
@@ -2697,7 +2697,7 @@
     "pos": "DEF",
     "club": "Genk",
     "rating": 62.2,
-    "value": 46
+    "value": 32
   },
   {
     "id": 271,
@@ -2707,7 +2707,7 @@
     "pos": "DEF",
     "club": "Mechelen",
     "rating": 61.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 272,
@@ -2717,7 +2717,7 @@
     "pos": "MID",
     "club": "Real Betis",
     "rating": 81.0,
-    "value": 89
+    "value": 62
   },
   {
     "id": 273,
@@ -2727,7 +2727,7 @@
     "pos": "MID",
     "club": "Girona",
     "rating": 77.6,
-    "value": 82
+    "value": 57
   },
   {
     "id": 274,
@@ -2737,7 +2737,7 @@
     "pos": "MID",
     "club": "VfB Stuttgart",
     "rating": 75.2,
-    "value": 77
+    "value": 54
   },
   {
     "id": 275,
@@ -2747,7 +2747,7 @@
     "pos": "MID",
     "club": "PSV Eindhoven",
     "rating": 81.8,
-    "value": 91
+    "value": 64
   },
   {
     "id": 276,
@@ -2757,7 +2757,7 @@
     "pos": "MID",
     "club": "Roma",
     "rating": 73.4,
-    "value": 73
+    "value": 51
   },
   {
     "id": 277,
@@ -2767,7 +2767,7 @@
     "pos": "MID",
     "club": "Strasbourg",
     "rating": 63.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 278,
@@ -2777,7 +2777,7 @@
     "pos": "MID",
     "club": "Lille",
     "rating": 72.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 279,
@@ -2787,7 +2787,7 @@
     "pos": "FWD",
     "club": "Olympiacos",
     "rating": 71.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 280,
@@ -2797,7 +2797,7 @@
     "pos": "FWD",
     "club": "Al-Ain",
     "rating": 67.6,
-    "value": 70
+    "value": 49
   },
   {
     "id": 281,
@@ -2807,7 +2807,7 @@
     "pos": "FWD",
     "club": "Real Betis",
     "rating": 75.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 282,
@@ -2817,7 +2817,7 @@
     "pos": "FWD",
     "club": "Real Madrid",
     "rating": 81.8,
-    "value": 103
+    "value": 72
   },
   {
     "id": 283,
@@ -2827,7 +2827,7 @@
     "pos": "FWD",
     "club": "Sunderland",
     "rating": 73.4,
-    "value": 83
+    "value": 58
   },
   {
     "id": 284,
@@ -2837,7 +2837,7 @@
     "pos": "FWD",
     "club": "Strasbourg",
     "rating": 63.0,
-    "value": 61
+    "value": 43
   },
   {
     "id": 285,
@@ -2847,7 +2847,7 @@
     "pos": "FWD",
     "club": "Eintracht Frankfurt",
     "rating": 72.6,
-    "value": 81
+    "value": 57
   },
   {
     "id": 286,
@@ -2857,7 +2857,7 @@
     "pos": "GK",
     "club": "Heart of Midlothian",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 287,
@@ -2867,7 +2867,7 @@
     "pos": "GK",
     "club": "Nottingham Forest",
     "rating": 72.6,
-    "value": 46
+    "value": 32
   },
   {
     "id": 288,
@@ -2877,7 +2877,7 @@
     "pos": "GK",
     "club": "Rangers",
     "rating": 70.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 289,
@@ -2887,7 +2887,7 @@
     "pos": "DEF",
     "club": "Liverpool",
     "rating": 84.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 290,
@@ -2897,7 +2897,7 @@
     "pos": "DEF",
     "club": "Hibernian",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 291,
@@ -2907,7 +2907,7 @@
     "pos": "DEF",
     "club": "Celtic",
     "rating": 70.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 292,
@@ -2917,7 +2917,7 @@
     "pos": "DEF",
     "club": "Dinamo Zagreb",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 293,
@@ -2927,7 +2927,7 @@
     "pos": "DEF",
     "club": "Al-Ettifaq",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 294,
@@ -2937,7 +2937,7 @@
     "pos": "DEF",
     "club": "Everton",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 295,
@@ -2947,7 +2947,7 @@
     "pos": "DEF",
     "club": "Celtic",
     "rating": 67.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 296,
@@ -2957,7 +2957,7 @@
     "pos": "DEF",
     "club": "Rangers",
     "rating": 67.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 297,
@@ -2967,7 +2967,7 @@
     "pos": "DEF",
     "club": "Brentford",
     "rating": 66.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 298,
@@ -2977,7 +2977,7 @@
     "pos": "DEF",
     "club": "Wrexham",
     "rating": 56.4,
-    "value": 31
+    "value": 22
   },
   {
     "id": 299,
@@ -2987,7 +2987,7 @@
     "pos": "MID",
     "club": "Aston Villa",
     "rating": 84.0,
-    "value": 78
+    "value": 55
   },
   {
     "id": 300,
@@ -2997,7 +2997,7 @@
     "pos": "MID",
     "club": "Napoli",
     "rating": 80.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 301,
@@ -3007,7 +3007,7 @@
     "pos": "MID",
     "club": "Bournemouth",
     "rating": 70.2,
-    "value": 54
+    "value": 38
   },
   {
     "id": 302,
@@ -3017,7 +3017,7 @@
     "pos": "MID",
     "club": "Norwich City",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 303,
@@ -3027,7 +3027,7 @@
     "pos": "MID",
     "club": "Bologna",
     "rating": 68.4,
-    "value": 52
+    "value": 36
   },
   {
     "id": 304,
@@ -3037,7 +3037,7 @@
     "pos": "MID",
     "club": "Bournemouth",
     "rating": 68.0,
-    "value": 51
+    "value": 36
   },
   {
     "id": 305,
@@ -3047,7 +3047,7 @@
     "pos": "MID",
     "club": "Kilmarnock",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 306,
@@ -3057,7 +3057,7 @@
     "pos": "MID",
     "club": "Manchester United",
     "rating": 75.2,
-    "value": 62
+    "value": 43
   },
   {
     "id": 307,
@@ -3067,7 +3067,7 @@
     "pos": "FWD",
     "club": "Charlton Athletic",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 308,
@@ -3077,7 +3077,7 @@
     "pos": "FWD",
     "club": "Torino",
     "rating": 72.6,
-    "value": 66
+    "value": 46
   },
   {
     "id": 309,
@@ -3087,7 +3087,7 @@
     "pos": "FWD",
     "club": "Heart of Midlothian",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 310,
@@ -3097,7 +3097,7 @@
     "pos": "FWD",
     "club": "Ipswich Town",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 311,
@@ -3107,7 +3107,7 @@
     "pos": "FWD",
     "club": "Southampton",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 312,
@@ -3117,7 +3117,7 @@
     "pos": "GK",
     "club": "Levante",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 313,
@@ -3127,7 +3127,7 @@
     "pos": "DEF",
     "club": "APOEL",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 314,
@@ -3137,7 +3137,7 @@
     "pos": "DEF",
     "club": "Parma",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 315,
@@ -3147,7 +3147,7 @@
     "pos": "DEF",
     "club": "GAK",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 316,
@@ -3157,7 +3157,7 @@
     "pos": "DEF",
     "club": "Feyenoord",
     "rating": 78.8,
-    "value": 66
+    "value": 46
   },
   {
     "id": 317,
@@ -3167,7 +3167,7 @@
     "pos": "DEF",
     "club": "Albirex Niigata",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 318,
@@ -3177,7 +3177,7 @@
     "pos": "FWD",
     "club": "Melbourne City",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 319,
@@ -3187,7 +3187,7 @@
     "pos": "MID",
     "club": "FC St. Pauli",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 320,
@@ -3197,7 +3197,7 @@
     "pos": "FWD",
     "club": "Norwich City",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 321,
@@ -3207,7 +3207,7 @@
     "pos": "MID",
     "club": "Heracles Almelo",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 322,
@@ -3217,7 +3217,7 @@
     "pos": "FWD",
     "club": "Castellon",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 323,
@@ -3227,7 +3227,7 @@
     "pos": "GK",
     "club": "Randers",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 324,
@@ -3237,7 +3237,7 @@
     "pos": "MID",
     "club": "New York City FC",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 325,
@@ -3247,7 +3247,7 @@
     "pos": "MID",
     "club": "Heart of Midlothian",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 326,
@@ -3257,7 +3257,7 @@
     "pos": "DEF",
     "club": "New York City FC",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 327,
@@ -3267,7 +3267,7 @@
     "pos": "DEF",
     "club": "Melbourne City",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 328,
@@ -3277,7 +3277,7 @@
     "pos": "FWD",
     "club": "Watford",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 329,
@@ -3287,7 +3287,7 @@
     "pos": "GK",
     "club": "Melbourne City",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 330,
@@ -3297,7 +3297,7 @@
     "pos": "DEF",
     "club": "Leicester City",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 331,
@@ -3307,7 +3307,7 @@
     "pos": "FWD",
     "club": "Sassuolo",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 332,
@@ -3317,7 +3317,7 @@
     "pos": "DEF",
     "club": "Swansea City",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 333,
@@ -3327,7 +3327,7 @@
     "pos": "MID",
     "club": "FC St. Pauli",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 334,
@@ -3337,7 +3337,7 @@
     "pos": "FWD",
     "club": "Melbourne Victory",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 335,
@@ -3347,7 +3347,7 @@
     "pos": "MID",
     "club": "Sydney FC",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 336,
@@ -3357,7 +3357,7 @@
     "pos": "DEF",
     "club": "Colorado Rapids",
     "rating": 58.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 337,
@@ -3367,7 +3367,7 @@
     "pos": "FWD",
     "club": "Machida Zelvia",
     "rating": 59.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 338,
@@ -3377,7 +3377,7 @@
     "pos": "GK",
     "club": "Cerro Porteno",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 339,
@@ -3387,7 +3387,7 @@
     "pos": "GK",
     "club": "San Lorenzo",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 340,
@@ -3397,7 +3397,7 @@
     "pos": "GK",
     "club": "Olimpia",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 341,
@@ -3407,7 +3407,7 @@
     "pos": "DEF",
     "club": "Palmeiras",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 342,
@@ -3417,7 +3417,7 @@
     "pos": "DEF",
     "club": "Atletico Mineiro",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 343,
@@ -3427,7 +3427,7 @@
     "pos": "DEF",
     "club": "Gremio",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 344,
@@ -3437,7 +3437,7 @@
     "pos": "DEF",
     "club": "Sunderland",
     "rating": 70.8,
-    "value": 53
+    "value": 37
   },
   {
     "id": 345,
@@ -3447,7 +3447,7 @@
     "pos": "DEF",
     "club": "Dynamo Moscow",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 346,
@@ -3457,7 +3457,7 @@
     "pos": "DEF",
     "club": "Cerro Porteno",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 347,
@@ -3467,7 +3467,7 @@
     "pos": "DEF",
     "club": "Lanus",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 348,
@@ -3477,7 +3477,7 @@
     "pos": "DEF",
     "club": "Talleres",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 349,
@@ -3487,7 +3487,7 @@
     "pos": "MID",
     "club": "Atlanta United FC",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 350,
@@ -3497,7 +3497,7 @@
     "pos": "MID",
     "club": "Al-Ain",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 351,
@@ -3507,7 +3507,7 @@
     "pos": "MID",
     "club": "Vancouver Whitecaps FC",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 352,
@@ -3517,7 +3517,7 @@
     "pos": "MID",
     "club": "Palmeiras",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 353,
@@ -3527,7 +3527,7 @@
     "pos": "MID",
     "club": "Brighton & Hove Albion",
     "rating": 70.4,
-    "value": 60
+    "value": 42
   },
   {
     "id": 354,
@@ -3537,7 +3537,7 @@
     "pos": "MID",
     "club": "Sao Paulo",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 355,
@@ -3547,7 +3547,7 @@
     "pos": "MID",
     "club": "Orlando City SC",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 356,
@@ -3557,7 +3557,7 @@
     "pos": "MID",
     "club": "Atlanta United FC",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 357,
@@ -3567,7 +3567,7 @@
     "pos": "MID",
     "club": "Palmeiras",
     "rating": 58.8,
-    "value": 42
+    "value": 29
   },
   {
     "id": 358,
@@ -3577,7 +3577,7 @@
     "pos": "FWD",
     "club": "Cremonese",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 359,
@@ -3587,7 +3587,7 @@
     "pos": "FWD",
     "club": "Strasbourg",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 360,
@@ -3597,7 +3597,7 @@
     "pos": "FWD",
     "club": "Independiente",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 361,
@@ -3607,7 +3607,7 @@
     "pos": "FWD",
     "club": "Independiente Rivadavia",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 362,
@@ -3617,7 +3617,7 @@
     "pos": "FWD",
     "club": "Red Bull Bragantino",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 363,
@@ -3627,7 +3627,7 @@
     "pos": "FWD",
     "club": "Portsmouth",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 364,
@@ -3637,7 +3637,7 @@
     "pos": "GK",
     "club": "Galatasaray",
     "rating": 86.0,
-    "value": 71
+    "value": 50
   },
   {
     "id": 365,
@@ -3647,7 +3647,7 @@
     "pos": "GK",
     "club": "Fenerbahce",
     "rating": 82.6,
-    "value": 65
+    "value": 46
   },
   {
     "id": 366,
@@ -3657,7 +3657,7 @@
     "pos": "GK",
     "club": "Manchester United",
     "rating": 80.2,
-    "value": 61
+    "value": 43
   },
   {
     "id": 369,
@@ -3667,7 +3667,7 @@
     "pos": "DEF",
     "club": "Al-Ahli",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 370,
@@ -3677,7 +3677,7 @@
     "pos": "DEF",
     "club": "Roma",
     "rating": 74.6,
-    "value": 59
+    "value": 41
   },
   {
     "id": 371,
@@ -3687,7 +3687,7 @@
     "pos": "DEF",
     "club": "Fenerbahce",
     "rating": 80.2,
-    "value": 68
+    "value": 48
   },
   {
     "id": 372,
@@ -3697,7 +3697,7 @@
     "pos": "DEF",
     "club": "Fenerbahce",
     "rating": 78.8,
-    "value": 66
+    "value": 46
   },
   {
     "id": 373,
@@ -3707,7 +3707,7 @@
     "pos": "DEF",
     "club": "Brighton & Hove Albion",
     "rating": 70.4,
-    "value": 53
+    "value": 37
   },
   {
     "id": 374,
@@ -3717,7 +3717,7 @@
     "pos": "DEF",
     "club": "TSG Hoffenheim",
     "rating": 70.0,
-    "value": 52
+    "value": 36
   },
   {
     "id": 375,
@@ -3727,7 +3727,7 @@
     "pos": "DEF",
     "club": "Galatasaray",
     "rating": 77.6,
-    "value": 64
+    "value": 45
   },
   {
     "id": 376,
@@ -3737,7 +3737,7 @@
     "pos": "DEF",
     "club": "Galatasaray",
     "rating": 77.2,
-    "value": 63
+    "value": 44
   },
   {
     "id": 377,
@@ -3747,7 +3747,7 @@
     "pos": "DEF",
     "club": "Caykur Rizespor",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 381,
@@ -3757,7 +3757,7 @@
     "pos": "MID",
     "club": "Inter Milan",
     "rating": 86.0,
-    "value": 90
+    "value": 63
   },
   {
     "id": 382,
@@ -3767,7 +3767,7 @@
     "pos": "MID",
     "club": "Galatasaray",
     "rating": 82.6,
-    "value": 83
+    "value": 58
   },
   {
     "id": 383,
@@ -3777,7 +3777,7 @@
     "pos": "MID",
     "club": "Besiktas",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 384,
@@ -3787,7 +3787,7 @@
     "pos": "MID",
     "club": "Fenerbahce",
     "rating": 78.8,
-    "value": 76
+    "value": 53
   },
   {
     "id": 385,
@@ -3797,7 +3797,7 @@
     "pos": "MID",
     "club": "Borussia Dortmund",
     "rating": 78.4,
-    "value": 75
+    "value": 52
   },
   {
     "id": 388,
@@ -3807,7 +3807,7 @@
     "pos": "FWD",
     "club": "Fenerbahce",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 389,
@@ -3817,7 +3817,7 @@
     "pos": "FWD",
     "club": "Kasimpasa",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 390,
@@ -3827,7 +3827,7 @@
     "pos": "FWD",
     "club": "Galatasaray",
     "rating": 80.2,
-    "value": 89
+    "value": 62
   },
   {
     "id": 391,
@@ -3837,7 +3837,7 @@
     "pos": "FWD",
     "club": "Real Madrid",
     "rating": 78.8,
-    "value": 86
+    "value": 60
   },
   {
     "id": 392,
@@ -3847,7 +3847,7 @@
     "pos": "FWD",
     "club": "Juventus",
     "rating": 78.4,
-    "value": 85
+    "value": 59
   },
   {
     "id": 393,
@@ -3857,7 +3857,7 @@
     "pos": "FWD",
     "club": "Galatasaray",
     "rating": 78.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 394,
@@ -3867,7 +3867,7 @@
     "pos": "FWD",
     "club": "Fenerbahce",
     "rating": 77.6,
-    "value": 83
+    "value": 58
   },
   {
     "id": 395,
@@ -3877,7 +3877,7 @@
     "pos": "FWD",
     "club": "Porto",
     "rating": 77.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 397,
@@ -3887,7 +3887,7 @@
     "pos": "FWD",
     "club": "Eintracht Frankfurt",
     "rating": 68.4,
-    "value": 64
+    "value": 45
   },
   {
     "id": 399,
@@ -3897,7 +3897,7 @@
     "pos": "GK",
     "club": "New England Revolution",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 400,
@@ -3907,7 +3907,7 @@
     "pos": "DEF",
     "club": "PSV Eindhoven",
     "rating": 86.0,
-    "value": 78
+    "value": 55
   },
   {
     "id": 401,
@@ -3917,7 +3917,7 @@
     "pos": "DEF",
     "club": "Crystal Palace",
     "rating": 74.6,
-    "value": 59
+    "value": 41
   },
   {
     "id": 402,
@@ -3927,7 +3927,7 @@
     "pos": "MID",
     "club": "Bournemouth",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 403,
@@ -3937,7 +3937,7 @@
     "pos": "DEF",
     "club": "Fulham",
     "rating": 72.2,
-    "value": 55
+    "value": 38
   },
   {
     "id": 404,
@@ -3947,7 +3947,7 @@
     "pos": "DEF",
     "club": "Celtic",
     "rating": 70.8,
-    "value": 53
+    "value": 37
   },
   {
     "id": 405,
@@ -3957,7 +3957,7 @@
     "pos": "MID",
     "club": "Borussia Monchengladbach",
     "rating": 74.6,
-    "value": 68
+    "value": 48
   },
   {
     "id": 406,
@@ -3967,7 +3967,7 @@
     "pos": "MID",
     "club": "Juventus",
     "rating": 80.2,
-    "value": 78
+    "value": 55
   },
   {
     "id": 407,
@@ -3977,7 +3977,7 @@
     "pos": "FWD",
     "club": "PSV Eindhoven",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 408,
@@ -3987,7 +3987,7 @@
     "pos": "FWD",
     "club": "Milan",
     "rating": 82.6,
-    "value": 94
+    "value": 66
   },
   {
     "id": 409,
@@ -3997,7 +3997,7 @@
     "pos": "FWD",
     "club": "Leeds United",
     "rating": 72.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 410,
@@ -4007,7 +4007,7 @@
     "pos": "DEF",
     "club": "FC Cincinnati",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 411,
@@ -4017,7 +4017,7 @@
     "pos": "DEF",
     "club": "Charlotte FC",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 412,
@@ -4027,7 +4027,7 @@
     "pos": "MID",
     "club": "Vancouver Whitecaps FC",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 413,
@@ -4037,7 +4037,7 @@
     "pos": "MID",
     "club": "Seattle Sounders FC",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 414,
@@ -4047,7 +4047,7 @@
     "pos": "DEF",
     "club": "Villarreal",
     "rating": 69.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 415,
@@ -4057,7 +4057,7 @@
     "pos": "MID",
     "club": "Bayer Leverkusen",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 416,
@@ -4067,7 +4067,7 @@
     "pos": "DEF",
     "club": "Columbus Crew",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 417,
@@ -4077,7 +4077,7 @@
     "pos": "FWD",
     "club": "Coventry City",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 418,
@@ -4087,7 +4087,7 @@
     "pos": "FWD",
     "club": "Monaco",
     "rating": 70.4,
-    "value": 68
+    "value": 48
   },
   {
     "id": 419,
@@ -4097,7 +4097,7 @@
     "pos": "FWD",
     "club": "Marseille",
     "rating": 70.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 420,
@@ -4107,7 +4107,7 @@
     "pos": "DEF",
     "club": "Toulouse",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 421,
@@ -4117,7 +4117,7 @@
     "pos": "DEF",
     "club": "Borussia Monchengladbach",
     "rating": 68.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 422,
@@ -4127,7 +4127,7 @@
     "pos": "GK",
     "club": "New York City FC",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 423,
@@ -4137,7 +4137,7 @@
     "pos": "GK",
     "club": "Chicago Fire FC",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 424,
@@ -4147,7 +4147,7 @@
     "pos": "FWD",
     "club": "America",
     "rating": 59.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 425,
@@ -4157,7 +4157,7 @@
     "pos": "GK",
     "club": "Miami FC",
     "rating": 64.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 426,
@@ -4167,7 +4167,7 @@
     "pos": "DEF",
     "club": "Sparta Rotterdam",
     "rating": 64.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 427,
@@ -4177,7 +4177,7 @@
     "pos": "DEF",
     "club": "Abha",
     "rating": 60.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 428,
@@ -4187,7 +4187,7 @@
     "pos": "DEF",
     "club": "RKC Waalwijk",
     "rating": 58.2,
-    "value": 30
+    "value": 21
   },
   {
     "id": 429,
@@ -4197,7 +4197,7 @@
     "pos": "DEF",
     "club": "PEC Zwolle",
     "rating": 56.8,
-    "value": 28
+    "value": 20
   },
   {
     "id": 430,
@@ -4207,7 +4207,7 @@
     "pos": "MID",
     "club": "RKC Waalwijk",
     "rating": 64.0,
-    "value": 41
+    "value": 29
   },
   {
     "id": 431,
@@ -4217,7 +4217,7 @@
     "pos": "MID",
     "club": "Volendam",
     "rating": 60.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 432,
@@ -4227,7 +4227,7 @@
     "pos": "MID",
     "club": "Zurich",
     "rating": 58.2,
-    "value": 34
+    "value": 24
   },
   {
     "id": 433,
@@ -4237,7 +4237,7 @@
     "pos": "FWD",
     "club": "Miami FC",
     "rating": 64.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 434,
@@ -4247,7 +4247,7 @@
     "pos": "MID",
     "club": "Igdir",
     "rating": 56.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 435,
@@ -4257,7 +4257,7 @@
     "pos": "FWD",
     "club": "Kifisia",
     "rating": 60.6,
-    "value": 42
+    "value": 29
   },
   {
     "id": 436,
@@ -4267,7 +4267,7 @@
     "pos": "FWD",
     "club": "Middlesbrough",
     "rating": 58.2,
-    "value": 39
+    "value": 27
   },
   {
     "id": 437,
@@ -4277,7 +4277,7 @@
     "pos": "MID",
     "club": "Telstar",
     "rating": 56.4,
-    "value": 32
+    "value": 22
   },
   {
     "id": 438,
@@ -4287,7 +4287,7 @@
     "pos": "FWD",
     "club": "Maccabi Haifa",
     "rating": 56.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 439,
@@ -4297,7 +4297,7 @@
     "pos": "MID",
     "club": "Rotherham United",
     "rating": 56.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 440,
@@ -4307,7 +4307,7 @@
     "pos": "FWD",
     "club": "Beveren",
     "rating": 56.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 441,
@@ -4317,7 +4317,7 @@
     "pos": "FWD",
     "club": "Volendam",
     "rating": 56.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 442,
@@ -4327,7 +4327,7 @@
     "pos": "DEF",
     "club": "PSV Eindhoven",
     "rating": 74.4,
-    "value": 49
+    "value": 34
   },
   {
     "id": 443,
@@ -4337,7 +4337,7 @@
     "pos": "FWD",
     "club": "Terengganu",
     "rating": 55.6,
-    "value": 35
+    "value": 24
   },
   {
     "id": 444,
@@ -4347,7 +4347,7 @@
     "pos": "DEF",
     "club": "Kayserispor",
     "rating": 56.0,
-    "value": 28
+    "value": 20
   },
   {
     "id": 445,
@@ -4357,7 +4357,7 @@
     "pos": "FWD",
     "club": "Sheffield United",
     "rating": 55.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 446,
@@ -4367,7 +4367,7 @@
     "pos": "MID",
     "club": "Den Bosch",
     "rating": 55.6,
-    "value": 31
+    "value": 22
   },
   {
     "id": 447,
@@ -4377,7 +4377,7 @@
     "pos": "DEF",
     "club": "Konyaspor",
     "rating": 55.6,
-    "value": 27
+    "value": 20
   },
   {
     "id": 448,
@@ -4387,7 +4387,7 @@
     "pos": "DEF",
     "club": "NEC",
     "rating": 55.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 449,
@@ -4397,7 +4397,7 @@
     "pos": "GK",
     "club": "Telstar",
     "rating": 60.6,
-    "value": 29
+    "value": 20
   },
   {
     "id": 450,
@@ -4407,7 +4407,7 @@
     "pos": "GK",
     "club": "VVV-Venlo",
     "rating": 58.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 451,
@@ -4417,7 +4417,7 @@
     "pos": "GK",
     "club": "Huracan",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 452,
@@ -4427,7 +4427,7 @@
     "pos": "DEF",
     "club": "Internacional",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 453,
@@ -4437,7 +4437,7 @@
     "pos": "DEF",
     "club": "Arsenal",
     "rating": 82.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 454,
@@ -4447,7 +4447,7 @@
     "pos": "DEF",
     "club": "Club Brugge",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 455,
@@ -4457,7 +4457,7 @@
     "pos": "MID",
     "club": "Independiente del Valle",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 456,
@@ -4467,7 +4467,7 @@
     "pos": "DEF",
     "club": "Paris Saint-Germain",
     "rating": 78.8,
-    "value": 66
+    "value": 46
   },
   {
     "id": 457,
@@ -4477,7 +4477,7 @@
     "pos": "DEF",
     "club": "Milan",
     "rating": 78.4,
-    "value": 65
+    "value": 46
   },
   {
     "id": 458,
@@ -4487,7 +4487,7 @@
     "pos": "MID",
     "club": "Midtjylland",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 459,
@@ -4497,7 +4497,7 @@
     "pos": "MID",
     "club": "Venezia",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 460,
@@ -4507,7 +4507,7 @@
     "pos": "MID",
     "club": "River Plate",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 461,
@@ -4517,7 +4517,7 @@
     "pos": "FWD",
     "club": "Union Saint-Gilloise",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 462,
@@ -4527,7 +4527,7 @@
     "pos": "GK",
     "club": "Kifisia",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 463,
@@ -4537,7 +4537,7 @@
     "pos": "FWD",
     "club": "Pachuca",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 464,
@@ -4547,7 +4547,7 @@
     "pos": "MID",
     "club": "Atletico Mineiro",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 465,
@@ -4557,7 +4557,7 @@
     "pos": "MID",
     "club": "UNAM",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 466,
@@ -4567,7 +4567,7 @@
     "pos": "FWD",
     "club": "Antwerp",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 467,
@@ -4577,7 +4577,7 @@
     "pos": "DEF",
     "club": "Atletico Mineiro",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 468,
@@ -4587,7 +4587,7 @@
     "pos": "FWD",
     "club": "Huracan",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 469,
@@ -4597,7 +4597,7 @@
     "pos": "MID",
     "club": "Flamengo",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 470,
@@ -4607,7 +4607,7 @@
     "pos": "FWD",
     "club": "Sunderland",
     "rating": 70.4,
-    "value": 68
+    "value": 48
   },
   {
     "id": 471,
@@ -4617,7 +4617,7 @@
     "pos": "MID",
     "club": "Atletico Mineiro",
     "rating": 59.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 472,
@@ -4627,7 +4627,7 @@
     "pos": "GK",
     "club": "LDU Quito",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 473,
@@ -4637,7 +4637,7 @@
     "pos": "MID",
     "club": "Chelsea",
     "rating": 76.8,
-    "value": 72
+    "value": 50
   },
   {
     "id": 474,
@@ -4647,7 +4647,7 @@
     "pos": "MID",
     "club": "Genk",
     "rating": 58.4,
-    "value": 42
+    "value": 29
   },
   {
     "id": 475,
@@ -4657,7 +4657,7 @@
     "pos": "DEF",
     "club": "Tijuana",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 476,
@@ -4667,7 +4667,7 @@
     "pos": "FWD",
     "club": "VfB Stuttgart",
     "rating": 70.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 477,
@@ -4677,7 +4677,7 @@
     "pos": "GK",
     "club": "Bayern Munich",
     "rating": 92.0,
-    "value": 99
+    "value": 69
   },
   {
     "id": 478,
@@ -4687,7 +4687,7 @@
     "pos": "DEF",
     "club": "Real Madrid",
     "rating": 92.0,
-    "value": 110
+    "value": 77
   },
   {
     "id": 479,
@@ -4697,7 +4697,7 @@
     "pos": "DEF",
     "club": "Borussia Dortmund",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 480,
@@ -4707,7 +4707,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 481,
@@ -4717,7 +4717,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 92.0,
-    "value": 127
+    "value": 89
   },
   {
     "id": 482,
@@ -4727,7 +4727,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 483,
@@ -4737,7 +4737,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 484,
@@ -4747,7 +4747,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 86.2,
-    "value": 111
+    "value": 78
   },
   {
     "id": 485,
@@ -4757,7 +4757,7 @@
     "pos": "MID",
     "club": "VfB Stuttgart",
     "rating": 76.8,
-    "value": 88
+    "value": 62
   },
   {
     "id": 486,
@@ -4767,7 +4767,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 487,
@@ -4777,7 +4777,7 @@
     "pos": "FWD",
     "club": "Newcastle United",
     "rating": 88.6,
-    "value": 133
+    "value": 93
   },
   {
     "id": 488,
@@ -4787,7 +4787,7 @@
     "pos": "GK",
     "club": "TSG Hoffenheim",
     "rating": 80.6,
-    "value": 76
+    "value": 53
   },
   {
     "id": 489,
@@ -4797,7 +4797,7 @@
     "pos": "MID",
     "club": "Brighton & Hove Albion",
     "rating": 76.0,
-    "value": 86
+    "value": 60
   },
   {
     "id": 490,
@@ -4807,7 +4807,7 @@
     "pos": "FWD",
     "club": "Borussia Dortmund",
     "rating": 86.2,
-    "value": 126
+    "value": 88
   },
   {
     "id": 491,
@@ -4817,7 +4817,7 @@
     "pos": "DEF",
     "club": "Borussia Dortmund",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 492,
@@ -4827,7 +4827,7 @@
     "pos": "MID",
     "club": "VfB Stuttgart",
     "rating": 75.6,
-    "value": 85
+    "value": 59
   },
   {
     "id": 493,
@@ -4837,7 +4837,7 @@
     "pos": "MID",
     "club": "Liverpool",
     "rating": 83.2,
-    "value": 103
+    "value": 72
   },
   {
     "id": 494,
@@ -4847,7 +4847,7 @@
     "pos": "DEF",
     "club": "Eintracht Frankfurt",
     "rating": 76.4,
-    "value": 76
+    "value": 53
   },
   {
     "id": 495,
@@ -4857,7 +4857,7 @@
     "pos": "MID",
     "club": "Galatasaray",
     "rating": 82.8,
-    "value": 102
+    "value": 71
   },
   {
     "id": 496,
@@ -4867,7 +4867,7 @@
     "pos": "MID",
     "club": "Mainz 05",
     "rating": 74.4,
-    "value": 83
+    "value": 58
   },
   {
     "id": 497,
@@ -4877,7 +4877,7 @@
     "pos": "GK",
     "club": "VfB Stuttgart",
     "rating": 78.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 498,
@@ -4887,7 +4887,7 @@
     "pos": "DEF",
     "club": "RB Leipzig",
     "rating": 76.0,
-    "value": 75
+    "value": 52
   },
   {
     "id": 499,
@@ -4897,7 +4897,7 @@
     "pos": "MID",
     "club": "Borussia Dortmund",
     "rating": 82.4,
-    "value": 102
+    "value": 71
   },
   {
     "id": 500,
@@ -4907,7 +4907,7 @@
     "pos": "DEF",
     "club": "Newcastle United",
     "rating": 83.6,
-    "value": 91
+    "value": 64
   },
   {
     "id": 501,
@@ -4917,7 +4917,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 82.4,
-    "value": 102
+    "value": 71
   },
   {
     "id": 502,
@@ -4927,7 +4927,7 @@
     "pos": "FWD",
     "club": "VfB Stuttgart",
     "rating": 76.8,
-    "value": 100
+    "value": 70
   },
   {
     "id": 503,
@@ -4937,7 +4937,7 @@
     "pos": "GK",
     "club": "Caykur Rizespor",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 504,
@@ -4947,7 +4947,7 @@
     "pos": "GK",
     "club": "Panathinaikos",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 505,
@@ -4957,7 +4957,7 @@
     "pos": "GK",
     "club": "Charleroi",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 506,
@@ -4967,7 +4967,7 @@
     "pos": "DEF",
     "club": "Gil Vicente",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 507,
@@ -4977,7 +4977,7 @@
     "pos": "DEF",
     "club": "Atalanta",
     "rating": 82.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 508,
@@ -4987,7 +4987,7 @@
     "pos": "DEF",
     "club": "Galatasaray",
     "rating": 80.2,
-    "value": 68
+    "value": 48
   },
   {
     "id": 509,
@@ -4997,7 +4997,7 @@
     "pos": "DEF",
     "club": "Roma",
     "rating": 70.8,
-    "value": 53
+    "value": 37
   },
   {
     "id": 510,
@@ -5007,7 +5007,7 @@
     "pos": "DEF",
     "club": "Besiktas",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 511,
@@ -5017,7 +5017,7 @@
     "pos": "DEF",
     "club": "Strasbourg",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 512,
@@ -5027,7 +5027,7 @@
     "pos": "DEF",
     "club": "Sporting CP",
     "rating": 77.6,
-    "value": 64
+    "value": 45
   },
   {
     "id": 513,
@@ -5037,7 +5037,7 @@
     "pos": "DEF",
     "club": "Istanbul Basaksehir",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 514,
@@ -5047,7 +5047,7 @@
     "pos": "MID",
     "club": "Al-Ahli",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 515,
@@ -5057,7 +5057,7 @@
     "pos": "MID",
     "club": "Maribor",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 516,
@@ -5067,7 +5067,7 @@
     "pos": "MID",
     "club": "Nottingham Forest",
     "rating": 72.2,
-    "value": 64
+    "value": 45
   },
   {
     "id": 517,
@@ -5077,7 +5077,7 @@
     "pos": "MID",
     "club": "Porto",
     "rating": 78.8,
-    "value": 76
+    "value": 53
   },
   {
     "id": 518,
@@ -5087,7 +5087,7 @@
     "pos": "MID",
     "club": "Trabzonspor",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 519,
@@ -5097,7 +5097,7 @@
     "pos": "MID",
     "club": "Charleroi",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 520,
@@ -5107,7 +5107,7 @@
     "pos": "FWD",
     "club": "Villarreal",
     "rating": 78.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 521,
@@ -5117,7 +5117,7 @@
     "pos": "FWD",
     "club": "Cercle Brugge",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 522,
@@ -5127,7 +5127,7 @@
     "pos": "FWD",
     "club": "Monaco",
     "rating": 72.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 523,
@@ -5137,7 +5137,7 @@
     "pos": "FWD",
     "club": "Crystal Palace",
     "rating": 70.8,
-    "value": 69
+    "value": 48
   },
   {
     "id": 524,
@@ -5147,7 +5147,7 @@
     "pos": "FWD",
     "club": "Manchester United",
     "rating": 78.4,
-    "value": 85
+    "value": 59
   },
   {
     "id": 525,
@@ -5157,7 +5157,7 @@
     "pos": "FWD",
     "club": "RB Leipzig",
     "rating": 70.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 526,
@@ -5167,7 +5167,7 @@
     "pos": "FWD",
     "club": "TSG Hoffenheim",
     "rating": 69.6,
-    "value": 67
+    "value": 47
   },
   {
     "id": 527,
@@ -5177,7 +5177,7 @@
     "pos": "FWD",
     "club": "Nice",
     "rating": 69.2,
-    "value": 66
+    "value": 46
   },
   {
     "id": 528,
@@ -5187,7 +5187,7 @@
     "pos": "FWD",
     "club": "Inter Milan",
     "rating": 76.8,
-    "value": 81
+    "value": 57
   },
   {
     "id": 529,
@@ -5197,7 +5197,7 @@
     "pos": "GK",
     "club": "Parma",
     "rating": 71.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 530,
@@ -5207,7 +5207,7 @@
     "pos": "DEF",
     "club": "Werder Bremen",
     "rating": 81.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 531,
@@ -5217,7 +5217,7 @@
     "pos": "DEF",
     "club": "Sint-Truiden",
     "rating": 67.6,
-    "value": 54
+    "value": 38
   },
   {
     "id": 532,
@@ -5227,7 +5227,7 @@
     "pos": "DEF",
     "club": "Ajax",
     "rating": 83.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 533,
@@ -5237,7 +5237,7 @@
     "pos": "DEF",
     "club": "FC Tokyo",
     "rating": 63.8,
-    "value": 48
+    "value": 34
   },
   {
     "id": 534,
@@ -5247,7 +5247,7 @@
     "pos": "MID",
     "club": "Liverpool",
     "rating": 89.0,
-    "value": 107
+    "value": 75
   },
   {
     "id": 535,
@@ -5257,7 +5257,7 @@
     "pos": "MID",
     "club": "Leeds United",
     "rating": 77.6,
-    "value": 82
+    "value": 57
   },
   {
     "id": 536,
@@ -5267,7 +5267,7 @@
     "pos": "MID",
     "club": "Real Sociedad",
     "rating": 75.2,
-    "value": 77
+    "value": 54
   },
   {
     "id": 537,
@@ -5277,7 +5277,7 @@
     "pos": "FWD",
     "club": "Sint-Truiden",
     "rating": 71.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 538,
@@ -5287,7 +5287,7 @@
     "pos": "MID",
     "club": "Eintracht Frankfurt",
     "rating": 73.8,
-    "value": 74
+    "value": 52
   },
   {
     "id": 539,
@@ -5297,7 +5297,7 @@
     "pos": "FWD",
     "club": "Celtic",
     "rating": 77.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 540,
@@ -5307,7 +5307,7 @@
     "pos": "GK",
     "club": "Sanfrecce Hiroshima",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 541,
@@ -5317,7 +5317,7 @@
     "pos": "MID",
     "club": "Reims",
     "rating": 63.4,
-    "value": 55
+    "value": 38
   },
   {
     "id": 542,
@@ -5327,7 +5327,7 @@
     "pos": "MID",
     "club": "Genk",
     "rating": 63.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 543,
@@ -5337,7 +5337,7 @@
     "pos": "MID",
     "club": "Crystal Palace",
     "rating": 72.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 544,
@@ -5347,7 +5347,7 @@
     "pos": "DEF",
     "club": "Feyenoord",
     "rating": 81.4,
-    "value": 78
+    "value": 55
   },
   {
     "id": 545,
@@ -5357,7 +5357,7 @@
     "pos": "FWD",
     "club": "SC Freiburg",
     "rating": 75.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 546,
@@ -5367,7 +5367,7 @@
     "pos": "FWD",
     "club": "Feyenoord",
     "rating": 81.8,
-    "value": 103
+    "value": 72
   },
   {
     "id": 547,
@@ -5377,7 +5377,7 @@
     "pos": "FWD",
     "club": "NEC",
     "rating": 63.4,
-    "value": 62
+    "value": 43
   },
   {
     "id": 548,
@@ -5387,7 +5387,7 @@
     "pos": "DEF",
     "club": "Le Havre",
     "rating": 63.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 549,
@@ -5397,7 +5397,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 80.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 550,
@@ -5407,7 +5407,7 @@
     "pos": "DEF",
     "club": "Ajax",
     "rating": 80.2,
-    "value": 76
+    "value": 53
   },
   {
     "id": 551,
@@ -5417,7 +5417,7 @@
     "pos": "GK",
     "club": "Kashima Antlers",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 552,
@@ -5427,7 +5427,7 @@
     "pos": "MID",
     "club": "Mainz 05",
     "rating": 72.2,
-    "value": 71
+    "value": 50
   },
   {
     "id": 553,
@@ -5437,7 +5437,7 @@
     "pos": "DEF",
     "club": "Copenhagen",
     "rating": 61.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 554,
@@ -5447,7 +5447,7 @@
     "pos": "FWD",
     "club": "VfL Wolfsburg",
     "rating": 73.0,
-    "value": 82
+    "value": 57
   },
   {
     "id": 555,
@@ -5457,7 +5457,7 @@
     "pos": "GK",
     "club": "Brighton & Hove Albion",
     "rating": 81.0,
-    "value": 70
+    "value": 49
   },
   {
     "id": 556,
@@ -5467,7 +5467,7 @@
     "pos": "GK",
     "club": "Bayer Leverkusen",
     "rating": 85.6,
-    "value": 78
+    "value": 55
   },
   {
     "id": 557,
@@ -5477,7 +5477,7 @@
     "pos": "GK",
     "club": "Sunderland",
     "rating": 75.2,
-    "value": 60
+    "value": 42
   },
   {
     "id": 558,
@@ -5487,7 +5487,7 @@
     "pos": "DEF",
     "club": "Liverpool",
     "rating": 89.0,
-    "value": 93
+    "value": 65
   },
   {
     "id": 559,
@@ -5497,7 +5497,7 @@
     "pos": "DEF",
     "club": "Inter Milan",
     "rating": 85.6,
-    "value": 86
+    "value": 60
   },
   {
     "id": 560,
@@ -5507,7 +5507,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 83.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 561,
@@ -5517,7 +5517,7 @@
     "pos": "DEF",
     "club": "Arsenal",
     "rating": 81.8,
-    "value": 79
+    "value": 55
   },
   {
     "id": 562,
@@ -5527,7 +5527,7 @@
     "pos": "DEF",
     "club": "Tottenham Hotspur",
     "rating": 81.4,
-    "value": 78
+    "value": 55
   },
   {
     "id": 563,
@@ -5537,7 +5537,7 @@
     "pos": "DEF",
     "club": "Brighton & Hove Albion",
     "rating": 73.0,
-    "value": 63
+    "value": 44
   },
   {
     "id": 564,
@@ -5547,7 +5547,7 @@
     "pos": "DEF",
     "club": "Brighton & Hove Albion",
     "rating": 72.6,
-    "value": 62
+    "value": 43
   },
   {
     "id": 565,
@@ -5557,7 +5557,7 @@
     "pos": "DEF",
     "club": "Chelsea",
     "rating": 80.2,
-    "value": 76
+    "value": 53
   },
   {
     "id": 566,
@@ -5567,7 +5567,7 @@
     "pos": "MID",
     "club": "Barcelona",
     "rating": 89.0,
-    "value": 107
+    "value": 75
   },
   {
     "id": 567,
@@ -5577,7 +5577,7 @@
     "pos": "MID",
     "club": "Atalanta",
     "rating": 85.6,
-    "value": 99
+    "value": 69
   },
   {
     "id": 568,
@@ -5587,7 +5587,7 @@
     "pos": "MID",
     "club": "Manchester City",
     "rating": 83.2,
-    "value": 94
+    "value": 66
   },
   {
     "id": 569,
@@ -5597,7 +5597,7 @@
     "pos": "MID",
     "club": "Juventus",
     "rating": 81.8,
-    "value": 91
+    "value": 64
   },
   {
     "id": 570,
@@ -5607,7 +5607,7 @@
     "pos": "MID",
     "club": "Liverpool",
     "rating": 81.4,
-    "value": 90
+    "value": 63
   },
   {
     "id": 571,
@@ -5617,7 +5617,7 @@
     "pos": "MID",
     "club": "Bournemouth",
     "rating": 73.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 572,
@@ -5627,7 +5627,7 @@
     "pos": "MID",
     "club": "Marseille",
     "rating": 72.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 573,
@@ -5637,7 +5637,7 @@
     "pos": "MID",
     "club": "PSV Eindhoven",
     "rating": 80.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 574,
@@ -5647,7 +5647,7 @@
     "pos": "FWD",
     "club": "Corinthians",
     "rating": 71.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 575,
@@ -5657,7 +5657,7 @@
     "pos": "FWD",
     "club": "Ajax",
     "rating": 85.6,
-    "value": 112
+    "value": 78
   },
   {
     "id": 576,
@@ -5667,7 +5667,7 @@
     "pos": "FWD",
     "club": "Roma",
     "rating": 75.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 577,
@@ -5677,7 +5677,7 @@
     "pos": "FWD",
     "club": "Liverpool",
     "rating": 81.8,
-    "value": 103
+    "value": 72
   },
   {
     "id": 578,
@@ -5687,7 +5687,7 @@
     "pos": "FWD",
     "club": "Galatasaray",
     "rating": 81.4,
-    "value": 102
+    "value": 71
   },
   {
     "id": 579,
@@ -5697,7 +5697,7 @@
     "pos": "FWD",
     "club": "Sunderland",
     "rating": 73.0,
-    "value": 82
+    "value": 57
   },
   {
     "id": 580,
@@ -5707,7 +5707,7 @@
     "pos": "FWD",
     "club": "West Ham United",
     "rating": 72.6,
-    "value": 81
+    "value": 57
   },
   {
     "id": 581,
@@ -5717,7 +5717,7 @@
     "pos": "GK",
     "club": "Derby County",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 582,
@@ -5727,7 +5727,7 @@
     "pos": "DEF",
     "club": "Braga",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 583,
@@ -5737,7 +5737,7 @@
     "pos": "DEF",
     "club": "Aston Villa",
     "rating": 82.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 584,
@@ -5747,7 +5747,7 @@
     "pos": "DEF",
     "club": "Atalanta",
     "rating": 80.2,
-    "value": 68
+    "value": 48
   },
   {
     "id": 585,
@@ -5757,7 +5757,7 @@
     "pos": "DEF",
     "club": "Leeds United",
     "rating": 70.8,
-    "value": 53
+    "value": 37
   },
   {
     "id": 586,
@@ -5767,7 +5767,7 @@
     "pos": "DEF",
     "club": "FC Dallas",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 587,
@@ -5777,7 +5777,7 @@
     "pos": "MID",
     "club": "Tottenham Hotspur",
     "rating": 86.0,
-    "value": 90
+    "value": 63
   },
   {
     "id": 588,
@@ -5787,7 +5787,7 @@
     "pos": "DEF",
     "club": "Borussia Dortmund",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 589,
@@ -5797,7 +5797,7 @@
     "pos": "FWD",
     "club": "Liverpool",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 590,
@@ -5807,7 +5807,7 @@
     "pos": "FWD",
     "club": "Celtic",
     "rating": 74.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 591,
@@ -5817,7 +5817,7 @@
     "pos": "FWD",
     "club": "Newcastle United",
     "rating": 80.2,
-    "value": 89
+    "value": 62
   },
   {
     "id": 592,
@@ -5827,7 +5827,7 @@
     "pos": "GK",
     "club": "Stoke City",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 593,
@@ -5837,7 +5837,7 @@
     "pos": "FWD",
     "club": "Pafos",
     "rating": 60.8,
-    "value": 51
+    "value": 36
   },
   {
     "id": 594,
@@ -5847,7 +5847,7 @@
     "pos": "DEF",
     "club": "Burnley",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 595,
@@ -5857,7 +5857,7 @@
     "pos": "DEF",
     "club": "Celta Vigo",
     "rating": 69.2,
-    "value": 51
+    "value": 36
   },
   {
     "id": 596,
@@ -5867,7 +5867,7 @@
     "pos": "MID",
     "club": "Udinese",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 597,
@@ -5877,7 +5877,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 78.4,
-    "value": 85
+    "value": 59
   },
   {
     "id": 598,
@@ -5887,7 +5887,7 @@
     "pos": "MID",
     "club": "Brighton & Hove Albion",
     "rating": 72.2,
-    "value": 64
+    "value": 45
   },
   {
     "id": 599,
@@ -5897,7 +5897,7 @@
     "pos": "MID",
     "club": "VfL Wolfsburg",
     "rating": 70.8,
-    "value": 61
+    "value": 43
   },
   {
     "id": 600,
@@ -5907,7 +5907,7 @@
     "pos": "DEF",
     "club": "FC St. Pauli",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 601,
@@ -5917,7 +5917,7 @@
     "pos": "FWD",
     "club": "Holstein Kiel",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 602,
@@ -5927,7 +5927,7 @@
     "pos": "MID",
     "club": "Union Saint-Gilloise",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 603,
@@ -5937,7 +5937,7 @@
     "pos": "GK",
     "club": "AIK",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 604,
@@ -5947,7 +5947,7 @@
     "pos": "DEF",
     "club": "Mjallby AIF",
     "rating": 58.4,
-    "value": 36
+    "value": 25
   },
   {
     "id": 605,
@@ -5957,7 +5957,7 @@
     "pos": "FWD",
     "club": "Club Brugge",
     "rating": 59.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 606,
@@ -5967,7 +5967,7 @@
     "pos": "FWD",
     "club": "Malmo FF",
     "rating": 59.2,
-    "value": 48
+    "value": 34
   },
   {
     "id": 607,
@@ -5977,7 +5977,7 @@
     "pos": "GK",
     "club": "CS Sfaxien",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 608,
@@ -5987,7 +5987,7 @@
     "pos": "GK",
     "club": "Etoile du Sahel",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 609,
@@ -5997,7 +5997,7 @@
     "pos": "GK",
     "club": "Club Africain",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 610,
@@ -6007,7 +6007,7 @@
     "pos": "DEF",
     "club": "Lorient",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 611,
@@ -6017,7 +6017,7 @@
     "pos": "DEF",
     "club": "Servette",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 612,
@@ -6027,7 +6027,7 @@
     "pos": "DEF",
     "club": "Nice",
     "rating": 70.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 613,
@@ -6037,7 +6037,7 @@
     "pos": "DEF",
     "club": "Young Boys",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 614,
@@ -6047,7 +6047,7 @@
     "pos": "DEF",
     "club": "Esperance de Tunis",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 615,
@@ -6057,7 +6057,7 @@
     "pos": "DEF",
     "club": "IFK Norrkoping",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 616,
@@ -6067,7 +6067,7 @@
     "pos": "DEF",
     "club": "Maribor",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 617,
@@ -6077,7 +6077,7 @@
     "pos": "DEF",
     "club": "Kasimpasa",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 618,
@@ -6087,7 +6087,7 @@
     "pos": "DEF",
     "club": "US Monastir",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 619,
@@ -6097,7 +6097,7 @@
     "pos": "MID",
     "club": "Eintracht Frankfurt",
     "rating": 76.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 620,
@@ -6107,7 +6107,7 @@
     "pos": "MID",
     "club": "Burnley",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 621,
@@ -6117,7 +6117,7 @@
     "pos": "MID",
     "club": "Norwich City",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 622,
@@ -6127,7 +6127,7 @@
     "pos": "MID",
     "club": "Kasimpasa",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 623,
@@ -6137,7 +6137,7 @@
     "pos": "MID",
     "club": "FC Augsburg",
     "rating": 68.4,
-    "value": 52
+    "value": 36
   },
   {
     "id": 624,
@@ -6147,7 +6147,7 @@
     "pos": "MID",
     "club": "Lugano",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 625,
@@ -6157,7 +6157,7 @@
     "pos": "MID",
     "club": "Union Berlin",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 626,
@@ -6167,7 +6167,7 @@
     "pos": "FWD",
     "club": "Copenhagen",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 627,
@@ -6177,7 +6177,7 @@
     "pos": "FWD",
     "club": "Club Africain",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 628,
@@ -6187,7 +6187,7 @@
     "pos": "FWD",
     "club": "Dynamo Makhachkala",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 629,
@@ -6197,7 +6197,7 @@
     "pos": "FWD",
     "club": "Hannover 96",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 630,
@@ -6207,7 +6207,7 @@
     "pos": "FWD",
     "club": "Celtic",
     "rating": 68.4,
-    "value": 58
+    "value": 41
   },
   {
     "id": 631,
@@ -6217,7 +6217,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 76.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 632,
@@ -6227,7 +6227,7 @@
     "pos": "FWD",
     "club": "Vancouver Whitecaps FC",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 633,
@@ -6237,7 +6237,7 @@
     "pos": "GK",
     "club": "Real Madrid",
     "rating": 89.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 634,
@@ -6247,7 +6247,7 @@
     "pos": "GK",
     "club": "Manchester United",
     "rating": 85.6,
-    "value": 78
+    "value": 55
   },
   {
     "id": 635,
@@ -6257,7 +6257,7 @@
     "pos": "GK",
     "club": "Strasbourg",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 636,
@@ -6267,7 +6267,7 @@
     "pos": "DEF",
     "club": "Lille",
     "rating": 81.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 637,
@@ -6277,7 +6277,7 @@
     "pos": "DEF",
     "club": "Fulham",
     "rating": 77.6,
-    "value": 71
+    "value": 50
   },
   {
     "id": 638,
@@ -6287,7 +6287,7 @@
     "pos": "DEF",
     "club": "Eintracht Frankfurt",
     "rating": 75.2,
-    "value": 67
+    "value": 47
   },
   {
     "id": 639,
@@ -6297,7 +6297,7 @@
     "pos": "DEF",
     "club": "Sporting CP",
     "rating": 81.8,
-    "value": 79
+    "value": 55
   },
   {
     "id": 640,
@@ -6307,7 +6307,7 @@
     "pos": "DEF",
     "club": "Brighton & Hove Albion",
     "rating": 73.4,
-    "value": 64
+    "value": 45
   },
   {
     "id": 641,
@@ -6317,7 +6317,7 @@
     "pos": "DEF",
     "club": "Club Brugge",
     "rating": 63.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 642,
@@ -6327,7 +6327,7 @@
     "pos": "DEF",
     "club": "Milan",
     "rating": 80.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 643,
@@ -6337,7 +6337,7 @@
     "pos": "DEF",
     "club": "Club Brugge",
     "rating": 62.2,
-    "value": 46
+    "value": 32
   },
   {
     "id": 644,
@@ -6347,7 +6347,7 @@
     "pos": "DEF",
     "club": "Lille",
     "rating": 71.8,
-    "value": 61
+    "value": 43
   },
   {
     "id": 645,
@@ -6357,7 +6357,7 @@
     "pos": "MID",
     "club": "Girona",
     "rating": 81.0,
-    "value": 89
+    "value": 62
   },
   {
     "id": 646,
@@ -6367,7 +6367,7 @@
     "pos": "MID",
     "club": "Napoli",
     "rating": 85.6,
-    "value": 99
+    "value": 69
   },
   {
     "id": 647,
@@ -6377,7 +6377,7 @@
     "pos": "MID",
     "club": "Aston Villa",
     "rating": 83.2,
-    "value": 94
+    "value": 66
   },
   {
     "id": 648,
@@ -6387,7 +6387,7 @@
     "pos": "MID",
     "club": "Club Brugge",
     "rating": 63.8,
-    "value": 55
+    "value": 38
   },
   {
     "id": 649,
@@ -6397,7 +6397,7 @@
     "pos": "MID",
     "club": "Aston Villa",
     "rating": 81.4,
-    "value": 90
+    "value": 63
   },
   {
     "id": 650,
@@ -6407,7 +6407,7 @@
     "pos": "MID",
     "club": "Rangers",
     "rating": 73.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 651,
@@ -6417,7 +6417,7 @@
     "pos": "FWD",
     "club": "Napoli",
     "rating": 89.0,
-    "value": 122
+    "value": 85
   },
   {
     "id": 652,
@@ -6427,7 +6427,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 85.6,
-    "value": 112
+    "value": 78
   },
   {
     "id": 653,
@@ -6437,7 +6437,7 @@
     "pos": "FWD",
     "club": "Manchester City",
     "rating": 83.2,
-    "value": 106
+    "value": 74
   },
   {
     "id": 654,
@@ -6447,7 +6447,7 @@
     "pos": "FWD",
     "club": "Benfica",
     "rating": 81.8,
-    "value": 103
+    "value": 72
   },
   {
     "id": 655,
@@ -6457,7 +6457,7 @@
     "pos": "FWD",
     "club": "Atalanta",
     "rating": 81.4,
-    "value": 102
+    "value": 71
   },
   {
     "id": 656,
@@ -6467,7 +6467,7 @@
     "pos": "FWD",
     "club": "Milan",
     "rating": 81.0,
-    "value": 101
+    "value": 71
   },
   {
     "id": 657,
@@ -6477,7 +6477,7 @@
     "pos": "FWD",
     "club": "Strasbourg",
     "rating": 62.6,
-    "value": 60
+    "value": 42
   },
   {
     "id": 658,
@@ -6487,7 +6487,7 @@
     "pos": "FWD",
     "club": "Lille",
     "rating": 72.2,
-    "value": 80
+    "value": 56
   },
   {
     "id": 659,
@@ -6497,7 +6497,7 @@
     "pos": "GK",
     "club": "Al Ahly",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 660,
@@ -6507,7 +6507,7 @@
     "pos": "GK",
     "club": "Al Ahly",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 661,
@@ -6517,7 +6517,7 @@
     "pos": "GK",
     "club": "El Gouna",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 662,
@@ -6527,7 +6527,7 @@
     "pos": "GK",
     "club": "Zamalek",
     "rating": 60.8,
-    "value": 35
+    "value": 24
   },
   {
     "id": 663,
@@ -6537,7 +6537,7 @@
     "pos": "DEF",
     "club": "Al-Wakrah",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 664,
@@ -6547,7 +6547,7 @@
     "pos": "DEF",
     "club": "Al-Ain",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 665,
@@ -6557,7 +6557,7 @@
     "pos": "DEF",
     "club": "Al Ahly",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 666,
@@ -6567,7 +6567,7 @@
     "pos": "DEF",
     "club": "Zamalek",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 667,
@@ -6577,7 +6577,7 @@
     "pos": "DEF",
     "club": "Nice",
     "rating": 70.4,
-    "value": 53
+    "value": 37
   },
   {
     "id": 668,
@@ -6587,7 +6587,7 @@
     "pos": "DEF",
     "club": "Al Ahly",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 669,
@@ -6597,7 +6597,7 @@
     "pos": "DEF",
     "club": "Zamalek",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 670,
@@ -6607,7 +6607,7 @@
     "pos": "DEF",
     "club": "Pyramids",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 671,
@@ -6617,7 +6617,7 @@
     "pos": "DEF",
     "club": "ZED",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 672,
@@ -6627,7 +6627,7 @@
     "pos": "MID",
     "club": "Al Ahly",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 673,
@@ -6637,7 +6637,7 @@
     "pos": "MID",
     "club": "Al Ahly",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 674,
@@ -6647,7 +6647,7 @@
     "pos": "MID",
     "club": "Pyramids",
     "rating": 62.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 675,
@@ -6657,7 +6657,7 @@
     "pos": "MID",
     "club": "ZED",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 676,
@@ -6667,7 +6667,7 @@
     "pos": "MID",
     "club": "Al-Najma",
     "rating": 60.4,
-    "value": 44
+    "value": 31
   },
   {
     "id": 677,
@@ -6677,7 +6677,7 @@
     "pos": "MID",
     "club": "Pyramids",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 678,
@@ -6687,7 +6687,7 @@
     "pos": "FWD",
     "club": "Liverpool",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 679,
@@ -6697,7 +6697,7 @@
     "pos": "FWD",
     "club": "Al Ahly",
     "rating": 64.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 680,
@@ -6707,7 +6707,7 @@
     "pos": "FWD",
     "club": "Al Ahly",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 681,
@@ -6717,7 +6717,7 @@
     "pos": "FWD",
     "club": "Manchester City",
     "rating": 78.8,
-    "value": 86
+    "value": 60
   },
   {
     "id": 682,
@@ -6727,7 +6727,7 @@
     "pos": "FWD",
     "club": "Nordsjaelland",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 683,
@@ -6737,7 +6737,7 @@
     "pos": "FWD",
     "club": "Oviedo",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 684,
@@ -6747,7 +6747,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 77.6,
-    "value": 83
+    "value": 58
   },
   {
     "id": 685,
@@ -6757,7 +6757,7 @@
     "pos": "GK",
     "club": "Tractor",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 686,
@@ -6767,7 +6767,7 @@
     "pos": "GK",
     "club": "Persepolis",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 687,
@@ -6777,7 +6777,7 @@
     "pos": "GK",
     "club": "Sepahan",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 688,
@@ -6787,7 +6787,7 @@
     "pos": "DEF",
     "club": "Sepahan",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 689,
@@ -6797,7 +6797,7 @@
     "pos": "DEF",
     "club": "Persepolis",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 690,
@@ -6807,7 +6807,7 @@
     "pos": "DEF",
     "club": "Foolad",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 691,
@@ -6817,7 +6817,7 @@
     "pos": "DEF",
     "club": "Persepolis",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 692,
@@ -6827,7 +6827,7 @@
     "pos": "DEF",
     "club": "Tractor",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 693,
@@ -6837,7 +6837,7 @@
     "pos": "DEF",
     "club": "Esteghlal",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 694,
@@ -6847,7 +6847,7 @@
     "pos": "DEF",
     "club": "Foolad",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 695,
@@ -6857,7 +6857,7 @@
     "pos": "DEF",
     "club": "Malavan",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 696,
@@ -6867,7 +6867,7 @@
     "pos": "MID",
     "club": "Dender",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 697,
@@ -6877,7 +6877,7 @@
     "pos": "MID",
     "club": "Shabab Al-Ahli",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 698,
@@ -6887,7 +6887,7 @@
     "pos": "MID",
     "club": "Kalba",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 699,
@@ -6897,7 +6897,7 @@
     "pos": "MID",
     "club": "Tractor",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 700,
@@ -6907,7 +6907,7 @@
     "pos": "MID",
     "club": "Esteghlal",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 701,
@@ -6917,7 +6917,7 @@
     "pos": "MID",
     "club": "Rostov",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 702,
@@ -6927,7 +6927,7 @@
     "pos": "MID",
     "club": "Al-Nasr",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 703,
@@ -6937,7 +6937,7 @@
     "pos": "MID",
     "club": "Al-Wahda",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 704,
@@ -6947,7 +6947,7 @@
     "pos": "MID",
     "club": "Sepahan",
     "rating": 56.8,
-    "value": 36
+    "value": 25
   },
   {
     "id": 705,
@@ -6957,7 +6957,7 @@
     "pos": "MID",
     "club": "Esteghlal",
     "rating": 56.4,
-    "value": 35
+    "value": 24
   },
   {
     "id": 706,
@@ -6967,7 +6967,7 @@
     "pos": "FWD",
     "club": "Olympiacos",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 707,
@@ -6977,7 +6977,7 @@
     "pos": "FWD",
     "club": "Kalba",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 708,
@@ -6987,7 +6987,7 @@
     "pos": "FWD",
     "club": "Tractor",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 709,
@@ -6997,7 +6997,7 @@
     "pos": "FWD",
     "club": "Persepolis",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 710,
@@ -7007,7 +7007,7 @@
     "pos": "FWD",
     "club": "Standard Liege",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 711,
@@ -7017,7 +7017,7 @@
     "pos": "GK",
     "club": "Millwall",
     "rating": 64.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 712,
@@ -7027,7 +7027,7 @@
     "pos": "DEF",
     "club": "Wellington Phoenix",
     "rating": 64.0,
-    "value": 36
+    "value": 25
   },
   {
     "id": 713,
@@ -7037,7 +7037,7 @@
     "pos": "DEF",
     "club": "Auckland FC",
     "rating": 60.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 714,
@@ -7047,7 +7047,7 @@
     "pos": "DEF",
     "club": "Sheffield United",
     "rating": 58.2,
-    "value": 30
+    "value": 21
   },
   {
     "id": 715,
@@ -7057,7 +7057,7 @@
     "pos": "DEF",
     "club": "Minnesota United FC",
     "rating": 56.8,
-    "value": 28
+    "value": 20
   },
   {
     "id": 716,
@@ -7067,7 +7067,7 @@
     "pos": "MID",
     "club": "Viking",
     "rating": 64.0,
-    "value": 41
+    "value": 29
   },
   {
     "id": 717,
@@ -7077,7 +7077,7 @@
     "pos": "MID",
     "club": "Peterborough United",
     "rating": 60.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 718,
@@ -7087,7 +7087,7 @@
     "pos": "MID",
     "club": "Swansea City",
     "rating": 58.2,
-    "value": 34
+    "value": 24
   },
   {
     "id": 719,
@@ -7097,7 +7097,7 @@
     "pos": "FWD",
     "club": "Nottingham Forest",
     "rating": 74.0,
-    "value": 63
+    "value": 44
   },
   {
     "id": 720,
@@ -7107,7 +7107,7 @@
     "pos": "MID",
     "club": "Wellington Phoenix",
     "rating": 56.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 721,
@@ -7117,7 +7117,7 @@
     "pos": "MID",
     "club": "Motherwell",
     "rating": 56.4,
-    "value": 32
+    "value": 22
   },
   {
     "id": 722,
@@ -7127,7 +7127,7 @@
     "pos": "GK",
     "club": "Lechia Gdansk",
     "rating": 60.6,
-    "value": 29
+    "value": 20
   },
   {
     "id": 723,
@@ -7137,7 +7137,7 @@
     "pos": "DEF",
     "club": "Wrexham",
     "rating": 56.4,
-    "value": 28
+    "value": 20
   },
   {
     "id": 724,
@@ -7147,7 +7147,7 @@
     "pos": "MID",
     "club": "Wellington Phoenix",
     "rating": 56.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 725,
@@ -7157,7 +7157,7 @@
     "pos": "DEF",
     "club": "Auckland FC",
     "rating": 56.0,
-    "value": 28
+    "value": 20
   },
   {
     "id": 726,
@@ -7167,7 +7167,7 @@
     "pos": "DEF",
     "club": "Portland Timbers",
     "rating": 55.6,
-    "value": 27
+    "value": 20
   },
   {
     "id": 727,
@@ -7177,7 +7177,7 @@
     "pos": "FWD",
     "club": "Western Sydney Wanderers",
     "rating": 60.6,
-    "value": 42
+    "value": 29
   },
   {
     "id": 728,
@@ -7187,7 +7187,7 @@
     "pos": "FWD",
     "club": "Port Vale",
     "rating": 58.2,
-    "value": 39
+    "value": 27
   },
   {
     "id": 729,
@@ -7197,7 +7197,7 @@
     "pos": "MID",
     "club": "Saint-Etienne",
     "rating": 55.6,
-    "value": 31
+    "value": 22
   },
   {
     "id": 730,
@@ -7207,7 +7207,7 @@
     "pos": "MID",
     "club": "Silkeborg",
     "rating": 55.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 731,
@@ -7217,7 +7217,7 @@
     "pos": "FWD",
     "club": "Auckland FC",
     "rating": 56.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 732,
@@ -7227,7 +7227,7 @@
     "pos": "GK",
     "club": "Auckland FC",
     "rating": 58.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 733,
@@ -7237,7 +7237,7 @@
     "pos": "MID",
     "club": "PEC Zwolle",
     "rating": 54.8,
-    "value": 30
+    "value": 21
   },
   {
     "id": 734,
@@ -7247,7 +7247,7 @@
     "pos": "DEF",
     "club": "Auckland FC",
     "rating": 55.2,
-    "value": 27
+    "value": 20
   },
   {
     "id": 735,
@@ -7257,7 +7257,7 @@
     "pos": "MID",
     "club": "Newcastle Jets",
     "rating": 54.4,
-    "value": 30
+    "value": 21
   },
   {
     "id": 736,
@@ -7267,7 +7267,7 @@
     "pos": "DEF",
     "club": "Braintree Town",
     "rating": 54.8,
-    "value": 26
+    "value": 20
   },
   {
     "id": 737,
@@ -7277,7 +7277,7 @@
     "pos": "GK",
     "club": "Chaves",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 738,
@@ -7287,7 +7287,7 @@
     "pos": "GK",
     "club": "Montana",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 739,
@@ -7297,7 +7297,7 @@
     "pos": "GK",
     "club": "San Diego FC",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 740,
@@ -7307,7 +7307,7 @@
     "pos": "DEF",
     "club": "Torreense",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 741,
@@ -7317,7 +7317,7 @@
     "pos": "DEF",
     "club": "Shamrock Rovers",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 742,
@@ -7327,7 +7327,7 @@
     "pos": "DEF",
     "club": "FCSB",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 743,
@@ -7337,7 +7337,7 @@
     "pos": "DEF",
     "club": "Al-Bataeh",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 744,
@@ -7347,7 +7347,7 @@
     "pos": "DEF",
     "club": "Villarreal",
     "rating": 68.4,
-    "value": 45
+    "value": 31
   },
   {
     "id": 745,
@@ -7357,7 +7357,7 @@
     "pos": "DEF",
     "club": "Columbus Crew",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 746,
@@ -7367,7 +7367,7 @@
     "pos": "DEF",
     "club": "Trabzonspor",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 747,
@@ -7377,7 +7377,7 @@
     "pos": "DEF",
     "club": "Benfica",
     "rating": 75.2,
-    "value": 54
+    "value": 38
   },
   {
     "id": 748,
@@ -7387,7 +7387,7 @@
     "pos": "DEF",
     "club": "SJK",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 749,
@@ -7397,7 +7397,7 @@
     "pos": "MID",
     "club": "PEC Zwolle",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 750,
@@ -7407,7 +7407,7 @@
     "pos": "MID",
     "club": "Krasnodar",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 751,
@@ -7417,7 +7417,7 @@
     "pos": "MID",
     "club": "Ludogorets Razgrad",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 752,
@@ -7427,7 +7427,7 @@
     "pos": "MID",
     "club": "Vitoria de Guimaraes",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 753,
@@ -7437,7 +7437,7 @@
     "pos": "MID",
     "club": "Puskas Akademia",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 754,
@@ -7447,7 +7447,7 @@
     "pos": "MID",
     "club": "Farense",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 755,
@@ -7457,7 +7457,7 @@
     "pos": "FWD",
     "club": "Igdir",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 756,
@@ -7467,7 +7467,7 @@
     "pos": "FWD",
     "club": "Apollon Limassol",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 757,
@@ -7477,7 +7477,7 @@
     "pos": "FWD",
     "club": "Omonia",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 758,
@@ -7487,7 +7487,7 @@
     "pos": "FWD",
     "club": "Estrela Amadora",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 759,
@@ -7497,7 +7497,7 @@
     "pos": "FWD",
     "club": "Akron Tolyatti",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 760,
@@ -7507,7 +7507,7 @@
     "pos": "FWD",
     "club": "Casa Pia",
     "rating": 58.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 761,
@@ -7517,7 +7517,7 @@
     "pos": "FWD",
     "club": "Maccabi Tel Aviv",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 762,
@@ -7527,7 +7527,7 @@
     "pos": "FWD",
     "club": "Istanbul Basaksehir",
     "rating": 57.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 763,
@@ -7537,7 +7537,7 @@
     "pos": "GK",
     "club": "Al-Ula",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 764,
@@ -7547,7 +7547,7 @@
     "pos": "GK",
     "club": "Al-Nassr",
     "rating": 72.6,
-    "value": 46
+    "value": 32
   },
   {
     "id": 765,
@@ -7557,7 +7557,7 @@
     "pos": "GK",
     "club": "Al-Qadsiah",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 766,
@@ -7567,7 +7567,7 @@
     "pos": "DEF",
     "club": "Lens",
     "rating": 76.0,
-    "value": 55
+    "value": 38
   },
   {
     "id": 767,
@@ -7577,7 +7577,7 @@
     "pos": "DEF",
     "club": "Al-Hilal",
     "rating": 72.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 768,
@@ -7587,7 +7587,7 @@
     "pos": "DEF",
     "club": "Al-Nassr",
     "rating": 70.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 769,
@@ -7597,7 +7597,7 @@
     "pos": "DEF",
     "club": "Al-Nassr",
     "rating": 68.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 770,
@@ -7607,7 +7607,7 @@
     "pos": "DEF",
     "club": "Al-Hilal",
     "rating": 68.4,
-    "value": 45
+    "value": 31
   },
   {
     "id": 771,
@@ -7617,7 +7617,7 @@
     "pos": "DEF",
     "club": "Al-Ahli",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 772,
@@ -7627,7 +7627,7 @@
     "pos": "DEF",
     "club": "Al-Ittihad",
     "rating": 67.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 773,
@@ -7637,7 +7637,7 @@
     "pos": "DEF",
     "club": "Al-Hilal",
     "rating": 67.2,
-    "value": 43
+    "value": 30
   },
   {
     "id": 774,
@@ -7647,7 +7647,7 @@
     "pos": "DEF",
     "club": "Al-Qadsiah",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 775,
@@ -7657,7 +7657,7 @@
     "pos": "DEF",
     "club": "Al-Qadsiah",
     "rating": 56.4,
-    "value": 31
+    "value": 22
   },
   {
     "id": 776,
@@ -7667,7 +7667,7 @@
     "pos": "MID",
     "club": "Al-Hilal",
     "rating": 76.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 777,
@@ -7677,7 +7677,7 @@
     "pos": "MID",
     "club": "Al-Hilal",
     "rating": 72.6,
-    "value": 58
+    "value": 41
   },
   {
     "id": 778,
@@ -7687,7 +7687,7 @@
     "pos": "MID",
     "club": "Al-Hilal",
     "rating": 70.2,
-    "value": 54
+    "value": 38
   },
   {
     "id": 779,
@@ -7697,7 +7697,7 @@
     "pos": "MID",
     "club": "Al-Nassr",
     "rating": 68.8,
-    "value": 52
+    "value": 36
   },
   {
     "id": 780,
@@ -7707,7 +7707,7 @@
     "pos": "MID",
     "club": "Al-Qadsiah",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 781,
@@ -7717,7 +7717,7 @@
     "pos": "MID",
     "club": "Al-Nassr",
     "rating": 68.0,
-    "value": 51
+    "value": 36
   },
   {
     "id": 782,
@@ -7727,7 +7727,7 @@
     "pos": "MID",
     "club": "Al-Ahli",
     "rating": 67.6,
-    "value": 50
+    "value": 35
   },
   {
     "id": 783,
@@ -7737,7 +7737,7 @@
     "pos": "MID",
     "club": "Al-Hilal",
     "rating": 67.2,
-    "value": 50
+    "value": 35
   },
   {
     "id": 784,
@@ -7747,7 +7747,7 @@
     "pos": "MID",
     "club": "Neom",
     "rating": 56.8,
-    "value": 36
+    "value": 25
   },
   {
     "id": 785,
@@ -7757,7 +7757,7 @@
     "pos": "FWD",
     "club": "Al-Ahli",
     "rating": 76.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 786,
@@ -7767,7 +7767,7 @@
     "pos": "FWD",
     "club": "Al-Ittihad",
     "rating": 72.6,
-    "value": 66
+    "value": 46
   },
   {
     "id": 787,
@@ -7777,7 +7777,7 @@
     "pos": "FWD",
     "club": "Al-Nassr",
     "rating": 70.2,
-    "value": 62
+    "value": 43
   },
   {
     "id": 788,
@@ -7787,7 +7787,7 @@
     "pos": "FWD",
     "club": "Al-Ettifaq",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 789,
@@ -7797,7 +7797,7 @@
     "pos": "GK",
     "club": "Arsenal",
     "rating": 92.0,
-    "value": 99
+    "value": 69
   },
   {
     "id": 790,
@@ -7807,7 +7807,7 @@
     "pos": "DEF",
     "club": "Atletico Madrid",
     "rating": 92.0,
-    "value": 110
+    "value": 77
   },
   {
     "id": 791,
@@ -7817,7 +7817,7 @@
     "pos": "DEF",
     "club": "Bayer Leverkusen",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 792,
@@ -7827,7 +7827,7 @@
     "pos": "DEF",
     "club": "Barcelona",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 793,
@@ -7837,7 +7837,7 @@
     "pos": "DEF",
     "club": "Atletico Madrid",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 794,
@@ -7847,7 +7847,7 @@
     "pos": "MID",
     "club": "Arsenal",
     "rating": 92.0,
-    "value": 127
+    "value": 89
   },
   {
     "id": 795,
@@ -7857,7 +7857,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 796,
@@ -7867,7 +7867,7 @@
     "pos": "MID",
     "club": "Paris Saint-Germain",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 797,
@@ -7877,7 +7877,7 @@
     "pos": "MID",
     "club": "Barcelona",
     "rating": 86.2,
-    "value": 111
+    "value": 78
   },
   {
     "id": 798,
@@ -7887,7 +7887,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 88.6,
-    "value": 133
+    "value": 93
   },
   {
     "id": 799,
@@ -7897,7 +7897,7 @@
     "pos": "FWD",
     "club": "Crystal Palace",
     "rating": 78.2,
-    "value": 103
+    "value": 72
   },
   {
     "id": 800,
@@ -7907,7 +7907,7 @@
     "pos": "DEF",
     "club": "Tottenham Hotspur",
     "rating": 84.4,
-    "value": 93
+    "value": 65
   },
   {
     "id": 801,
@@ -7917,7 +7917,7 @@
     "pos": "GK",
     "club": "Barcelona",
     "rating": 88.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 802,
@@ -7927,7 +7927,7 @@
     "pos": "DEF",
     "club": "Athletic Bilbao",
     "rating": 76.0,
-    "value": 75
+    "value": 52
   },
   {
     "id": 803,
@@ -7937,7 +7937,7 @@
     "pos": "MID",
     "club": "Atletico Madrid",
     "rating": 84.8,
-    "value": 108
+    "value": 76
   },
   {
     "id": 804,
@@ -7947,7 +7947,7 @@
     "pos": "MID",
     "club": "Manchester City",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 805,
@@ -7957,7 +7957,7 @@
     "pos": "FWD",
     "club": "Athletic Bilbao",
     "rating": 76.8,
-    "value": 100
+    "value": 70
   },
   {
     "id": 806,
@@ -7967,7 +7967,7 @@
     "pos": "MID",
     "club": "Arsenal",
     "rating": 84.0,
-    "value": 105
+    "value": 74
   },
   {
     "id": 807,
@@ -7977,7 +7977,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 84.4,
-    "value": 120
+    "value": 84
   },
   {
     "id": 808,
@@ -7987,7 +7987,7 @@
     "pos": "MID",
     "club": "Barcelona",
     "rating": 83.6,
-    "value": 104
+    "value": 73
   },
   {
     "id": 809,
@@ -7997,7 +7997,7 @@
     "pos": "FWD",
     "club": "Real Sociedad",
     "rating": 76.0,
-    "value": 98
+    "value": 69
   },
   {
     "id": 810,
@@ -8007,7 +8007,7 @@
     "pos": "DEF",
     "club": "Barcelona",
     "rating": 83.6,
-    "value": 91
+    "value": 64
   },
   {
     "id": 811,
@@ -8017,7 +8017,7 @@
     "pos": "GK",
     "club": "Athletic Bilbao",
     "rating": 78.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 812,
@@ -8027,7 +8027,7 @@
     "pos": "DEF",
     "club": "Chelsea",
     "rating": 83.2,
-    "value": 90
+    "value": 63
   },
   {
     "id": 813,
@@ -8037,7 +8037,7 @@
     "pos": "FWD",
     "club": "Osasuna",
     "rating": 65.6,
-    "value": 73
+    "value": 51
   },
   {
     "id": 814,
@@ -8047,7 +8047,7 @@
     "pos": "FWD",
     "club": "Celta Vigo",
     "rating": 75.2,
-    "value": 96
+    "value": 67
   },
   {
     "id": 815,
@@ -8057,7 +8057,7 @@
     "pos": "GK",
     "club": "Estudiantes",
     "rating": 71.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 816,
@@ -8067,7 +8067,7 @@
     "pos": "GK",
     "club": "Internacional",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 817,
@@ -8077,7 +8077,7 @@
     "pos": "GK",
     "club": "Monterrey",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 818,
@@ -8087,7 +8087,7 @@
     "pos": "DEF",
     "club": "Atletico Madrid",
     "rating": 89.0,
-    "value": 93
+    "value": 65
   },
   {
     "id": 819,
@@ -8097,7 +8097,7 @@
     "pos": "DEF",
     "club": "River Plate",
     "rating": 67.6,
-    "value": 54
+    "value": 38
   },
   {
     "id": 820,
@@ -8107,7 +8107,7 @@
     "pos": "DEF",
     "club": "Napoli",
     "rating": 83.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 821,
@@ -8117,7 +8117,7 @@
     "pos": "DEF",
     "club": "Flamengo",
     "rating": 63.8,
-    "value": 48
+    "value": 34
   },
   {
     "id": 822,
@@ -8127,7 +8127,7 @@
     "pos": "DEF",
     "club": "Barcelona",
     "rating": 81.4,
-    "value": 78
+    "value": 55
   },
   {
     "id": 823,
@@ -8137,7 +8137,7 @@
     "pos": "DEF",
     "club": "America",
     "rating": 63.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 824,
@@ -8147,7 +8147,7 @@
     "pos": "DEF",
     "club": "Palmeiras",
     "rating": 62.6,
-    "value": 46
+    "value": 32
   },
   {
     "id": 825,
@@ -8157,7 +8157,7 @@
     "pos": "DEF",
     "club": "Wolverhampton Wanderers",
     "rating": 72.2,
-    "value": 62
+    "value": 43
   },
   {
     "id": 826,
@@ -8167,7 +8167,7 @@
     "pos": "MID",
     "club": "Tottenham Hotspur",
     "rating": 89.0,
-    "value": 107
+    "value": 75
   },
   {
     "id": 827,
@@ -8177,7 +8177,7 @@
     "pos": "MID",
     "club": "Real Madrid",
     "rating": 85.6,
-    "value": 99
+    "value": 69
   },
   {
     "id": 828,
@@ -8187,7 +8187,7 @@
     "pos": "MID",
     "club": "Flamengo",
     "rating": 65.2,
-    "value": 58
+    "value": 41
   },
   {
     "id": 829,
@@ -8197,7 +8197,7 @@
     "pos": "MID",
     "club": "Panathinaikos",
     "rating": 63.8,
-    "value": 55
+    "value": 38
   },
   {
     "id": 830,
@@ -8207,7 +8207,7 @@
     "pos": "MID",
     "club": "Manchester United",
     "rating": 81.4,
-    "value": 90
+    "value": 63
   },
   {
     "id": 831,
@@ -8217,7 +8217,7 @@
     "pos": "MID",
     "club": "Flamengo",
     "rating": 63.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 832,
@@ -8227,7 +8227,7 @@
     "pos": "MID",
     "club": "America",
     "rating": 62.6,
-    "value": 53
+    "value": 37
   },
   {
     "id": 833,
@@ -8237,7 +8237,7 @@
     "pos": "MID",
     "club": "Sporting CP",
     "rating": 80.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 834,
@@ -8247,7 +8247,7 @@
     "pos": "MID",
     "club": "Fluminense",
     "rating": 61.8,
-    "value": 52
+    "value": 36
   },
   {
     "id": 835,
@@ -8257,7 +8257,7 @@
     "pos": "MID",
     "club": "Palmeiras",
     "rating": 61.4,
-    "value": 51
+    "value": 36
   },
   {
     "id": 836,
@@ -8267,7 +8267,7 @@
     "pos": "MID",
     "club": "Braga",
     "rating": 61.4,
-    "value": 51
+    "value": 36
   },
   {
     "id": 837,
@@ -8277,7 +8277,7 @@
     "pos": "MID",
     "club": "Real Salt Lake",
     "rating": 61.4,
-    "value": 51
+    "value": 36
   },
   {
     "id": 838,
@@ -8287,7 +8287,7 @@
     "pos": "FWD",
     "club": "Al-Hilal",
     "rating": 81.0,
-    "value": 101
+    "value": 71
   },
   {
     "id": 839,
@@ -8297,7 +8297,7 @@
     "pos": "FWD",
     "club": "Oviedo",
     "rating": 67.6,
-    "value": 70
+    "value": 49
   },
   {
     "id": 840,
@@ -8307,7 +8307,7 @@
     "pos": "FWD",
     "club": "UANL",
     "rating": 65.2,
-    "value": 65
+    "value": 46
   },
   {
     "id": 841,
@@ -8317,7 +8317,7 @@
     "pos": "GK",
     "club": "Rennes",
     "rating": 84.0,
-    "value": 83
+    "value": 58
   },
   {
     "id": 842,
@@ -8327,7 +8327,7 @@
     "pos": "DEF",
     "club": "Chelsea",
     "rating": 92.0,
-    "value": 110
+    "value": 77
   },
   {
     "id": 843,
@@ -8337,7 +8337,7 @@
     "pos": "DEF",
     "club": "Aston Villa",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 844,
@@ -8347,7 +8347,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 845,
@@ -8357,7 +8357,7 @@
     "pos": "DEF",
     "club": "Barcelona",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 846,
@@ -8367,7 +8367,7 @@
     "pos": "MID",
     "club": "Roma",
     "rating": 84.0,
-    "value": 105
+    "value": 74
   },
   {
     "id": 847,
@@ -8377,7 +8377,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 848,
@@ -8387,7 +8387,7 @@
     "pos": "MID",
     "club": "Real Madrid",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 849,
@@ -8397,7 +8397,7 @@
     "pos": "FWD",
     "club": "Inter Milan",
     "rating": 88.6,
-    "value": 133
+    "value": 93
   },
   {
     "id": 850,
@@ -8407,7 +8407,7 @@
     "pos": "FWD",
     "club": "Real Madrid",
     "rating": 86.2,
-    "value": 126
+    "value": 88
   },
   {
     "id": 851,
@@ -8417,7 +8417,7 @@
     "pos": "FWD",
     "club": "Bayern Munich",
     "rating": 84.8,
-    "value": 122
+    "value": 85
   },
   {
     "id": 852,
@@ -8427,7 +8427,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 84.4,
-    "value": 120
+    "value": 84
   },
   {
     "id": 853,
@@ -8437,7 +8437,7 @@
     "pos": "MID",
     "club": "Fenerbahce",
     "rating": 86.2,
-    "value": 111
+    "value": 78
   },
   {
     "id": 854,
@@ -8447,7 +8447,7 @@
     "pos": "MID",
     "club": "Milan",
     "rating": 84.8,
-    "value": 108
+    "value": 76
   },
   {
     "id": 855,
@@ -8457,7 +8457,7 @@
     "pos": "DEF",
     "club": "Liverpool",
     "rating": 84.4,
-    "value": 93
+    "value": 65
   },
   {
     "id": 856,
@@ -8467,7 +8467,7 @@
     "pos": "GK",
     "club": "Milan",
     "rating": 88.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 857,
@@ -8477,7 +8477,7 @@
     "pos": "DEF",
     "club": "Arsenal",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 858,
@@ -8487,7 +8487,7 @@
     "pos": "MID",
     "club": "Paris Saint-Germain",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 859,
@@ -8497,7 +8497,7 @@
     "pos": "DEF",
     "club": "Al-Hilal",
     "rating": 75.6,
-    "value": 74
+    "value": 52
   },
   {
     "id": 860,
@@ -8507,7 +8507,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 84.0,
-    "value": 119
+    "value": 83
   },
   {
     "id": 861,
@@ -8517,7 +8517,7 @@
     "pos": "DEF",
     "club": "Paris Saint-Germain",
     "rating": 83.2,
-    "value": 90
+    "value": 63
   },
   {
     "id": 862,
@@ -8527,7 +8527,7 @@
     "pos": "FWD",
     "club": "Crystal Palace",
     "rating": 75.6,
-    "value": 97
+    "value": 68
   },
   {
     "id": 863,
@@ -8537,7 +8537,7 @@
     "pos": "GK",
     "club": "Lens",
     "rating": 78.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 864,
@@ -8547,7 +8547,7 @@
     "pos": "FWD",
     "club": "Manchester City",
     "rating": 83.2,
-    "value": 117
+    "value": 82
   },
   {
     "id": 865,
@@ -8557,7 +8557,7 @@
     "pos": "FWD",
     "club": "Monaco",
     "rating": 74.8,
-    "value": 95
+    "value": 66
   },
   {
     "id": 866,
@@ -8567,7 +8567,7 @@
     "pos": "DEF",
     "club": "Crystal Palace",
     "rating": 74.8,
-    "value": 73
+    "value": 51
   },
   {
     "id": 867,
@@ -8577,7 +8577,7 @@
     "pos": "GK",
     "club": "Al-Zawraa",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 868,
@@ -8587,7 +8587,7 @@
     "pos": "GK",
     "club": "Al-Talaba",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 869,
@@ -8597,7 +8597,7 @@
     "pos": "GK",
     "club": "Al-Shorta",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 870,
@@ -8607,7 +8607,7 @@
     "pos": "DEF",
     "club": "Port",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 871,
@@ -8617,7 +8617,7 @@
     "pos": "DEF",
     "club": "Al-Shorta",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 872,
@@ -8627,7 +8627,7 @@
     "pos": "DEF",
     "club": "Viktoria Plzen",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 873,
@@ -8637,7 +8637,7 @@
     "pos": "DEF",
     "club": "Pakhtakor",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 874,
@@ -8647,7 +8647,7 @@
     "pos": "DEF",
     "club": "Persib",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 875,
@@ -8657,7 +8657,7 @@
     "pos": "DEF",
     "club": "Pogon Szczecin",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 876,
@@ -8667,7 +8667,7 @@
     "pos": "DEF",
     "club": "Al-Shorta",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 877,
@@ -8677,7 +8677,7 @@
     "pos": "DEF",
     "club": "Al-Shorta",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 878,
@@ -8687,7 +8687,7 @@
     "pos": "DEF",
     "club": "Al-Zawraa",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 879,
@@ -8697,7 +8697,7 @@
     "pos": "MID",
     "club": "Al-Dhafra",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 880,
@@ -8707,7 +8707,7 @@
     "pos": "MID",
     "club": "Cracovia",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 881,
@@ -8717,7 +8717,7 @@
     "pos": "MID",
     "club": "Al-Najma",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 882,
@@ -8727,7 +8727,7 @@
     "pos": "MID",
     "club": "AEK Larnaca",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 883,
@@ -8737,7 +8737,7 @@
     "pos": "MID",
     "club": "Utrecht",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 884,
@@ -8747,7 +8747,7 @@
     "pos": "MID",
     "club": "Venezia",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 885,
@@ -8757,7 +8757,7 @@
     "pos": "MID",
     "club": "AGF",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 886,
@@ -8767,7 +8767,7 @@
     "pos": "MID",
     "club": "Sarpsborg 08",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 887,
@@ -8777,7 +8777,7 @@
     "pos": "MID",
     "club": "Al-Talaba",
     "rating": 56.8,
-    "value": 36
+    "value": 25
   },
   {
     "id": 888,
@@ -8787,7 +8787,7 @@
     "pos": "MID",
     "club": "Nashville SC",
     "rating": 56.4,
-    "value": 35
+    "value": 24
   },
   {
     "id": 889,
@@ -8797,7 +8797,7 @@
     "pos": "FWD",
     "club": "Al-Karma",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 890,
@@ -8807,7 +8807,7 @@
     "pos": "FWD",
     "club": "Dibba",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 891,
@@ -8817,7 +8817,7 @@
     "pos": "FWD",
     "club": "Luton Town",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 892,
@@ -8827,7 +8827,7 @@
     "pos": "FWD",
     "club": "Al-Talaba",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 893,
@@ -8837,7 +8837,7 @@
     "pos": "GK",
     "club": "Sevilla",
     "rating": 78.0,
-    "value": 58
+    "value": 41
   },
   {
     "id": 894,
@@ -8847,7 +8847,7 @@
     "pos": "MID",
     "club": "Cremonese",
     "rating": 68.0,
-    "value": 56
+    "value": 39
   },
   {
     "id": 895,
@@ -8857,7 +8857,7 @@
     "pos": "DEF",
     "club": "Brentford",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 896,
@@ -8867,7 +8867,7 @@
     "pos": "DEF",
     "club": "Genoa",
     "rating": 64.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 897,
@@ -8877,7 +8877,7 @@
     "pos": "DEF",
     "club": "Wolverhampton Wanderers",
     "rating": 72.2,
-    "value": 55
+    "value": 38
   },
   {
     "id": 898,
@@ -8887,7 +8887,7 @@
     "pos": "MID",
     "club": "Bodo/Glimt",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 899,
@@ -8897,7 +8897,7 @@
     "pos": "FWD",
     "club": "Atletico Madrid",
     "rating": 86.0,
-    "value": 102
+    "value": 71
   },
   {
     "id": 900,
@@ -8907,7 +8907,7 @@
     "pos": "MID",
     "club": "Fulham",
     "rating": 72.2,
-    "value": 64
+    "value": 45
   },
   {
     "id": 901,
@@ -8917,7 +8917,7 @@
     "pos": "FWD",
     "club": "Manchester City",
     "rating": 82.6,
-    "value": 94
+    "value": 66
   },
   {
     "id": 902,
@@ -8927,7 +8927,7 @@
     "pos": "MID",
     "club": "Arsenal",
     "rating": 78.8,
-    "value": 76
+    "value": 53
   },
   {
     "id": 903,
@@ -8937,7 +8937,7 @@
     "pos": "FWD",
     "club": "Crystal Palace",
     "rating": 72.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 904,
@@ -8947,7 +8947,7 @@
     "pos": "GK",
     "club": "Hamburger SV",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 905,
@@ -8957,7 +8957,7 @@
     "pos": "GK",
     "club": "Watford",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 906,
@@ -8967,7 +8967,7 @@
     "pos": "MID",
     "club": "Benfica",
     "rating": 78.4,
-    "value": 75
+    "value": 52
   },
   {
     "id": 907,
@@ -8977,7 +8977,7 @@
     "pos": "DEF",
     "club": "Bodo/Glimt",
     "rating": 60.8,
-    "value": 39
+    "value": 27
   },
   {
     "id": 908,
@@ -8987,7 +8987,7 @@
     "pos": "DEF",
     "club": "Torino",
     "rating": 70.4,
-    "value": 53
+    "value": 37
   },
   {
     "id": 909,
@@ -8997,7 +8997,7 @@
     "pos": "DEF",
     "club": "Bologna",
     "rating": 70.0,
-    "value": 52
+    "value": 36
   },
   {
     "id": 910,
@@ -9007,7 +9007,7 @@
     "pos": "MID",
     "club": "Sassuolo",
     "rating": 60.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 911,
@@ -9017,7 +9017,7 @@
     "pos": "MID",
     "club": "Rangers",
     "rating": 69.6,
-    "value": 59
+    "value": 41
   },
   {
     "id": 912,
@@ -9027,7 +9027,7 @@
     "pos": "MID",
     "club": "RB Leipzig",
     "rating": 69.2,
-    "value": 58
+    "value": 41
   },
   {
     "id": 913,
@@ -9037,7 +9037,7 @@
     "pos": "MID",
     "club": "Benfica",
     "rating": 76.8,
-    "value": 72
+    "value": 50
   },
   {
     "id": 914,
@@ -9047,7 +9047,7 @@
     "pos": "MID",
     "club": "Fulham",
     "rating": 68.4,
-    "value": 57
+    "value": 40
   },
   {
     "id": 915,
@@ -9057,7 +9057,7 @@
     "pos": "MID",
     "club": "Bodo/Glimt",
     "rating": 58.4,
-    "value": 42
+    "value": 29
   },
   {
     "id": 916,
@@ -9067,7 +9067,7 @@
     "pos": "DEF",
     "club": "Derby County",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 917,
@@ -9077,7 +9077,7 @@
     "pos": "DEF",
     "club": "Viking",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 918,
@@ -9087,7 +9087,7 @@
     "pos": "DEF",
     "club": "Borussia Dortmund",
     "rating": 76.8,
-    "value": 63
+    "value": 44
   },
   {
     "id": 919,
@@ -9097,7 +9097,7 @@
     "pos": "GK",
     "club": "Al-Ahli",
     "rating": 81.0,
-    "value": 70
+    "value": 49
   },
   {
     "id": 920,
@@ -9107,7 +9107,7 @@
     "pos": "GK",
     "club": "Le Havre",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 921,
@@ -9117,7 +9117,7 @@
     "pos": "GK",
     "club": "Nice",
     "rating": 75.2,
-    "value": 60
+    "value": 42
   },
   {
     "id": 922,
@@ -9127,7 +9127,7 @@
     "pos": "DEF",
     "club": "Al-Hilal",
     "rating": 81.0,
-    "value": 77
+    "value": 54
   },
   {
     "id": 923,
@@ -9137,7 +9137,7 @@
     "pos": "MID",
     "club": "Monaco",
     "rating": 77.6,
-    "value": 71
+    "value": 50
   },
   {
     "id": 924,
@@ -9147,7 +9147,7 @@
     "pos": "DEF",
     "club": "Lyon",
     "rating": 75.2,
-    "value": 67
+    "value": 47
   },
   {
     "id": 925,
@@ -9157,7 +9157,7 @@
     "pos": "DEF",
     "club": "Galatasaray",
     "rating": 81.8,
-    "value": 79
+    "value": 55
   },
   {
     "id": 926,
@@ -9167,7 +9167,7 @@
     "pos": "DEF",
     "club": "Maccabi Haifa",
     "rating": 63.4,
-    "value": 47
+    "value": 33
   },
   {
     "id": 927,
@@ -9177,7 +9177,7 @@
     "pos": "DEF",
     "club": "West Ham United",
     "rating": 73.0,
-    "value": 63
+    "value": 44
   },
   {
     "id": 928,
@@ -9187,7 +9187,7 @@
     "pos": "DEF",
     "club": "Chelsea",
     "rating": 80.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 929,
@@ -9197,7 +9197,7 @@
     "pos": "DEF",
     "club": "Nice",
     "rating": 72.2,
-    "value": 62
+    "value": 43
   },
   {
     "id": 932,
@@ -9207,7 +9207,7 @@
     "pos": "MID",
     "club": "Everton",
     "rating": 81.0,
-    "value": 89
+    "value": 62
   },
   {
     "id": 933,
@@ -9217,7 +9217,7 @@
     "pos": "MID",
     "club": "Villarreal",
     "rating": 77.6,
-    "value": 82
+    "value": 57
   },
   {
     "id": 934,
@@ -9227,7 +9227,7 @@
     "pos": "MID",
     "club": "Tottenham Hotspur",
     "rating": 83.2,
-    "value": 94
+    "value": 66
   },
   {
     "id": 935,
@@ -9237,7 +9237,7 @@
     "pos": "MID",
     "club": "Monaco",
     "rating": 73.8,
-    "value": 74
+    "value": 52
   },
   {
     "id": 936,
@@ -9247,7 +9247,7 @@
     "pos": "MID",
     "club": "Rayo Vallecano",
     "rating": 63.4,
-    "value": 55
+    "value": 38
   },
   {
     "id": 937,
@@ -9257,7 +9257,7 @@
     "pos": "MID",
     "club": "Sunderland",
     "rating": 73.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 938,
@@ -9267,7 +9267,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 80.6,
-    "value": 88
+    "value": 62
   },
   {
     "id": 939,
@@ -9277,7 +9277,7 @@
     "pos": "FWD",
     "club": "Al-Nassr",
     "rating": 81.0,
-    "value": 101
+    "value": 71
   },
   {
     "id": 940,
@@ -9287,7 +9287,7 @@
     "pos": "FWD",
     "club": "Crystal Palace",
     "rating": 77.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 941,
@@ -9297,7 +9297,7 @@
     "pos": "FWD",
     "club": "Everton",
     "rating": 75.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 942,
@@ -9307,7 +9307,7 @@
     "pos": "FWD",
     "club": "Bayern Munich",
     "rating": 81.8,
-    "value": 103
+    "value": 72
   },
   {
     "id": 943,
@@ -9317,7 +9317,7 @@
     "pos": "FWD",
     "club": "Lorient",
     "rating": 63.4,
-    "value": 62
+    "value": 43
   },
   {
     "id": 944,
@@ -9327,7 +9327,7 @@
     "pos": "FWD",
     "club": "Samsunspor",
     "rating": 63.0,
-    "value": 61
+    "value": 43
   },
   {
     "id": 945,
@@ -9337,7 +9337,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 80.6,
-    "value": 100
+    "value": 70
   },
   {
     "id": 946,
@@ -9347,7 +9347,7 @@
     "pos": "FWD",
     "club": "Como",
     "rating": 72.2,
-    "value": 80
+    "value": 56
   },
   {
     "id": 947,
@@ -9357,7 +9357,7 @@
     "pos": "GK",
     "club": "Granada",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 948,
@@ -9367,7 +9367,7 @@
     "pos": "GK",
     "club": "USM Alger",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 949,
@@ -9377,7 +9377,7 @@
     "pos": "GK",
     "club": "Stade Nyonnais",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 950,
@@ -9387,7 +9387,7 @@
     "pos": "DEF",
     "club": "Lille",
     "rating": 78.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 951,
@@ -9397,7 +9397,7 @@
     "pos": "DEF",
     "club": "Borussia Dortmund",
     "rating": 82.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 952,
@@ -9407,7 +9407,7 @@
     "pos": "DEF",
     "club": "Esperance de Tunis",
     "rating": 62.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 953,
@@ -9417,7 +9417,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 78.8,
-    "value": 66
+    "value": 46
   },
   {
     "id": 954,
@@ -9427,7 +9427,7 @@
     "pos": "DEF",
     "club": "Young Boys",
     "rating": 60.4,
-    "value": 39
+    "value": 27
   },
   {
     "id": 955,
@@ -9437,7 +9437,7 @@
     "pos": "DEF",
     "club": "Hellas Verona",
     "rating": 60.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 956,
@@ -9447,7 +9447,7 @@
     "pos": "DEF",
     "club": "JS Kabylie",
     "rating": 59.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 957,
@@ -9457,7 +9457,7 @@
     "pos": "DEF",
     "club": "USM Alger",
     "rating": 59.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 958,
@@ -9467,7 +9467,7 @@
     "pos": "DEF",
     "club": "Paris FC",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 959,
@@ -9477,7 +9477,7 @@
     "pos": "MID",
     "club": "Lille",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 960,
@@ -9487,7 +9487,7 @@
     "pos": "MID",
     "club": "Twente",
     "rating": 64.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 961,
@@ -9497,7 +9497,7 @@
     "pos": "MID",
     "club": "Nice",
     "rating": 72.2,
-    "value": 64
+    "value": 45
   },
   {
     "id": 962,
@@ -9507,7 +9507,7 @@
     "pos": "MID",
     "club": "Eintracht Frankfurt",
     "rating": 70.8,
-    "value": 61
+    "value": 43
   },
   {
     "id": 963,
@@ -9517,7 +9517,7 @@
     "pos": "MID",
     "club": "Al-Ittihad",
     "rating": 70.4,
-    "value": 60
+    "value": 42
   },
   {
     "id": 964,
@@ -9527,7 +9527,7 @@
     "pos": "MID",
     "club": "Bayer Leverkusen",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 965,
@@ -9537,7 +9537,7 @@
     "pos": "MID",
     "club": "Charleroi",
     "rating": 59.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 966,
@@ -9547,7 +9547,7 @@
     "pos": "FWD",
     "club": "Al-Ahli",
     "rating": 78.0,
-    "value": 84
+    "value": 59
   },
   {
     "id": 967,
@@ -9557,7 +9557,7 @@
     "pos": "FWD",
     "club": "VfL Wolfsburg",
     "rating": 74.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 968,
@@ -9567,7 +9567,7 @@
     "pos": "FWD",
     "club": "Marseille",
     "rating": 72.2,
-    "value": 72
+    "value": 50
   },
   {
     "id": 969,
@@ -9577,7 +9577,7 @@
     "pos": "FWD",
     "club": "Feyenoord",
     "rating": 78.8,
-    "value": 86
+    "value": 60
   },
   {
     "id": 970,
@@ -9587,7 +9587,7 @@
     "pos": "FWD",
     "club": "Al-Duhail",
     "rating": 60.4,
-    "value": 50
+    "value": 35
   },
   {
     "id": 971,
@@ -9597,7 +9597,7 @@
     "pos": "FWD",
     "club": "Gyori ETO",
     "rating": 60.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 972,
@@ -9607,7 +9607,7 @@
     "pos": "FWD",
     "club": "Frosinone",
     "rating": 59.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 973,
@@ -9617,7 +9617,7 @@
     "pos": "GK",
     "club": "Atletico Madrid",
     "rating": 92.0,
-    "value": 99
+    "value": 69
   },
   {
     "id": 974,
@@ -9627,7 +9627,7 @@
     "pos": "DEF",
     "club": "Marseille",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 975,
@@ -9637,7 +9637,7 @@
     "pos": "DEF",
     "club": "Lyon",
     "rating": 80.6,
-    "value": 84
+    "value": 59
   },
   {
     "id": 976,
@@ -9647,7 +9647,7 @@
     "pos": "DEF",
     "club": "River Plate",
     "rating": 68.2,
-    "value": 60
+    "value": 42
   },
   {
     "id": 977,
@@ -9657,7 +9657,7 @@
     "pos": "MID",
     "club": "Boca Juniors",
     "rating": 74.0,
-    "value": 82
+    "value": 57
   },
   {
     "id": 978,
@@ -9667,7 +9667,7 @@
     "pos": "DEF",
     "club": "Manchester United",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 979,
@@ -9677,7 +9677,7 @@
     "pos": "MID",
     "club": "Inter Miami CF",
     "rating": 70.6,
-    "value": 75
+    "value": 52
   },
   {
     "id": 980,
@@ -9687,7 +9687,7 @@
     "pos": "MID",
     "club": "Strasbourg",
     "rating": 68.2,
-    "value": 70
+    "value": 49
   },
   {
     "id": 981,
@@ -9697,7 +9697,7 @@
     "pos": "FWD",
     "club": "Atletico Madrid",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 982,
@@ -9707,7 +9707,7 @@
     "pos": "FWD",
     "club": "Inter Miami CF",
     "rating": 70.6,
-    "value": 84
+    "value": 59
   },
   {
     "id": 983,
@@ -9717,7 +9717,7 @@
     "pos": "MID",
     "club": "Real Betis",
     "rating": 76.8,
-    "value": 88
+    "value": 62
   },
   {
     "id": 984,
@@ -9727,7 +9727,7 @@
     "pos": "GK",
     "club": "Marseille",
     "rating": 80.6,
-    "value": 76
+    "value": 53
   },
   {
     "id": 985,
@@ -9737,7 +9737,7 @@
     "pos": "DEF",
     "club": "Tottenham Hotspur",
     "rating": 84.4,
-    "value": 93
+    "value": 65
   },
   {
     "id": 986,
@@ -9747,7 +9747,7 @@
     "pos": "MID",
     "club": "Bayer Leverkusen",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 987,
@@ -9757,7 +9757,7 @@
     "pos": "FWD",
     "club": "Atletico Madrid",
     "rating": 86.2,
-    "value": 126
+    "value": 88
   },
   {
     "id": 988,
@@ -9767,7 +9767,7 @@
     "pos": "FWD",
     "club": "Atletico Madrid",
     "rating": 84.8,
-    "value": 122
+    "value": 85
   },
   {
     "id": 989,
@@ -9777,7 +9777,7 @@
     "pos": "FWD",
     "club": "Atletico Madrid",
     "rating": 84.4,
-    "value": 120
+    "value": 84
   },
   {
     "id": 990,
@@ -9787,7 +9787,7 @@
     "pos": "FWD",
     "club": "Como",
     "rating": 76.0,
-    "value": 98
+    "value": 69
   },
   {
     "id": 991,
@@ -9797,7 +9797,7 @@
     "pos": "DEF",
     "club": "Benfica",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 992,
@@ -9807,7 +9807,7 @@
     "pos": "MID",
     "club": "Liverpool",
     "rating": 84.0,
-    "value": 105
+    "value": 74
   },
   {
     "id": 993,
@@ -9817,7 +9817,7 @@
     "pos": "FWD",
     "club": "Palmeiras",
     "rating": 65.6,
-    "value": 73
+    "value": 51
   },
   {
     "id": 994,
@@ -9827,7 +9827,7 @@
     "pos": "FWD",
     "club": "Inter Milan",
     "rating": 83.2,
-    "value": 117
+    "value": 82
   },
   {
     "id": 995,
@@ -9837,7 +9837,7 @@
     "pos": "GK",
     "club": "Aston Villa",
     "rating": 86.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 996,
@@ -9847,7 +9847,7 @@
     "pos": "MID",
     "club": "Chelsea",
     "rating": 83.6,
-    "value": 104
+    "value": 73
   },
   {
     "id": 997,
@@ -9857,7 +9857,7 @@
     "pos": "DEF",
     "club": "Marseille",
     "rating": 75.6,
-    "value": 74
+    "value": 52
   },
   {
     "id": 998,
@@ -9867,7 +9867,7 @@
     "pos": "DEF",
     "club": "Atletico Madrid",
     "rating": 83.2,
-    "value": 90
+    "value": 63
   },
   {
     "id": 999,
@@ -9877,7 +9877,7 @@
     "pos": "GK",
     "club": "Red Bull Salzburg",
     "rating": 68.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 1000,
@@ -9887,7 +9887,7 @@
     "pos": "DEF",
     "club": "Elche",
     "rating": 68.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1001,
@@ -9897,7 +9897,7 @@
     "pos": "DEF",
     "club": "Tottenham Hotspur",
     "rating": 82.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1002,
@@ -9907,7 +9907,7 @@
     "pos": "MID",
     "club": "RB Leipzig",
     "rating": 78.0,
-    "value": 74
+    "value": 52
   },
   {
     "id": 1003,
@@ -9917,7 +9917,7 @@
     "pos": "DEF",
     "club": "Mainz 05",
     "rating": 72.2,
-    "value": 55
+    "value": 38
   },
   {
     "id": 1004,
@@ -9927,7 +9927,7 @@
     "pos": "MID",
     "club": "RB Leipzig",
     "rating": 74.6,
-    "value": 68
+    "value": 48
   },
   {
     "id": 1005,
@@ -9937,7 +9937,7 @@
     "pos": "FWD",
     "club": "Red Star Belgrade",
     "rating": 68.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 1006,
@@ -9947,7 +9947,7 @@
     "pos": "DEF",
     "club": "Real Madrid",
     "rating": 78.8,
-    "value": 66
+    "value": 46
   },
   {
     "id": 1007,
@@ -9957,7 +9957,7 @@
     "pos": "MID",
     "club": "Borussia Dortmund",
     "rating": 80.2,
-    "value": 78
+    "value": 55
   },
   {
     "id": 1008,
@@ -9967,7 +9967,7 @@
     "pos": "MID",
     "club": "Braga",
     "rating": 60.8,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1009,
@@ -9977,7 +9977,7 @@
     "pos": "FWD",
     "club": "FC Augsburg",
     "rating": 74.6,
-    "value": 77
+    "value": 54
   },
   {
     "id": 1010,
@@ -9987,7 +9987,7 @@
     "pos": "GK",
     "club": "Viktoria Plzen",
     "rating": 64.6,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1011,
@@ -9997,7 +9997,7 @@
     "pos": "GK",
     "club": "Brondby",
     "rating": 62.2,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1012,
@@ -10007,7 +10007,7 @@
     "pos": "FWD",
     "club": "LASK",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 1013,
@@ -10017,7 +10017,7 @@
     "pos": "DEF",
     "club": "SC Freiburg",
     "rating": 70.4,
-    "value": 53
+    "value": 37
   },
   {
     "id": 1014,
@@ -10027,7 +10027,7 @@
     "pos": "DEF",
     "club": "Mainz 05",
     "rating": 70.0,
-    "value": 52
+    "value": 36
   },
   {
     "id": 1015,
@@ -10037,7 +10037,7 @@
     "pos": "MID",
     "club": "Borussia Dortmund",
     "rating": 78.4,
-    "value": 75
+    "value": 52
   },
   {
     "id": 1016,
@@ -10047,7 +10047,7 @@
     "pos": "MID",
     "club": "Werder Bremen",
     "rating": 70.0,
-    "value": 60
+    "value": 42
   },
   {
     "id": 1017,
@@ -10057,7 +10057,7 @@
     "pos": "MID",
     "club": "RB Leipzig",
     "rating": 69.6,
-    "value": 59
+    "value": 41
   },
   {
     "id": 1018,
@@ -10067,7 +10067,7 @@
     "pos": "MID",
     "club": "Bayern Munich",
     "rating": 77.2,
-    "value": 73
+    "value": 51
   },
   {
     "id": 1019,
@@ -10077,7 +10077,7 @@
     "pos": "MID",
     "club": "VfL Wolfsburg",
     "rating": 68.8,
-    "value": 58
+    "value": 41
   },
   {
     "id": 1020,
@@ -10087,7 +10087,7 @@
     "pos": "DEF",
     "club": "TSG Hoffenheim",
     "rating": 69.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1021,
@@ -10097,7 +10097,7 @@
     "pos": "DEF",
     "club": "Werder Bremen",
     "rating": 69.2,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1022,
@@ -10107,7 +10107,7 @@
     "pos": "MID",
     "club": "PSV Eindhoven",
     "rating": 76.4,
-    "value": 71
+    "value": 50
   },
   {
     "id": 1023,
@@ -10117,7 +10117,7 @@
     "pos": "DEF",
     "club": "Venezia",
     "rating": 58.8,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1024,
@@ -10127,7 +10127,7 @@
     "pos": "MID",
     "club": "Wolfsberger AC",
     "rating": 58.4,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1025,
@@ -10137,7 +10137,7 @@
     "pos": "GK",
     "club": "Al-Hussein",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1026,
@@ -10147,7 +10147,7 @@
     "pos": "GK",
     "club": "Al-Wehdat",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 1027,
@@ -10157,7 +10157,7 @@
     "pos": "GK",
     "club": "Al-Faisaly",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1028,
@@ -10167,7 +10167,7 @@
     "pos": "DEF",
     "club": "Al-Hussein",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1029,
@@ -10177,7 +10177,7 @@
     "pos": "DEF",
     "club": "FC Seoul",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1030,
@@ -10187,7 +10187,7 @@
     "pos": "DEF",
     "club": "Al-Zawraa",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 1031,
@@ -10197,7 +10197,7 @@
     "pos": "DEF",
     "club": "Al-Hussein",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1032,
@@ -10207,7 +10207,7 @@
     "pos": "DEF",
     "club": "Al-Faisaly",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1033,
@@ -10217,7 +10217,7 @@
     "pos": "DEF",
     "club": "Selangor",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1034,
@@ -10227,7 +10227,7 @@
     "pos": "DEF",
     "club": "Al-Hussein",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1035,
@@ -10237,7 +10237,7 @@
     "pos": "DEF",
     "club": "Al-Faisaly",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1036,
@@ -10247,7 +10247,7 @@
     "pos": "MID",
     "club": "Al-Hussein",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 1037,
@@ -10257,7 +10257,7 @@
     "pos": "MID",
     "club": "Selangor",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1038,
@@ -10267,7 +10267,7 @@
     "pos": "MID",
     "club": "Al-Karma",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1039,
@@ -10277,7 +10277,7 @@
     "pos": "MID",
     "club": "Al-Karma",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1040,
@@ -10287,7 +10287,7 @@
     "pos": "MID",
     "club": "Qatar SC",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1041,
@@ -10297,7 +10297,7 @@
     "pos": "MID",
     "club": "Al-Quwa Al-Jawiya",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1042,
@@ -10307,7 +10307,7 @@
     "pos": "MID",
     "club": "Al-Zawraa",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1043,
@@ -10317,7 +10317,7 @@
     "pos": "MID",
     "club": "Al-Wehdat",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 1045,
@@ -10327,7 +10327,7 @@
     "pos": "DEF",
     "club": "Al-Hussein",
     "rating": 56.4,
-    "value": 35
+    "value": 24
   },
   {
     "id": 1046,
@@ -10337,7 +10337,7 @@
     "pos": "FWD",
     "club": "Rennes",
     "rating": 76.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1047,
@@ -10347,7 +10347,7 @@
     "pos": "MID",
     "club": "Al-Hussein",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1048,
@@ -10357,7 +10357,7 @@
     "pos": "FWD",
     "club": "Al-Sailiya",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1049,
@@ -10367,7 +10367,7 @@
     "pos": "FWD",
     "club": "Raja Casablanca",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1050,
@@ -10377,7 +10377,7 @@
     "pos": "FWD",
     "club": "Pyramids",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1052,
@@ -10387,7 +10387,7 @@
     "pos": "FWD",
     "club": "Al-Shabab",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 1053,
@@ -10397,7 +10397,7 @@
     "pos": "GK",
     "club": "Atletico Nacional",
     "rating": 71.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1054,
@@ -10407,7 +10407,7 @@
     "pos": "GK",
     "club": "Atlas",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1055,
@@ -10417,7 +10417,7 @@
     "pos": "GK",
     "club": "Velez Sarsfield",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1056,
@@ -10427,7 +10427,7 @@
     "pos": "DEF",
     "club": "Galatasaray",
     "rating": 89.0,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1057,
@@ -10437,7 +10437,7 @@
     "pos": "DEF",
     "club": "Independiente",
     "rating": 67.6,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1058,
@@ -10447,7 +10447,7 @@
     "pos": "DEF",
     "club": "Cagliari",
     "rating": 65.2,
-    "value": 50
+    "value": 35
   },
   {
     "id": 1059,
@@ -10457,7 +10457,7 @@
     "pos": "DEF",
     "club": "Crystal Palace",
     "rating": 73.8,
-    "value": 64
+    "value": 45
   },
   {
     "id": 1060,
@@ -10467,7 +10467,7 @@
     "pos": "DEF",
     "club": "Mallorca",
     "rating": 63.4,
-    "value": 47
+    "value": 33
   },
   {
     "id": 1061,
@@ -10477,7 +10477,7 @@
     "pos": "DEF",
     "club": "Bologna",
     "rating": 73.0,
-    "value": 63
+    "value": 44
   },
   {
     "id": 1062,
@@ -10487,7 +10487,7 @@
     "pos": "DEF",
     "club": "Nantes",
     "rating": 62.6,
-    "value": 46
+    "value": 32
   },
   {
     "id": 1063,
@@ -10497,7 +10497,7 @@
     "pos": "DEF",
     "club": "Cruz Azul",
     "rating": 62.2,
-    "value": 46
+    "value": 32
   },
   {
     "id": 1064,
@@ -10507,7 +10507,7 @@
     "pos": "MID",
     "club": "Minnesota United FC",
     "rating": 71.0,
-    "value": 68
+    "value": 48
   },
   {
     "id": 1065,
@@ -10517,7 +10517,7 @@
     "pos": "MID",
     "club": "Crystal Palace",
     "rating": 77.6,
-    "value": 82
+    "value": 57
   },
   {
     "id": 1066,
@@ -10527,7 +10527,7 @@
     "pos": "MID",
     "club": "River Plate",
     "rating": 65.2,
-    "value": 58
+    "value": 41
   },
   {
     "id": 1067,
@@ -10537,7 +10537,7 @@
     "pos": "MID",
     "club": "Palmeiras",
     "rating": 63.8,
-    "value": 55
+    "value": 38
   },
   {
     "id": 1068,
@@ -10547,7 +10547,7 @@
     "pos": "MID",
     "club": "Benfica",
     "rating": 81.4,
-    "value": 90
+    "value": 63
   },
   {
     "id": 1069,
@@ -10557,7 +10557,7 @@
     "pos": "MID",
     "club": "River Plate",
     "rating": 63.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1070,
@@ -10567,7 +10567,7 @@
     "pos": "MID",
     "club": "Flamengo",
     "rating": 62.6,
-    "value": 53
+    "value": 37
   },
   {
     "id": 1071,
@@ -10577,7 +10577,7 @@
     "pos": "MID",
     "club": "Rosario Central",
     "rating": 62.2,
-    "value": 53
+    "value": 37
   },
   {
     "id": 1072,
@@ -10587,7 +10587,7 @@
     "pos": "MID",
     "club": "Athletico Paranaense",
     "rating": 61.8,
-    "value": 52
+    "value": 36
   },
   {
     "id": 1073,
@@ -10597,7 +10597,7 @@
     "pos": "MID",
     "club": "Racing Santander",
     "rating": 61.4,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1074,
@@ -10607,7 +10607,7 @@
     "pos": "FWD",
     "club": "Bayern Munich",
     "rating": 89.0,
-    "value": 122
+    "value": 85
   },
   {
     "id": 1075,
@@ -10617,7 +10617,7 @@
     "pos": "FWD",
     "club": "Krasnodar",
     "rating": 67.6,
-    "value": 70
+    "value": 49
   },
   {
     "id": 1076,
@@ -10627,7 +10627,7 @@
     "pos": "FWD",
     "club": "Sporting CP",
     "rating": 83.2,
-    "value": 106
+    "value": 74
   },
   {
     "id": 1077,
@@ -10637,7 +10637,7 @@
     "pos": "FWD",
     "club": "Real Betis",
     "rating": 73.8,
-    "value": 84
+    "value": 59
   },
   {
     "id": 1078,
@@ -10647,7 +10647,7 @@
     "pos": "FWD",
     "club": "Vasco da Gama",
     "rating": 63.4,
-    "value": 62
+    "value": 43
   },
   {
     "id": 1079,
@@ -10657,7 +10657,7 @@
     "pos": "GK",
     "club": "Le Havre",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1080,
@@ -10667,7 +10667,7 @@
     "pos": "GK",
     "club": "Noah",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 1081,
@@ -10677,7 +10677,7 @@
     "pos": "GK",
     "club": "Standard Liege",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1082,
@@ -10687,7 +10687,7 @@
     "pos": "DEF",
     "club": "Lille",
     "rating": 76.0,
-    "value": 55
+    "value": 38
   },
   {
     "id": 1083,
@@ -10697,7 +10697,7 @@
     "pos": "DEF",
     "club": "Lens",
     "rating": 72.6,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1084,
@@ -10707,7 +10707,7 @@
     "pos": "DEF",
     "club": "Aris Limassol",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 1085,
@@ -10717,7 +10717,7 @@
     "pos": "DEF",
     "club": "Genk",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1086,
@@ -10727,7 +10727,7 @@
     "pos": "DEF",
     "club": "AEL",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1087,
@@ -10737,7 +10737,7 @@
     "pos": "DEF",
     "club": "Burnley",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1088,
@@ -10747,7 +10747,7 @@
     "pos": "DEF",
     "club": "West Ham United",
     "rating": 67.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 1089,
@@ -10757,7 +10757,7 @@
     "pos": "DEF",
     "club": "Widzew Lodz",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1090,
@@ -10767,7 +10767,7 @@
     "pos": "MID",
     "club": "Atromitos",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 1091,
@@ -10777,7 +10777,7 @@
     "pos": "MID",
     "club": "Watford",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1092,
@@ -10787,7 +10787,7 @@
     "pos": "MID",
     "club": "Espanyol",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1093,
@@ -10797,7 +10797,7 @@
     "pos": "MID",
     "club": "AEL",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1094,
@@ -10807,7 +10807,7 @@
     "pos": "MID",
     "club": "Sunderland",
     "rating": 68.4,
-    "value": 52
+    "value": 36
   },
   {
     "id": 1095,
@@ -10817,7 +10817,7 @@
     "pos": "MID",
     "club": "Kilmarnock",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1096,
@@ -10827,7 +10827,7 @@
     "pos": "MID",
     "club": "Lille",
     "rating": 67.6,
-    "value": 50
+    "value": 35
   },
   {
     "id": 1097,
@@ -10837,7 +10837,7 @@
     "pos": "MID",
     "club": "Castellon",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 1098,
@@ -10847,7 +10847,7 @@
     "pos": "FWD",
     "club": "Real Betis",
     "rating": 76.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1099,
@@ -10857,7 +10857,7 @@
     "pos": "FWD",
     "club": "Alanyaspor",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1100,
@@ -10867,7 +10867,7 @@
     "pos": "FWD",
     "club": "Spartak Moscow",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1101,
@@ -10877,7 +10877,7 @@
     "pos": "FWD",
     "club": "Pyramids",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1102,
@@ -10887,7 +10887,7 @@
     "pos": "FWD",
     "club": "Newcastle United",
     "rating": 76.4,
-    "value": 73
+    "value": 51
   },
   {
     "id": 1103,
@@ -10897,7 +10897,7 @@
     "pos": "FWD",
     "club": "Montpellier",
     "rating": 58.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1104,
@@ -10907,7 +10907,7 @@
     "pos": "FWD",
     "club": "Al-Jazira",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 1105,
@@ -10917,7 +10917,7 @@
     "pos": "GK",
     "club": "Porto",
     "rating": 92.0,
-    "value": 99
+    "value": 69
   },
   {
     "id": 1106,
@@ -10927,7 +10927,7 @@
     "pos": "GK",
     "club": "Wolverhampton Wanderers",
     "rating": 80.6,
-    "value": 76
+    "value": 53
   },
   {
     "id": 1107,
@@ -10937,7 +10937,7 @@
     "pos": "GK",
     "club": "Sporting CP",
     "rating": 86.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 1108,
@@ -10947,7 +10947,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 92.0,
-    "value": 110
+    "value": 77
   },
   {
     "id": 1109,
@@ -10957,7 +10957,7 @@
     "pos": "DEF",
     "club": "Barcelona",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 1110,
@@ -10967,7 +10967,7 @@
     "pos": "DEF",
     "club": "Fenerbahce",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 1111,
@@ -10977,7 +10977,7 @@
     "pos": "DEF",
     "club": "Paris Saint-Germain",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1112,
@@ -10987,7 +10987,7 @@
     "pos": "DEF",
     "club": "Manchester United",
     "rating": 84.4,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1113,
@@ -10997,7 +10997,7 @@
     "pos": "DEF",
     "club": "Sporting CP",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 1114,
@@ -11007,7 +11007,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 83.6,
-    "value": 91
+    "value": 64
   },
   {
     "id": 1115,
@@ -11017,7 +11017,7 @@
     "pos": "DEF",
     "club": "Villarreal",
     "rating": 75.2,
-    "value": 74
+    "value": 52
   },
   {
     "id": 1116,
@@ -11027,7 +11027,7 @@
     "pos": "DEF",
     "club": "Benfica",
     "rating": 82.8,
-    "value": 89
+    "value": 62
   },
   {
     "id": 1117,
@@ -11037,7 +11037,7 @@
     "pos": "MID",
     "club": "Manchester City",
     "rating": 92.0,
-    "value": 127
+    "value": 89
   },
   {
     "id": 1118,
@@ -11047,7 +11047,7 @@
     "pos": "MID",
     "club": "Manchester United",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 1119,
@@ -11057,7 +11057,7 @@
     "pos": "MID",
     "club": "Al-Hilal",
     "rating": 78.2,
-    "value": 91
+    "value": 64
   },
   {
     "id": 1120,
@@ -11067,7 +11067,7 @@
     "pos": "MID",
     "club": "Paris Saint-Germain",
     "rating": 84.8,
-    "value": 108
+    "value": 76
   },
   {
     "id": 1121,
@@ -11077,7 +11077,7 @@
     "pos": "MID",
     "club": "Paris Saint-Germain",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 1122,
@@ -11087,7 +11087,7 @@
     "pos": "MID",
     "club": "Mallorca",
     "rating": 66.0,
-    "value": 65
+    "value": 46
   },
   {
     "id": 1123,
@@ -11097,7 +11097,7 @@
     "pos": "FWD",
     "club": "Al-Nassr",
     "rating": 84.0,
-    "value": 119
+    "value": 83
   },
   {
     "id": 1124,
@@ -11107,7 +11107,7 @@
     "pos": "FWD",
     "club": "Al-Nassr",
     "rating": 80.6,
-    "value": 110
+    "value": 77
   },
   {
     "id": 1125,
@@ -11117,7 +11117,7 @@
     "pos": "FWD",
     "club": "Milan",
     "rating": 86.2,
-    "value": 126
+    "value": 88
   },
   {
     "id": 1126,
@@ -11127,7 +11127,7 @@
     "pos": "FWD",
     "club": "Real Sociedad",
     "rating": 76.8,
-    "value": 100
+    "value": 70
   },
   {
     "id": 1127,
@@ -11137,7 +11137,7 @@
     "pos": "FWD",
     "club": "Paris Saint-Germain",
     "rating": 84.4,
-    "value": 120
+    "value": 84
   },
   {
     "id": 1128,
@@ -11147,7 +11147,7 @@
     "pos": "FWD",
     "club": "Chelsea",
     "rating": 84.0,
-    "value": 119
+    "value": 83
   },
   {
     "id": 1129,
@@ -11157,7 +11157,7 @@
     "pos": "FWD",
     "club": "Sporting CP",
     "rating": 83.6,
-    "value": 118
+    "value": 83
   },
   {
     "id": 1130,
@@ -11167,7 +11167,7 @@
     "pos": "FWD",
     "club": "Juventus",
     "rating": 83.2,
-    "value": 117
+    "value": 82
   },
   {
     "id": 1131,
@@ -11177,7 +11177,7 @@
     "pos": "GK",
     "club": "Navbahor",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1132,
@@ -11187,7 +11187,7 @@
     "pos": "GK",
     "club": "Nasaf",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 1133,
@@ -11197,7 +11197,7 @@
     "pos": "GK",
     "club": "Neftchi",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1134,
@@ -11207,7 +11207,7 @@
     "pos": "DEF",
     "club": "Esteghlal",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1135,
@@ -11217,7 +11217,7 @@
     "pos": "DEF",
     "club": "Neftchi",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1136,
@@ -11227,7 +11227,7 @@
     "pos": "DEF",
     "club": "Pakhtakor",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 1137,
@@ -11237,7 +11237,7 @@
     "pos": "DEF",
     "club": "Nasaf",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1138,
@@ -11247,7 +11247,7 @@
     "pos": "DEF",
     "club": "Nasaf",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1139,
@@ -11257,7 +11257,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 76.0,
-    "value": 55
+    "value": 38
   },
   {
     "id": 1140,
@@ -11267,7 +11267,7 @@
     "pos": "DEF",
     "club": "Dibba",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1141,
@@ -11277,7 +11277,7 @@
     "pos": "DEF",
     "club": "Surkhon",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1142,
@@ -11287,7 +11287,7 @@
     "pos": "DEF",
     "club": "Dinamo Samarqand",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1143,
@@ -11297,7 +11297,7 @@
     "pos": "DEF",
     "club": "AGMK",
     "rating": 56.4,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1144,
@@ -11307,7 +11307,7 @@
     "pos": "MID",
     "club": "Baniyas",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 1145,
@@ -11317,7 +11317,7 @@
     "pos": "MID",
     "club": "Tractor",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1146,
@@ -11327,7 +11327,7 @@
     "pos": "MID",
     "club": "Neftchi",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1147,
@@ -11337,7 +11337,7 @@
     "pos": "MID",
     "club": "Pakhtakor",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1148,
@@ -11347,7 +11347,7 @@
     "pos": "MID",
     "club": "Al-Bataeh",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1151,
@@ -11357,7 +11357,7 @@
     "pos": "MID",
     "club": "Bukhara",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 1152,
@@ -11367,7 +11367,7 @@
     "pos": "FWD",
     "club": "Istanbul Basaksehir",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1153,
@@ -11377,7 +11377,7 @@
     "pos": "FWD",
     "club": "Persepolis",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1154,
@@ -11387,7 +11387,7 @@
     "pos": "MID",
     "club": "Esteghlal",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1155,
@@ -11397,7 +11397,7 @@
     "pos": "MID",
     "club": "Persepolis",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1156,
@@ -11407,7 +11407,7 @@
     "pos": "MID",
     "club": "Pakhtakor",
     "rating": 58.4,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1157,
@@ -11417,7 +11417,7 @@
     "pos": "MID",
     "club": "Istanbul Basaksehir",
     "rating": 58.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1158,
@@ -11427,7 +11427,7 @@
     "pos": "FWD",
     "club": "Bukhara",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 1161,
@@ -11437,7 +11437,7 @@
     "pos": "GK",
     "club": "Dinamo Zagreb",
     "rating": 71.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1162,
@@ -11447,7 +11447,7 @@
     "pos": "GK",
     "club": "Copenhagen",
     "rating": 67.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1163,
@@ -11457,7 +11457,7 @@
     "pos": "GK",
     "club": "Hull City",
     "rating": 65.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1164,
@@ -11467,7 +11467,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 89.0,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1165,
@@ -11477,7 +11477,7 @@
     "pos": "DEF",
     "club": "Real Sociedad",
     "rating": 77.6,
-    "value": 71
+    "value": 50
   },
   {
     "id": 1166,
@@ -11487,7 +11487,7 @@
     "pos": "DEF",
     "club": "Ajax",
     "rating": 83.2,
-    "value": 82
+    "value": 57
   },
   {
     "id": 1167,
@@ -11497,7 +11497,7 @@
     "pos": "DEF",
     "club": "Bayern Munich",
     "rating": 81.8,
-    "value": 79
+    "value": 55
   },
   {
     "id": 1168,
@@ -11507,7 +11507,7 @@
     "pos": "DEF",
     "club": "Fiorentina",
     "rating": 73.4,
-    "value": 64
+    "value": 45
   },
   {
     "id": 1169,
@@ -11517,7 +11517,7 @@
     "pos": "DEF",
     "club": "Midtjylland",
     "rating": 63.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 1170,
@@ -11527,7 +11527,7 @@
     "pos": "DEF",
     "club": "Hamburger SV",
     "rating": 62.6,
-    "value": 46
+    "value": 32
   },
   {
     "id": 1171,
@@ -11537,7 +11537,7 @@
     "pos": "MID",
     "club": "Milan",
     "rating": 89.0,
-    "value": 107
+    "value": 75
   },
   {
     "id": 1172,
@@ -11547,7 +11547,7 @@
     "pos": "MID",
     "club": "Manchester City",
     "rating": 85.6,
-    "value": 99
+    "value": 69
   },
   {
     "id": 1173,
@@ -11557,7 +11557,7 @@
     "pos": "MID",
     "club": "Atalanta",
     "rating": 83.2,
-    "value": 94
+    "value": 66
   },
   {
     "id": 1174,
@@ -11567,7 +11567,7 @@
     "pos": "MID",
     "club": "Torino",
     "rating": 73.8,
-    "value": 74
+    "value": 52
   },
   {
     "id": 1175,
@@ -11577,7 +11577,7 @@
     "pos": "MID",
     "club": "Real Sociedad",
     "rating": 73.4,
-    "value": 73
+    "value": 51
   },
   {
     "id": 1176,
@@ -11587,7 +11587,7 @@
     "pos": "MID",
     "club": "Como",
     "rating": 73.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1177,
@@ -11597,7 +11597,7 @@
     "pos": "MID",
     "club": "FC Augsburg",
     "rating": 72.6,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1178,
@@ -11607,7 +11607,7 @@
     "pos": "MID",
     "club": "Inter Milan",
     "rating": 80.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 1179,
@@ -11617,7 +11617,7 @@
     "pos": "MID",
     "club": "Bologna",
     "rating": 71.8,
-    "value": 70
+    "value": 49
   },
   {
     "id": 1180,
@@ -11627,7 +11627,7 @@
     "pos": "MID",
     "club": "Rijeka",
     "rating": 61.4,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1181,
@@ -11637,7 +11637,7 @@
     "pos": "FWD",
     "club": "PSV Eindhoven",
     "rating": 89.0,
-    "value": 122
+    "value": 85
   },
   {
     "id": 1182,
@@ -11647,7 +11647,7 @@
     "pos": "FWD",
     "club": "TSG Hoffenheim",
     "rating": 77.6,
-    "value": 92
+    "value": 64
   },
   {
     "id": 1183,
@@ -11657,7 +11657,7 @@
     "pos": "FWD",
     "club": "Osasuna",
     "rating": 65.2,
-    "value": 65
+    "value": 46
   },
   {
     "id": 1184,
@@ -11667,7 +11667,7 @@
     "pos": "FWD",
     "club": "Orlando City SC",
     "rating": 63.8,
-    "value": 62
+    "value": 43
   },
   {
     "id": 1185,
@@ -11677,7 +11677,7 @@
     "pos": "FWD",
     "club": "FC Dallas",
     "rating": 63.4,
-    "value": 62
+    "value": 43
   },
   {
     "id": 1186,
@@ -11687,7 +11687,7 @@
     "pos": "FWD",
     "club": "SC Freiburg",
     "rating": 73.0,
-    "value": 82
+    "value": 57
   },
   {
     "id": 1187,
@@ -11697,7 +11697,7 @@
     "pos": "GK",
     "club": "Everton",
     "rating": 84.0,
-    "value": 83
+    "value": 58
   },
   {
     "id": 1188,
@@ -11707,7 +11707,7 @@
     "pos": "GK",
     "club": "Crystal Palace",
     "rating": 80.6,
-    "value": 76
+    "value": 53
   },
   {
     "id": 1189,
@@ -11717,7 +11717,7 @@
     "pos": "GK",
     "club": "Manchester City",
     "rating": 86.2,
-    "value": 87
+    "value": 61
   },
   {
     "id": 1190,
@@ -11727,7 +11727,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 92.0,
-    "value": 110
+    "value": 77
   },
   {
     "id": 1191,
@@ -11737,7 +11737,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 88.6,
-    "value": 102
+    "value": 71
   },
   {
     "id": 1192,
@@ -11747,7 +11747,7 @@
     "pos": "DEF",
     "club": "Chelsea",
     "rating": 86.2,
-    "value": 97
+    "value": 68
   },
   {
     "id": 1193,
@@ -11757,7 +11757,7 @@
     "pos": "DEF",
     "club": "Aston Villa",
     "rating": 84.8,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1194,
@@ -11767,7 +11767,7 @@
     "pos": "DEF",
     "club": "Newcastle United",
     "rating": 84.4,
-    "value": 93
+    "value": 65
   },
   {
     "id": 1195,
@@ -11777,7 +11777,7 @@
     "pos": "DEF",
     "club": "Newcastle United",
     "rating": 84.0,
-    "value": 92
+    "value": 64
   },
   {
     "id": 1196,
@@ -11787,7 +11787,7 @@
     "pos": "DEF",
     "club": "Tottenham Hotspur",
     "rating": 83.6,
-    "value": 91
+    "value": 64
   },
   {
     "id": 1197,
@@ -11797,7 +11797,7 @@
     "pos": "DEF",
     "club": "Manchester City",
     "rating": 83.2,
-    "value": 90
+    "value": 63
   },
   {
     "id": 1198,
@@ -11807,7 +11807,7 @@
     "pos": "DEF",
     "club": "Bayer Leverkusen",
     "rating": 82.8,
-    "value": 89
+    "value": 62
   },
   {
     "id": 1199,
@@ -11817,7 +11817,7 @@
     "pos": "MID",
     "club": "Brentford",
     "rating": 84.0,
-    "value": 105
+    "value": 74
   },
   {
     "id": 1200,
@@ -11827,7 +11827,7 @@
     "pos": "MID",
     "club": "Arsenal",
     "rating": 88.6,
-    "value": 117
+    "value": 82
   },
   {
     "id": 1201,
@@ -11837,7 +11837,7 @@
     "pos": "MID",
     "club": "Real Madrid",
     "rating": 86.2,
-    "value": 111
+    "value": 78
   },
   {
     "id": 1202,
@@ -11847,7 +11847,7 @@
     "pos": "MID",
     "club": "Aston Villa",
     "rating": 84.8,
-    "value": 108
+    "value": 76
   },
   {
     "id": 1203,
@@ -11857,7 +11857,7 @@
     "pos": "MID",
     "club": "Manchester United",
     "rating": 84.4,
-    "value": 106
+    "value": 74
   },
   {
     "id": 1204,
@@ -11867,7 +11867,7 @@
     "pos": "MID",
     "club": "Nottingham Forest",
     "rating": 76.0,
-    "value": 86
+    "value": 60
   },
   {
     "id": 1205,
@@ -11877,7 +11877,7 @@
     "pos": "FWD",
     "club": "Bayern Munich",
     "rating": 92.0,
-    "value": 143
+    "value": 100
   },
   {
     "id": 1206,
@@ -11887,7 +11887,7 @@
     "pos": "FWD",
     "club": "Barcelona",
     "rating": 88.6,
-    "value": 133
+    "value": 93
   },
   {
     "id": 1207,
@@ -11897,7 +11897,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 86.2,
-    "value": 126
+    "value": 88
   },
   {
     "id": 1208,
@@ -11907,7 +11907,7 @@
     "pos": "FWD",
     "club": "Aston Villa",
     "rating": 84.8,
-    "value": 122
+    "value": 85
   },
   {
     "id": 1209,
@@ -11917,7 +11917,7 @@
     "pos": "FWD",
     "club": "Newcastle United",
     "rating": 84.4,
-    "value": 120
+    "value": 84
   },
   {
     "id": 1210,
@@ -11927,7 +11927,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 84.0,
-    "value": 119
+    "value": 83
   },
   {
     "id": 1211,
@@ -11937,7 +11937,7 @@
     "pos": "FWD",
     "club": "Arsenal",
     "rating": 83.6,
-    "value": 118
+    "value": 83
   },
   {
     "id": 1212,
@@ -11947,7 +11947,7 @@
     "pos": "FWD",
     "club": "Al-Ahli",
     "rating": 75.2,
-    "value": 96
+    "value": 67
   },
   {
     "id": 1213,
@@ -11957,7 +11957,7 @@
     "pos": "GK",
     "club": "St. Gallen",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1214,
@@ -11967,7 +11967,7 @@
     "pos": "GK",
     "club": "Hearts of Oak",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 1215,
@@ -11977,7 +11977,7 @@
     "pos": "GK",
     "club": "St Patrick's Athletic",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1216,
@@ -11987,7 +11987,7 @@
     "pos": "DEF",
     "club": "PAOK",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1217,
@@ -11997,7 +11997,7 @@
     "pos": "DEF",
     "club": "Auxerre",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1218,
@@ -12007,7 +12007,7 @@
     "pos": "DEF",
     "club": "Rennes",
     "rating": 70.2,
-    "value": 47
+    "value": 33
   },
   {
     "id": 1219,
@@ -12017,7 +12017,7 @@
     "pos": "DEF",
     "club": "Istanbul Basaksehir",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1220,
@@ -12027,7 +12027,7 @@
     "pos": "DEF",
     "club": "VfL Wolfsburg",
     "rating": 68.4,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1221,
@@ -12037,7 +12037,7 @@
     "pos": "DEF",
     "club": "Rayo Vallecano",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1222,
@@ -12047,7 +12047,7 @@
     "pos": "DEF",
     "club": "Nice",
     "rating": 67.6,
-    "value": 44
+    "value": 31
   },
   {
     "id": 1223,
@@ -12057,7 +12057,7 @@
     "pos": "DEF",
     "club": "Pafos",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1224,
@@ -12067,7 +12067,7 @@
     "pos": "DEF",
     "club": "Auxerre",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1225,
@@ -12077,7 +12077,7 @@
     "pos": "MID",
     "club": "Villarreal",
     "rating": 76.0,
-    "value": 64
+    "value": 45
   },
   {
     "id": 1226,
@@ -12087,7 +12087,7 @@
     "pos": "MID",
     "club": "Leicester City",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1227,
@@ -12097,7 +12097,7 @@
     "pos": "MID",
     "club": "Auxerre",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1228,
@@ -12107,7 +12107,7 @@
     "pos": "MID",
     "club": "Nordsjaelland",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1229,
@@ -12117,7 +12117,7 @@
     "pos": "MID",
     "club": "Oviedo",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1230,
@@ -12127,7 +12127,7 @@
     "pos": "MID",
     "club": "Saint-Etienne",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1231,
@@ -12137,7 +12137,7 @@
     "pos": "FWD",
     "club": "Leicester City",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1232,
@@ -12147,7 +12147,7 @@
     "pos": "FWD",
     "club": "Manchester City",
     "rating": 80.6,
-    "value": 81
+    "value": 57
   },
   {
     "id": 1233,
@@ -12157,7 +12157,7 @@
     "pos": "FWD",
     "club": "Atalanta",
     "rating": 78.2,
-    "value": 76
+    "value": 53
   },
   {
     "id": 1234,
@@ -12167,7 +12167,7 @@
     "pos": "FWD",
     "club": "Athletic Bilbao",
     "rating": 68.8,
-    "value": 59
+    "value": 41
   },
   {
     "id": 1235,
@@ -12177,7 +12177,7 @@
     "pos": "FWD",
     "club": "Lyon",
     "rating": 68.4,
-    "value": 58
+    "value": 41
   },
   {
     "id": 1236,
@@ -12187,7 +12187,7 @@
     "pos": "FWD",
     "club": "Al-Qadsiah",
     "rating": 58.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1237,
@@ -12197,7 +12197,7 @@
     "pos": "FWD",
     "club": "Coventry City",
     "rating": 57.6,
-    "value": 41
+    "value": 29
   },
   {
     "id": 1238,
@@ -12207,7 +12207,7 @@
     "pos": "FWD",
     "club": "Viktoria Plzen",
     "rating": 57.2,
-    "value": 41
+    "value": 29
   },
   {
     "id": 1239,
@@ -12217,7 +12217,7 @@
     "pos": "GK",
     "club": "Nacional",
     "rating": 66.0,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1240,
@@ -12227,7 +12227,7 @@
     "pos": "GK",
     "club": "Al-Fayha",
     "rating": 62.6,
-    "value": 34
+    "value": 24
   },
   {
     "id": 1241,
@@ -12237,7 +12237,7 @@
     "pos": "GK",
     "club": "Marathon",
     "rating": 60.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1242,
@@ -12247,7 +12247,7 @@
     "pos": "DEF",
     "club": "Plaza Amador",
     "rating": 66.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1243,
@@ -12257,7 +12257,7 @@
     "pos": "DEF",
     "club": "Saprissa",
     "rating": 62.6,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1244,
@@ -12267,7 +12267,7 @@
     "pos": "DEF",
     "club": "Besiktas",
     "rating": 60.2,
-    "value": 35
+    "value": 24
   },
   {
     "id": 1245,
@@ -12277,7 +12277,7 @@
     "pos": "DEF",
     "club": "Turan Tovuz",
     "rating": 58.8,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1246,
@@ -12287,7 +12287,7 @@
     "pos": "DEF",
     "club": "LASK",
     "rating": 58.4,
-    "value": 33
+    "value": 23
   },
   {
     "id": 1247,
@@ -12297,7 +12297,7 @@
     "pos": "DEF",
     "club": "Slovan Bratislava",
     "rating": 58.0,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1248,
@@ -12307,7 +12307,7 @@
     "pos": "DEF",
     "club": "Norwich City",
     "rating": 57.6,
-    "value": 32
+    "value": 22
   },
   {
     "id": 1249,
@@ -12317,7 +12317,7 @@
     "pos": "DEF",
     "club": "Puerto Cabello",
     "rating": 57.2,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1250,
@@ -12327,7 +12327,7 @@
     "pos": "DEF",
     "club": "Deportivo La Guaira",
     "rating": 56.8,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1251,
@@ -12337,7 +12337,7 @@
     "pos": "DEF",
     "club": "Pari Nizhny Novgorod",
     "rating": 56.4,
-    "value": 31
+    "value": 22
   },
   {
     "id": 1252,
@@ -12347,7 +12347,7 @@
     "pos": "MID",
     "club": "San Diego FC",
     "rating": 66.0,
-    "value": 48
+    "value": 34
   },
   {
     "id": 1253,
@@ -12357,7 +12357,7 @@
     "pos": "MID",
     "club": "Plaza Amador",
     "rating": 62.6,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1254,
@@ -12367,7 +12367,7 @@
     "pos": "MID",
     "club": "Mazatlan",
     "rating": 60.2,
-    "value": 40
+    "value": 28
   },
   {
     "id": 1255,
@@ -12377,7 +12377,7 @@
     "pos": "MID",
     "club": "UNAM",
     "rating": 58.8,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1256,
@@ -12387,7 +12387,7 @@
     "pos": "MID",
     "club": "Juarez",
     "rating": 58.4,
-    "value": 38
+    "value": 27
   },
   {
     "id": 1257,
@@ -12397,7 +12397,7 @@
     "pos": "MID",
     "club": "Ironi Kiryat Shmona",
     "rating": 58.0,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1258,
@@ -12407,7 +12407,7 @@
     "pos": "MID",
     "club": "Cobresal",
     "rating": 57.6,
-    "value": 37
+    "value": 26
   },
   {
     "id": 1259,
@@ -12417,7 +12417,7 @@
     "pos": "MID",
     "club": "Minnesota United FC",
     "rating": 57.2,
-    "value": 36
+    "value": 25
   },
   {
     "id": 1260,
@@ -12427,7 +12427,7 @@
     "pos": "MID",
     "club": "Universidad Catolica",
     "rating": 56.8,
-    "value": 36
+    "value": 25
   },
   {
     "id": 1261,
@@ -12437,7 +12437,7 @@
     "pos": "FWD",
     "club": "Universidad Catolica",
     "rating": 66.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1262,
@@ -12447,7 +12447,7 @@
     "pos": "FWD",
     "club": "Leon",
     "rating": 62.6,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1263,
@@ -12457,7 +12457,7 @@
     "pos": "FWD",
     "club": "Universidad de Concepcion",
     "rating": 60.2,
-    "value": 45
+    "value": 31
   },
   {
     "id": 1264,
@@ -12467,7 +12467,7 @@
     "pos": "FWD",
     "club": "Saprissa",
     "rating": 58.8,
-    "value": 43
+    "value": 30
   },
   {
     "id": 1265,
@@ -12477,7 +12477,7 @@
     "pos": "MID",
     "club": "Austin FC",
     "rating": 60.0,
-    "value": 42
+    "value": 29
   },
   {
     "id": 1266,
@@ -12487,7 +12487,7 @@
     "pos": "GK",
     "club": "Free agent",
     "rating": 88.0,
-    "value": 72
+    "value": 50
   },
   {
     "id": 1267,
@@ -12497,7 +12497,7 @@
     "pos": "GK",
     "club": "Luton Town",
     "rating": 79.0,
-    "value": 52
+    "value": 36
   },
   {
     "id": 1268,
@@ -12507,7 +12507,7 @@
     "pos": "DEF",
     "club": "Al-Qadsiah",
     "rating": 80.0,
-    "value": 54
+    "value": 38
   },
   {
     "id": 1269,
@@ -12517,7 +12517,7 @@
     "pos": "DEF",
     "club": "CF Montreal",
     "rating": 79.0,
-    "value": 51
+    "value": 36
   },
   {
     "id": 1270,
@@ -12527,7 +12527,7 @@
     "pos": "DEF",
     "club": "Herediano",
     "rating": 77.0,
-    "value": 47
+    "value": 33
   },
   {
     "id": 1271,
@@ -12537,7 +12537,7 @@
     "pos": "DEF",
     "club": "Odense BK",
     "rating": 78.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1272,
@@ -12547,7 +12547,7 @@
     "pos": "MID",
     "club": "Deportivo Saprissa",
     "rating": 80.0,
-    "value": 53
+    "value": 37
   },
   {
     "id": 1273,
@@ -12557,7 +12557,7 @@
     "pos": "MID",
     "club": "Unattached",
     "rating": 79.0,
-    "value": 50
+    "value": 35
   },
   {
     "id": 1274,
@@ -12567,7 +12567,7 @@
     "pos": "MID",
     "club": "Herediano",
     "rating": 77.0,
-    "value": 46
+    "value": 32
   },
   {
     "id": 1275,
@@ -12577,7 +12577,7 @@
     "pos": "MID",
     "club": "Deportivo Saprissa",
     "rating": 76.0,
-    "value": 44
+    "value": 31
   },
   {
     "id": 1276,
@@ -12587,7 +12587,7 @@
     "pos": "FWD",
     "club": "Real Betis",
     "rating": 82.0,
-    "value": 60
+    "value": 42
   },
   {
     "id": 1277,
@@ -12597,7 +12597,7 @@
     "pos": "FWD",
     "club": "Pumas UNAM",
     "rating": 78.0,
-    "value": 49
+    "value": 34
   },
   {
     "id": 1278,
@@ -12607,7 +12607,7 @@
     "pos": "FWD",
     "club": "Deportivo Saprissa",
     "rating": 77.0,
-    "value": 46
+    "value": 32
   },
   {
     "id": 1279,
@@ -12617,6 +12617,6 @@
     "pos": "FWD",
     "club": "Herediano",
     "rating": 76.0,
-    "value": 43
+    "value": 30
   }
 ]
