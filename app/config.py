@@ -2,26 +2,20 @@ from datetime import datetime, date
 
 MATCHDAYS = [
     {
+        # Opener + 9pm ET games (9pm ET = 1am UTC June 12 = 2am BST)
         "label": "June 11",
         "date": date(2026, 6, 11),
-        "lock": datetime(2026, 6, 11, 19, 0),
+        "lock": datetime(2026, 6, 11, 19, 0),  # 3pm ET — before first kickoff
         "fixtures": [
             ("Mexico", "South Africa"),
-        ],
-    },
-    {
-        "label": "June 12",
-        "date": date(2026, 6, 12),
-        "lock": datetime(2026, 6, 12, 2, 0),
-        "fixtures": [
             ("South Korea", "Czech Republic"),
             ("Canada", "Bosnia and Herzegovina"),
         ],
     },
     {
-        "label": "June 13",
-        "date": date(2026, 6, 13),
-        "lock": datetime(2026, 6, 13, 1, 0),
+        "label": "June 12",
+        "date": date(2026, 6, 12),
+        "lock": datetime(2026, 6, 12, 19, 0),
         "fixtures": [
             ("United States", "Paraguay"),
             ("Qatar", "Switzerland"),
@@ -29,9 +23,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 14",
-        "date": date(2026, 6, 14),
-        "lock": datetime(2026, 6, 14, 1, 0),
+        "label": "June 13",
+        "date": date(2026, 6, 13),
+        "lock": datetime(2026, 6, 13, 19, 0),
         "fixtures": [
             ("Haiti", "Scotland"),
             ("Australia", "Turkey"),
@@ -41,9 +35,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 15",
-        "date": date(2026, 6, 15),
-        "lock": datetime(2026, 6, 15, 2, 0),
+        "label": "June 14",
+        "date": date(2026, 6, 14),
+        "lock": datetime(2026, 6, 14, 19, 0),
         "fixtures": [
             ("Sweden", "Tunisia"),
             ("Spain", "Cape Verde"),
@@ -52,9 +46,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 16",
-        "date": date(2026, 6, 16),
-        "lock": datetime(2026, 6, 16, 1, 0),
+        "label": "June 15",
+        "date": date(2026, 6, 15),
+        "lock": datetime(2026, 6, 15, 19, 0),
         "fixtures": [
             ("Iran", "New Zealand"),
             ("France", "Senegal"),
@@ -62,9 +56,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 17",
-        "date": date(2026, 6, 17),
-        "lock": datetime(2026, 6, 17, 1, 0),
+        "label": "June 16",
+        "date": date(2026, 6, 16),
+        "lock": datetime(2026, 6, 16, 19, 0),
         "fixtures": [
             ("Argentina", "Algeria"),
             ("Austria", "Jordan"),
@@ -74,9 +68,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 18",
-        "date": date(2026, 6, 18),
-        "lock": datetime(2026, 6, 18, 2, 0),
+        "label": "June 17",
+        "date": date(2026, 6, 17),
+        "lock": datetime(2026, 6, 17, 19, 0),
         "fixtures": [
             ("Uzbekistan", "Colombia"),
             ("Czech Republic", "South Africa"),
@@ -85,9 +79,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 19",
-        "date": date(2026, 6, 19),
-        "lock": datetime(2026, 6, 19, 1, 0),
+        "label": "June 18",
+        "date": date(2026, 6, 18),
+        "lock": datetime(2026, 6, 18, 19, 0),
         "fixtures": [
             ("Mexico", "South Korea"),
             ("United States", "Australia"),
@@ -95,9 +89,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 20",
-        "date": date(2026, 6, 20),
-        "lock": datetime(2026, 6, 20, 0, 30),
+        "label": "June 19",
+        "date": date(2026, 6, 19),
+        "lock": datetime(2026, 6, 19, 19, 0),
         "fixtures": [
             ("Brazil", "Haiti"),
             ("Turkey", "Paraguay"),
@@ -106,9 +100,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 21",
-        "date": date(2026, 6, 21),
-        "lock": datetime(2026, 6, 21, 0, 0),
+        "label": "June 20",
+        "date": date(2026, 6, 20),
+        "lock": datetime(2026, 6, 20, 19, 0),
         "fixtures": [
             ("Ecuador", "Curacao"),
             ("Tunisia", "Japan"),
@@ -118,9 +112,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 22",
-        "date": date(2026, 6, 22),
-        "lock": datetime(2026, 6, 22, 1, 0),
+        "label": "June 21",
+        "date": date(2026, 6, 21),
+        "lock": datetime(2026, 6, 21, 19, 0),
         "fixtures": [
             ("New Zealand", "Egypt"),
             ("Argentina", "Austria"),
@@ -128,9 +122,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 23",
-        "date": date(2026, 6, 23),
-        "lock": datetime(2026, 6, 23, 0, 0),
+        "label": "June 22",
+        "date": date(2026, 6, 22),
+        "lock": datetime(2026, 6, 22, 19, 0),
         "fixtures": [
             ("Norway", "Senegal"),
             ("Jordan", "Algeria"),
@@ -140,9 +134,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 24",
-        "date": date(2026, 6, 24),
-        "lock": datetime(2026, 6, 24, 2, 0),
+        "label": "June 23",
+        "date": date(2026, 6, 23),
+        "lock": datetime(2026, 6, 23, 19, 0),
         "fixtures": [
             ("Colombia", "DR Congo"),
             ("Switzerland", "Canada"),
@@ -152,9 +146,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 25",
-        "date": date(2026, 6, 25),
-        "lock": datetime(2026, 6, 25, 1, 0),
+        "label": "June 24",
+        "date": date(2026, 6, 24),
+        "lock": datetime(2026, 6, 24, 19, 0),
         "fixtures": [
             ("South Africa", "South Korea"),
             ("Czech Republic", "Mexico"),
@@ -165,9 +159,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 26",
-        "date": date(2026, 6, 26),
-        "lock": datetime(2026, 6, 26, 2, 0),
+        "label": "June 25",
+        "date": date(2026, 6, 25),
+        "lock": datetime(2026, 6, 25, 19, 0),
         "fixtures": [
             ("Turkey", "United States"),
             ("Paraguay", "Australia"),
@@ -176,9 +170,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 27",
-        "date": date(2026, 6, 27),
-        "lock": datetime(2026, 6, 27, 0, 0),
+        "label": "June 26",
+        "date": date(2026, 6, 26),
+        "lock": datetime(2026, 6, 26, 19, 0),
         "fixtures": [
             ("Cape Verde", "Saudi Arabia"),
             ("Uruguay", "Spain"),
@@ -191,9 +185,9 @@ MATCHDAYS = [
         ],
     },
     {
-        "label": "June 28",
-        "date": date(2026, 6, 28),
-        "lock": datetime(2026, 6, 28, 2, 0),
+        "label": "June 27",
+        "date": date(2026, 6, 27),
+        "lock": datetime(2026, 6, 27, 19, 0),
         "fixtures": [
             ("Algeria", "Austria"),
             ("Jordan", "Argentina"),
