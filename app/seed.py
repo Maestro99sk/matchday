@@ -1,6 +1,6 @@
 """Create schema and load real World Cup fixtures. Run: python -m app.seed"""
 from . import create_app
-from .models import db, Matchday, Fixture
+from .models import db, Matchday, Fixture, Entry, Pick, Result
 from .config import MATCHDAYS
 
 
@@ -17,11 +17,12 @@ def run():
             print("Migrated: added results.played column.")
         except Exception:
             pass  # column already exists
-        # Reseed matchdays/fixtures only — leaves users, leagues, entries intact.
-        for fx in Fixture.query.all():
-            db.session.delete(fx)
-        for m in Matchday.query.all():
-            db.session.delete(m)
+        # Clear everything except users and leagues
+        Pick.query.delete()
+        Entry.query.delete()
+        Result.query.delete()
+        Fixture.query.delete()
+        Matchday.query.delete()
         db.session.commit()
 
         for md in MATCHDAYS:
