@@ -201,7 +201,6 @@ FORMATIONS = {
     "1-1-2": ["GK", "DEF", "MID", "FWD", "FWD"],
     "2-2":   ["GK", "DEF", "DEF", "FWD", "FWD"],
     "3-1":   ["GK", "DEF", "DEF", "DEF", "FWD"],
-    "1-3":   ["GK", "DEF", "FWD", "FWD", "FWD"],
 }
 
 BUDGET = 500
