@@ -38,7 +38,7 @@
   <nav class="tabbar">
     <a href="{{ url_for('dashboard') }}" class="{{ 'active' if request.endpoint=='dashboard' }}"><span class="ico">⌂</span> Home</a>
     <a href="{{ url_for('schedule') }}" class="{{ 'active' if request.endpoint=='schedule' }}"><span class="ico">📅</span> Schedule</a>
-    <a href="{{ url_for('dashboard') }}#leagues"><span class="ico">⛯</span> Leagues</a>
+    <a href="{{ url_for('how_to_play') }}" class="{{ 'active' if request.endpoint=='how_to_play' }}"><span class="ico">?</span> Rules</a>
     <a href="{{ url_for('dashboard') }}#ranking"><span class="ico">★</span> Ranking</a>
   </nav>
   {% endif %}

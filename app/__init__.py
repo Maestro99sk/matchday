@@ -421,4 +421,9 @@ def create_app():
     def privacy():
         return render_template("privacy.html")
 
+    # ---- how to play ----
+    @app.route("/how-to-play")
+    def how_to_play():
+        return render_template("how_to_play.html")
+
     return app

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}How to Play · World Cup 5s{% endblock %}
+{% block content %}
+<div class="card">
+  <h2 style="margin-bottom:4px">How to Play</h2>
+  <p class="muted" style="font-size:13px">World Cup 5s · WC 2026</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">The basics</h3>
+  <p>Each matchday you pick a team of <b>5 starters</b> from the players appearing in that day's World Cup fixtures. Stay under your budget, pick your formation, and score points based on what your players do on the pitch.</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Budget</h3>
+  <p>Every player starts with a <b>500 budget</b>. You can earn extra budget by referring friends — each referral adds 2%, up to a maximum of +20%.</p>
+  <p style="margin-top:8px">Player prices are adjusted each matchday based on <b>fixture difficulty</b>: players facing a tough opponent are cheaper, players facing a weaker side cost more.</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Formations</h3>
+  <p>Choose from 5 formations. Each has one goalkeeper.</p>
+  <table class="table" style="margin-top:10px">
+    <tr><th>Formation</th><th>Name</th><th>Shape</th></tr>
+    <tr><td class="mono">1-2-1</td><td>The Diamond</td><td>GK · DEF · MID MID · FWD</td></tr>
+    <tr><td class="mono">2-1-1</td><td>The Anchor</td><td>GK · DEF DEF · MID · FWD</td></tr>
+    <tr><td class="mono">1-1-2</td><td>The Spearhead</td><td>GK · DEF · MID · FWD FWD</td></tr>
+    <tr><td class="mono">2-2</td><td>The Box</td><td>GK · DEF DEF · FWD FWD</td></tr>
+    <tr><td class="mono">3-1</td><td>The Wall</td><td>GK · DEF DEF DEF · FWD</td></tr>
+  </table>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Nation rules</h3>
+  <ul style="padding-left:18px;display:flex;flex-direction:column;gap:6px">
+    <li>Maximum <b>2 starters</b> from the same nation (3 on single-game days).</li>
+    <li>Each sub must be from the <b>same nation</b> as the starter they cover.</li>
+  </ul>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Subs bench</h3>
+  <p>Alongside your 5 starters you pick <b>4 subs</b> — one per position in your formation. If a starter <b>doesn't play</b> (not in the starting XI or substituted off before kick-off), their sub automatically replaces them — as long as the sub is from the same nation.</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 12px">Scoring</h3>
+  <table class="table">
+    <tr><th>Event</th><th class="num">Points</th></tr>
+    <tr><td>Goal scored</td><td class="num" style="color:var(--accent)">+10</td></tr>
+    <tr><td>Assist</td><td class="num" style="color:var(--accent)">+7</td></tr>
+    <tr><td>Clean sheet (GK / DEF)</td><td class="num" style="color:var(--accent)">+6</td></tr>
+    <tr><td>Clean sheet (MID)</td><td class="num" style="color:var(--accent)">+3</td></tr>
+    <tr><td>Yellow card</td><td class="num" style="color:#ff5a8a">−2</td></tr>
+    <tr><td>Red card</td><td class="num" style="color:#ff5a8a">−5</td></tr>
+  </table>
+  <p style="margin-top:10px;font-size:13px;color:var(--muted)">A clean sheet means your player's team conceded zero goals in the match. Forwards do not earn clean sheet points.</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Lock time</h3>
+  <p>Lineups lock before the first kick-off of each matchday. You cannot change your picks after the lock. Check the <a href="{{ url_for('schedule') }}" style="color:var(--accent)">Schedule</a> for exact lock times.</p>
+</div>
+
+<div class="card" style="line-height:1.7;font-size:14px;color:var(--ink)">
+  <h3 style="font-family:var(--display);font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 10px">Leagues</h3>
+  <p>Create or join a private league with friends. Each league has its own leaderboard. You can be in multiple leagues at once — you pick a separate team for each league per matchday.</p>
+</div>
+
+<div style="text-align:center;padding:8px 0 16px">
+  <a href="{{ url_for('dashboard') }}" class="btn sm ghost">← Back</a>
+</div>
+{% endblock %}
