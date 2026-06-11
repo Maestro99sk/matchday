@@ -1,13 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
-{% if next_md %}
+
+{% if open_md %}
 <div class="card" style="border-color:var(--accent-dim)">
   <div class="row-between">
-    <div><h2 style="margin-bottom:4px">Next matchday</h2>
-      <div style="font-family:var(--display);font-size:20px;font-weight:700">{{ next_md.label }}</div>
-      <div class="muted mono" style="font-size:13px">{{ next_md.date.strftime('%a %d %b') }} · locks {{ next_md.lock_time.strftime('%H:%M') }}</div>
+    <div><h2 style="margin-bottom:4px">Now picking</h2>
+      <div style="font-family:var(--display);font-size:20px;font-weight:700">{{ open_md.label }}</div>
+      <div class="muted mono" style="font-size:13px">Locks {{ open_md.lock_time.strftime('%H:%M UTC') }}</div>
     </div><span class="pill open">OPEN</span>
   </div>
+  {% if open_md.fixtures %}
+  <div style="margin-top:10px;display:flex;flex-direction:column;gap:4px">
+    {% for fx in open_md.fixtures %}
+    <div style="font-size:13px;color:var(--muted);font-family:var(--mono)">
+      {{ fx.home_team | teamflag }} {{ fx.home_team }} <span style="color:var(--line)">vs</span> {{ fx.away_team }} {{ fx.away_team | teamflag }}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 </div>
 
 {% if my_entry and my_entry_league %}
@@ -15,8 +25,8 @@
   <div class="row-between" style="margin-bottom:12px">
     <h2 style="margin:0">My team <span class="mono muted" style="font-size:12px;font-weight:400">· {{ my_entry.formation }}</span></h2>
     <div style="display:flex;gap:8px">
-      <a href="{{ url_for('play', league_id=my_entry_league.id, matchday_id=next_md.id) }}" class="btn sm ghost">Edit</a>
-      <a href="{{ url_for('my_team', league_id=my_entry_league.id, matchday_id=next_md.id) }}" class="btn sm">View</a>
+      <a href="{{ url_for('play', league_id=my_entry_league.id, matchday_id=open_md.id) }}" class="btn sm ghost">Edit</a>
+      <a href="{{ url_for('my_team', league_id=my_entry_league.id, matchday_id=open_md.id) }}" class="btn sm">View</a>
     </div>
   </div>
   {% set starters = my_picks | selectattr("slot", "lt", 5) | list %}
@@ -45,13 +55,26 @@
   </div>
   {% endif %}
 </div>
-{% elif next_md and leagues %}
+
+{% elif leagues %}
 <div class="card" style="text-align:center;padding:20px">
-  <p class="muted" style="margin-bottom:12px">No team picked yet for {{ next_md.label }}.</p>
-  <a href="{{ url_for('play', league_id=leagues[0].id, matchday_id=next_md.id) }}" class="btn primary sm">Pick your team →</a>
+  <p style="font-size:15px;font-weight:600;margin-bottom:6px">Pick your team for {{ open_md.label }}</p>
+  <p class="muted" style="font-size:13px;margin-bottom:14px">Budget {{ my_budget }} · {{ open_md.fixtures | length }} fixture{{ 's' if open_md.fixtures | length != 1 }}</p>
+  <a href="{{ url_for('play', league_id=leagues[0].id, matchday_id=open_md.id) }}" class="btn primary">Pick team →</a>
 </div>
 {% endif %}
+
+{% elif pending_md %}
+<div class="card" style="border-color:var(--line)">
+  <div class="row-between">
+    <div><h2 style="margin-bottom:4px">Awaiting results</h2>
+      <div style="font-family:var(--display);font-size:20px;font-weight:700">{{ pending_md.label }}</div>
+      <div class="muted mono" style="font-size:13px">Games in progress — scores update automatically</div>
+    </div><span class="pill">LOCKED</span>
+  </div>
+</div>
 {% endif %}
+
 <div class="card" id="leagues">
   <h2 style="margin:0 0 8px">Your leagues</h2>
   {% if leagues %}{% for lg in leagues %}

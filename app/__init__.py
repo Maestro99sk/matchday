@@ -128,20 +128,28 @@ def create_app():
         u = current_user()
         lids = [m.league_id for m in u.memberships]
         leagues = League.query.filter(League.id.in_(lids)).all() if lids else []
-        next_md = Matchday.query.filter_by(settled=False).order_by(Matchday.date).first()
+        now = datetime.utcnow()
+        # open matchday = not settled and not yet locked
+        open_md = (Matchday.query.filter_by(settled=False)
+                   .filter(Matchday.lock_time > now)
+                   .order_by(Matchday.date).first())
+        # locked but not yet settled (awaiting results)
+        pending_md = (Matchday.query.filter_by(settled=False)
+                      .filter(Matchday.lock_time <= now)
+                      .order_by(Matchday.date).first())
         ranking = (db.session.query(User.username, db.func.sum(Entry.score).label("pts"))
                    .join(Entry, Entry.user_id == User.id).group_by(User.id)
                    .order_by(db.text("pts DESC")).limit(20).all())
         ref_link = url_for("register", ref=u.referral_code, _external=True) if u.referral_code else None
         my_budget = budget_for(u.referral_count or 0)
         at_cap = (u.referral_count or 0) * REFERRAL_BONUS_PCT >= REFERRAL_BONUS_CAP_PCT
-        # find the user's team for the next matchday (first league with an entry)
+        # find the user's entry for the open matchday
         my_entry = None
         my_entry_league = None
         my_picks = []
-        if next_md and lids:
+        if open_md and lids:
             for lg in leagues:
-                e = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=next_md.id).first()
+                e = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=open_md.id).first()
                 if e:
                     my_entry = e
                     my_entry_league = lg
@@ -150,7 +158,8 @@ def create_app():
                         if player:
                             my_picks.append({"slot": pk.slot, "role": pk.role, "player": player})
                     break
-        return render_template("dashboard.html", leagues=leagues, next_md=next_md,
+        return render_template("dashboard.html", leagues=leagues,
+                               open_md=open_md, pending_md=pending_md,
                                ranking=ranking, ref_link=ref_link, base_budget=BUDGET,
                                my_budget=my_budget, ref_count=(u.referral_count or 0),
                                at_cap=at_cap, my_entry=my_entry,
