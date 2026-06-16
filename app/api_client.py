@@ -5,6 +5,7 @@ World Cup 2026 = league_id 1, season 2026.
 """
 import os
 import unicodedata
+from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
 import requests
@@ -73,37 +74,50 @@ def fetch_fixture_stats(home_team, away_team, match_date):
         return None, "API_FOOTBALL_KEY environment variable not set."
 
     # --- find the fixture ---
-    try:
-        r = requests.get(
-            f"{BASE}/fixtures",
-            params={"date": str(match_date), "league": WC_LEAGUE, "season": WC_SEASON},
-            headers=_headers(),
-            timeout=15,
-        )
-        r.raise_for_status()
-    except requests.RequestException as e:
-        return None, f"Network error: {e}"
+    # Search a 3-day window centered on match_date. World Cup kickoffs late in
+    # local-day can land on the previous or next UTC date depending on host city,
+    # and the API indexes by the UTC kickoff date.
+    candidates = []
+    not_finished_status = None
+    for offset in (0, -1, 1):
+        d = match_date + timedelta(days=offset)
+        try:
+            r = requests.get(
+                f"{BASE}/fixtures",
+                params={"date": str(d), "league": WC_LEAGUE, "season": WC_SEASON},
+                headers=_headers(),
+                timeout=15,
+            )
+            r.raise_for_status()
+        except requests.RequestException as e:
+            return None, f"Network error: {e}"
 
-    data = r.json()
-    if data.get("errors"):
-        return None, f"API error: {data['errors']}"
+        data = r.json()
+        if data.get("errors"):
+            return None, f"API error: {data['errors']}"
+
+        for fx in data.get("response", []):
+            h = fx["teams"]["home"]["name"]
+            a = fx["teams"]["away"]["name"]
+            if _team_match(h, home_team) and _team_match(a, away_team):
+                status = fx["fixture"]["status"]["short"]
+                if status in FINISHED:
+                    candidates.append(fx)
+                else:
+                    not_finished_status = status
 
     fixture_id = None
     home_goals = away_goals = None
-
-    for fx in data.get("response", []):
-        h = fx["teams"]["home"]["name"]
-        a = fx["teams"]["away"]["name"]
-        if _team_match(h, home_team) and _team_match(a, away_team):
-            status = fx["fixture"]["status"]["short"]
-            if status not in FINISHED:
-                return None, f"{home_team} v {away_team}: match not finished yet (status: {status})."
-            fixture_id = fx["fixture"]["id"]
-            home_goals = fx["goals"]["home"] or 0
-            away_goals = fx["goals"]["away"] or 0
-            break
+    if candidates:
+        target_ts = datetime(match_date.year, match_date.month, match_date.day).timestamp()
+        fx = min(candidates, key=lambda fx: abs(int(fx["fixture"]["timestamp"]) - target_ts))
+        fixture_id = fx["fixture"]["id"]
+        home_goals = fx["goals"]["home"] or 0
+        away_goals = fx["goals"]["away"] or 0
 
     if fixture_id is None:
+        if not_finished_status is not None:
+            return None, f"{home_team} v {away_team}: match not finished yet (status: {not_finished_status})."
         return None, f"Fixture not found in API: {home_team} v {away_team} on {match_date}."
 
     # --- fetch player stats ---

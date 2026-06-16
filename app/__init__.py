@@ -388,8 +388,10 @@ def create_app():
                 continue
             fixture_pool = md_players_for_teams(fx.home_team, fx.away_team)
             for player, stats in match_api_to_pool(api_stats, fixture_pool):
-                if any([stats["goals"], stats["assists"], stats["yellows"], stats["reds"],
-                        stats["clean_sheet"]]):
+                # Keep DNP rows so the same-nation auto-sub fires
+                if (not stats.get("played", True)
+                        or any([stats["goals"], stats["assists"], stats["yellows"],
+                                stats["reds"], stats["clean_sheet"]])):
                     merged[player["id"]] = stats
 
         if errors and not merged:

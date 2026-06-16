@@ -46,8 +46,11 @@ def run():
                     continue
                 fixture_pool = players_for_teams({fx.home_team, fx.away_team})
                 for player, stats in match_api_to_pool(api_stats, fixture_pool):
-                    if any([stats["goals"], stats["assists"],
-                            stats["yellows"], stats["reds"], stats["clean_sheet"]]):
+                    # Keep the row if anything happened OR if the player didn't play
+                    # (DNP rows are needed for the same-nation auto-sub to trigger)
+                    if (not stats.get("played", True)
+                            or any([stats["goals"], stats["assists"],
+                                    stats["yellows"], stats["reds"], stats["clean_sheet"]])):
                         merged[player["id"]] = stats
 
             # If every fixture errored (e.g. not finished yet), skip entirely
