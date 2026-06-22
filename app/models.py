@@ -86,6 +86,9 @@ class Entry(db.Model):
     matchday_id = db.Column(db.Integer, db.ForeignKey("matchdays.id"), nullable=False)
     formation = db.Column(db.String(8), nullable=False)
     score = db.Column(db.Float, default=0.0)
+    # Slot 0..4 of the starter chosen as captain — gets double points (their
+    # auto-sub inherits the bonus). Nullable for back-compat with pre-feature entries.
+    captain_slot = db.Column(db.Integer, nullable=True)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     picks = db.relationship("Pick", backref="entry", lazy=True, cascade="all, delete-orphan")
     __table_args__ = (db.UniqueConstraint("user_id", "league_id", "matchday_id", name="uq_entry"),)

@@ -71,7 +71,7 @@ def run():
 
             results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
             for e in Entry.query.filter_by(matchday_id=md.id).all():
-                e.score = score_entry(e.picks, results)
+                e.score = score_entry(e.picks, results, e.captain_slot)
             md.settled = True
             db.session.commit()
 

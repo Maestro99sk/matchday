@@ -37,6 +37,7 @@
     <div style="display:flex;align-items:center;gap:8px;padding:7px 10px;background:var(--bg);border:1px solid var(--line);border-radius:10px">
       <span style="font-family:var(--mono);font-size:10px;font-weight:700;color:{{ role_color[pk.role] }};width:28px">{{ pk.role }}</span>
       <span style="font-weight:600;flex:1;font-size:14px">{{ pk.player.name }}</span>
+      {% if pk.is_captain %}<span class="captain-badge" title="Captain — double points">C</span>{% endif %}
       <span style="font-size:16px">{{ pk.player.team | teamflag }}</span>
       <span style="font-family:var(--mono);font-size:12px;color:var(--accent)">{{ pk.player.value }}</span>
     </div>
@@ -71,6 +72,29 @@
       <div style="font-family:var(--display);font-size:20px;font-weight:700">{{ pending_md.label }}</div>
       <div class="muted mono" style="font-size:13px">Games in progress — scores update automatically</div>
     </div><span class="pill">LOCKED</span>
+  </div>
+</div>
+{% endif %}
+
+{% if past_rows %}
+<div class="card" id="past-weeks">
+  <h2 style="margin:0 0 8px">Your past matchdays</h2>
+  <div style="display:flex;flex-direction:column;gap:6px">
+    {% for row in past_rows %}
+    <a href="{{ url_for('my_team', league_id=row.league.id, matchday_id=row.matchday.id) }}"
+       style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;
+              background:var(--bg);border:1px solid var(--line);border-radius:10px;
+              text-decoration:none;color:var(--ink)">
+      <div>
+        <div style="font-weight:600;font-size:14px">{{ row.matchday.label }}</div>
+        <div class="muted mono" style="font-size:11px">{{ row.league.name }}</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="mono" style="font-size:16px;font-weight:700;color:var(--accent)">{{ '%.1f'|format(row.entry.score) }}</span>
+        <span class="muted" style="font-size:18px">›</span>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </div>
 {% endif %}

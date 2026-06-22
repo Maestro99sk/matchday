@@ -44,7 +44,7 @@
   </svg>
 </div>
 
-<p class="muted center" style="font-size:13px;margin:14px 6px">Max {{ max_starters_per_team }} starters from one nation. Subs must match their starter's nation. Tap a slot to fill it.</p>
+<p class="muted center" style="font-size:13px;margin:14px 6px">Max {{ max_starters_per_team }} starters from one nation. Subs must match their starter's nation. Tap a slot to fill it, then tap the <b style="color:#ffb300">C</b> badge on one starter to make them captain — they score double.</p>
 
 <!-- subs bench -->
 <div id="bench"></div>
@@ -59,6 +59,7 @@
     <div class="sc-row pos"><span>Clean sheet (MID)</span><span>+{{ scoring.clean_sheet_mid }}</span></div>
     <div class="sc-row neg"><span>Yellow card</span><span>{{ scoring.yellow }}</span></div>
     <div class="sc-row neg"><span>Red card</span><span>{{ scoring.red }}</span></div>
+    <div class="sc-row pos"><span>Captain</span><span>×2</span></div>
   </div>
 </details>
 

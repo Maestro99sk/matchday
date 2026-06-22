@@ -8,7 +8,7 @@ from flask import (Flask, render_template, request, redirect, url_for,
 
 from .models import (db, User, League, Membership, Matchday, Fixture, Result, Entry, Pick)
 from .game import (PLAYERS, PLAYERS_BY_ID, players_for_teams, validate_lineup,
-                   score_entry, min_lineup_cost, adjust_pool_values)
+                   score_entry, player_score_detail, min_lineup_cost, adjust_pool_values)
 from .config import (FORMATIONS, BUDGET, MAX_STARTERS_PER_TEAM, MAX_SUBS_PER_TEAM,
                      SCORING, budget_for, limits_for_pool, REFERRAL_BONUS_PCT,
                      REFERRAL_BONUS_CAP_PCT, MATCHDAYS)
@@ -25,6 +25,23 @@ def create_app():
     app.config["SQLALCHEMY_DATABASE_URI"] = db_url
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.init_app(app)
+
+    # Lightweight in-place schema migration: add captain_slot to entries if
+    # missing. Safe to run on every startup — ALTER TABLE ADD COLUMN is a no-op
+    # once present. Avoids needing a separate migration tool for one column.
+    with app.app_context():
+        try:
+            from sqlalchemy import inspect, text
+            insp = inspect(db.engine)
+            if "entries" in insp.get_table_names():
+                cols = {c["name"] for c in insp.get_columns("entries")}
+                if "captain_slot" not in cols:
+                    with db.engine.begin() as conn:
+                        conn.execute(text("ALTER TABLE entries ADD COLUMN captain_slot INTEGER"))
+        except Exception as _e:
+            # Don't block app startup if the migration probe fails — the
+            # column will just be absent and captain features will degrade.
+            print(f"[migrate] captain_slot probe failed: {_e}")
 
     def login_required(f):
         @wraps(f)
@@ -156,14 +173,33 @@ def create_app():
                     for pk in e.picks:
                         player = PLAYERS_BY_ID.get(pk.player_id)
                         if player:
-                            my_picks.append({"slot": pk.slot, "role": pk.role, "player": player})
+                            my_picks.append({
+                                "slot": pk.slot, "role": pk.role, "player": player,
+                                "is_captain": e.captain_slot is not None and pk.slot == e.captain_slot,
+                            })
                     break
+        # Past matchdays: any settled matchday the user has an entry for.
+        # Pick the first league per matchday — users mostly play in one league.
+        past_rows = []
+        if lids:
+            past_entries = (db.session.query(Entry, Matchday, League)
+                            .join(Matchday, Matchday.id == Entry.matchday_id)
+                            .join(League, League.id == Entry.league_id)
+                            .filter(Entry.user_id == u.id, Matchday.settled == True)
+                            .order_by(Matchday.date.desc()).all())
+            seen_md = set()
+            for e, md, lg in past_entries:
+                if md.id in seen_md:
+                    continue
+                seen_md.add(md.id)
+                past_rows.append({"entry": e, "matchday": md, "league": lg})
         return render_template("dashboard.html", leagues=leagues,
                                open_md=open_md, pending_md=pending_md,
                                ranking=ranking, ref_link=ref_link, base_budget=BUDGET,
                                my_budget=my_budget, ref_count=(u.referral_count or 0),
                                at_cap=at_cap, my_entry=my_entry,
-                               my_entry_league=my_entry_league, my_picks=my_picks)
+                               my_entry_league=my_entry_league, my_picks=my_picks,
+                               past_rows=past_rows)
 
     @app.route("/league/create", methods=["POST"])
     @login_required
@@ -203,8 +239,25 @@ def create_app():
         table.sort(key=lambda r: r["score"], reverse=True)
         next_md = Matchday.query.filter_by(settled=False).order_by(Matchday.date).first()
         display_md = next_md or Matchday.query.filter_by(settled=True).order_by(Matchday.date.desc()).first()
+        # Past matchdays for review: each settled matchday with everyone's score
+        past_matchdays = []
+        settled_mds = (Matchday.query.filter_by(settled=True)
+                       .order_by(Matchday.date.desc()).all())
+        for md in settled_mds:
+            entries = Entry.query.filter_by(league_id=lg.id, matchday_id=md.id).all()
+            by_user = {e.user_id: e for e in entries}
+            rows = []
+            for m in members:
+                e = by_user.get(m.id)
+                rows.append({"user_id": m.id, "username": m.username,
+                             "score": round(e.score, 1) if e else None,
+                             "has_entry": e is not None})
+            rows.sort(key=lambda r: (r["score"] is None, -(r["score"] or 0)))
+            past_matchdays.append({"matchday": md, "rows": rows})
         return render_template("league.html", league=lg, table=table,
-                               next_md=next_md, display_md=display_md, current_user_id=u.id)
+                               next_md=next_md, display_md=display_md,
+                               past_matchdays=past_matchdays,
+                               current_user_id=u.id)
 
     # ---- play ----
     @app.route("/play/<int:league_id>/<int:matchday_id>")
@@ -226,6 +279,7 @@ def create_app():
         existing = None
         if entry:
             existing = {"formation": entry.formation,
+                        "captain_slot": entry.captain_slot,
                         "picks": [{"slot": p.slot, "role": p.role, "player_id": p.player_id}
                                   for p in entry.picks]}
         return render_template("play.html", league=lg, matchday=md,
@@ -248,6 +302,7 @@ def create_app():
         data = request.get_json(force=True)
         formation = data.get("formation")
         picks = data.get("picks", [])
+        captain_slot = data.get("captain_slot")
         # players must belong to today's teams
         teams = set()
         for fx in md.fixtures:
@@ -259,7 +314,7 @@ def create_app():
         max_starters, _ = limits_for_pool(len(teams))
         pool_players = adjust_pool_values(players_for_teams(teams), md.fixtures)
         effective_budget = max(budget_for(u.referral_count or 0), min_lineup_cost(pool_players))
-        ok, msg, total = validate_lineup(formation, picks,
+        ok, msg, total = validate_lineup(formation, picks, captain_slot,
                                          budget=effective_budget,
                                          max_starters=max_starters)
         if not ok:
@@ -269,6 +324,7 @@ def create_app():
             entry = Entry(user_id=u.id, league_id=lg.id, matchday_id=md.id, formation=formation)
             db.session.add(entry); db.session.commit()
         entry.formation = formation
+        entry.captain_slot = int(captain_slot)
         Pick.query.filter_by(entry_id=entry.id).delete()
         for pk in picks:
             db.session.add(Pick(entry_id=entry.id, slot=int(pk["slot"]),
@@ -276,6 +332,23 @@ def create_app():
         db.session.commit()
         return jsonify(ok=True, msg="Lineup locked in.", total=total,
                        redirect=url_for("dashboard"))
+
+    def _build_team_view_context(entry):
+        """Shared data for my_team / view_team templates."""
+        picks_data = []
+        for pk in entry.picks:
+            player = PLAYERS_BY_ID.get(pk.player_id)
+            if player:
+                picks_data.append({
+                    "slot": pk.slot, "role": pk.role, "player": player,
+                    "is_captain": entry.captain_slot is not None and pk.slot == entry.captain_slot,
+                })
+        details = []
+        md = entry.matchday
+        if md and md.settled:
+            results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
+            details = player_score_detail(entry.picks, results, entry.captain_slot)
+        return picks_data, details
 
     @app.route("/my-team/<int:league_id>/<int:matchday_id>")
     @login_required
@@ -288,14 +361,11 @@ def create_app():
         entry = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=md.id).first()
         if not entry:
             return redirect(url_for("play", league_id=league_id, matchday_id=matchday_id))
-        picks_data = []
-        for pk in entry.picks:
-            player = PLAYERS_BY_ID.get(pk.player_id)
-            if player:
-                picks_data.append({"slot": pk.slot, "role": pk.role, "player": player})
+        picks_data, details = _build_team_view_context(entry)
         return render_template("my_team.html", league=lg, matchday=md, entry=entry,
                                picks=picks_data, formation=entry.formation,
-                               formations=FORMATIONS, is_own=True, team_username=u.username)
+                               formations=FORMATIONS, is_own=True, team_username=u.username,
+                               score_detail=details, scoring=SCORING)
 
     @app.route("/league/<int:league_id>/team/<int:user_id>/<int:matchday_id>")
     @login_required
@@ -310,16 +380,15 @@ def create_app():
         md = Matchday.query.get_or_404(matchday_id)
         entry = Entry.query.filter_by(user_id=user_id, league_id=lg.id, matchday_id=md.id).first()
         picks_data = []
+        details = []
         if entry:
-            for pk in entry.picks:
-                player = PLAYERS_BY_ID.get(pk.player_id)
-                if player:
-                    picks_data.append({"slot": pk.slot, "role": pk.role, "player": player})
+            picks_data, details = _build_team_view_context(entry)
         return render_template("my_team.html", league=lg, matchday=md, entry=entry,
                                picks=picks_data,
                                formation=entry.formation if entry else None,
                                formations=FORMATIONS, is_own=(u.id == user_id),
-                               team_username=target.username)
+                               team_username=target.username,
+                               score_detail=details, scoring=SCORING)
 
     # ---- admin settle ----
     @app.route("/admin/settle", methods=["GET", "POST"])
@@ -357,7 +426,7 @@ def create_app():
             db.session.commit()
             results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
             for e in Entry.query.filter_by(matchday_id=md.id).all():
-                e.score = score_entry(e.picks, results)
+                e.score = score_entry(e.picks, results, e.captain_slot)
             md.settled = True
             db.session.commit()
             flash(f"Settled {md.label}.", "ok")
@@ -411,7 +480,7 @@ def create_app():
 
         results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
         for e in Entry.query.filter_by(matchday_id=md.id).all():
-            e.score = score_entry(e.picks, results)
+            e.score = score_entry(e.picks, results, e.captain_slot)
         md.settled = True
         db.session.commit()
 

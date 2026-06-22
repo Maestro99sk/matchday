@@ -40,6 +40,47 @@
 <!-- subs bench (read-only) -->
 <div id="bench-view"></div>
 
+{% if score_detail %}
+{% set role_color = {"GK": "#ffb300", "DEF": "#39c0ff", "MID": "#00e676", "FWD": "#ff5a8a"} %}
+<div class="card mt">
+  <div class="row-between" style="margin-bottom:10px">
+    <h2 style="margin:0">Scoring breakdown</h2>
+    <span class="pill open" style="font-size:14px;padding:4px 10px">{{ '%.1f'|format(entry.score) }} pts</span>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:6px">
+    {% for row in score_detail %}
+    <div style="display:flex;align-items:center;gap:8px;padding:9px 11px;background:var(--bg);border:1px solid var(--line);border-radius:10px">
+      <span style="font-family:var(--mono);font-size:10px;font-weight:700;color:{{ role_color[row.role] }};width:28px">{{ row.role }}</span>
+      <div style="flex:1;min-width:0">
+        <div style="display:flex;align-items:center;gap:6px">
+          <span style="font-weight:600;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ row.player.name }}</span>
+          <span style="font-size:14px">{{ row.player.team | teamflag }}</span>
+          {% if row.is_captain %}<span class="captain-badge" title="Captain — double points">C</span>{% endif %}
+        </div>
+        {% if row.sub_in %}
+        <div class="muted mono" style="font-size:11px;margin-top:2px">↳ Sub: {{ row.sub_in.name }} {{ row.sub_in.team | teamflag }}</div>
+        {% elif not row.played %}
+        <div class="muted mono" style="font-size:11px;margin-top:2px">Did not play — no same-nation sub</div>
+        {% endif %}
+        {% set stat_bits = [] %}
+        {% if row.goals %}{% set _ = stat_bits.append(row.goals|string + 'G') %}{% endif %}
+        {% if row.assists %}{% set _ = stat_bits.append(row.assists|string + 'A') %}{% endif %}
+        {% if row.clean_sheet %}{% set _ = stat_bits.append('CS') %}{% endif %}
+        {% if row.yellows %}{% set _ = stat_bits.append(row.yellows|string + 'Y') %}{% endif %}
+        {% if row.reds %}{% set _ = stat_bits.append(row.reds|string + 'R') %}{% endif %}
+        {% if stat_bits %}
+        <div class="mono" style="font-size:11px;color:var(--muted);margin-top:2px">{{ stat_bits | join(' · ') }}</div>
+        {% endif %}
+      </div>
+      <span class="mono" style="font-size:15px;font-weight:700;color:{% if row.points > 0 %}var(--accent){% elif row.points < 0 %}var(--red){% else %}var(--muted){% endif %}">{{ '%.1f'|format(row.points) }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% elif matchday.settled and entry %}
+<div class="card mt center muted">No scoring data for this matchday.</div>
+{% endif %}
+
 <script id="teamdata" type="application/json">
 {{ picks|tojson }}
 </script>
@@ -98,6 +139,14 @@
     tok.innerHTML =
       `<span class="tok-flag">${flag(pk.player.team)}</span>` +
       `<span class="tok-val" style="color:${color}">${pk.player.value}</span>`;
+
+    if (pk.is_captain) {
+      const cap = document.createElement("span");
+      cap.className = "tok-captain on";
+      cap.textContent = "C";
+      cap.title = "Captain";
+      tok.appendChild(cap);
+    }
 
     const nameLabel = document.createElement("span");
     nameLabel.className = "slot-name";

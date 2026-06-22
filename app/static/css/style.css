@@ -268,6 +268,16 @@ input:focus, select:focus { outline: none; border-color: var(--accent); }
 .tok-val { font-family:var(--mono); font-size:10px; margin-top:2px; }
 .tok-remove { position:absolute; top:-6px; right:-6px; width:20px; height:20px; border-radius:50%;
   background:var(--red); color:#fff; font-size:14px; line-height:20px; text-align:center; font-weight:700; }
+.tok-captain { position:absolute; top:-6px; left:-6px; width:22px; height:22px; border-radius:50%;
+  background:rgba(14,19,29,.85); border:1.5px solid rgba(255,255,255,.35); color:#cfd5e2;
+  font-family:var(--mono); font-size:12px; line-height:19px; text-align:center; font-weight:800;
+  cursor:pointer; user-select:none; transition:transform .12s ease; }
+.tok-captain:hover { transform:scale(1.1); }
+.tok-captain.on { background:#ffb300; border-color:#ffb300; color:#1a1305;
+  box-shadow:0 0 0 2px rgba(255,179,0,.35), 0 4px 10px rgba(255,179,0,.4); }
+.captain-badge { display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px;
+  border-radius:50%; background:#ffb300; color:#1a1305; font-family:var(--mono); font-size:10px;
+  font-weight:800; margin-left:6px; }
 .slot-name { position:absolute; top:calc(100% + 5px); left:50%; transform:translateX(-50%);
   font-size:10px; color:var(--ink); white-space:nowrap; font-weight:700;
   text-shadow:0 1px 4px rgba(0,0,0,.95); pointer-events:none; letter-spacing:.01em; }

@@ -86,13 +86,14 @@ def min_lineup_cost(pool):
     return sub_cost + min_start
 
 
-def validate_lineup(formation, picks, budget=BUDGET,
+def validate_lineup(formation, picks, captain_slot, budget=BUDGET,
                     max_starters=MAX_STARTERS_PER_TEAM, max_subs=MAX_SUBS_PER_TEAM):
     """
     formation: key in FORMATIONS
     picks: list of dicts {slot, role, player_id}
       slots 0-4  → starting XI (must match formation length)
       slots 5-8  → subs bench (optional, each must match SUB_SLOT_ROLE)
+    captain_slot: int 0..4 — which starter is captain (doubles their points)
     budget: the picking user's personal budget (base + referral bonus)
     Returns (ok, message, total_value).
     """
@@ -105,6 +106,17 @@ def validate_lineup(formation, picks, budget=BUDGET,
 
     if len(starter_picks) != len(shape):
         return False, f"Pick all {len(shape)} starting positions.", 0
+
+    if captain_slot is None:
+        return False, "Pick a captain.", 0
+    try:
+        captain_slot = int(captain_slot)
+    except (TypeError, ValueError):
+        return False, "Invalid captain.", 0
+    if not (0 <= captain_slot < len(shape)):
+        return False, "Captain must be one of your starters.", 0
+    if not any(int(p["slot"]) == captain_slot for p in starter_picks):
+        return False, "Captain must be one of your starters.", 0
 
     seen_slots = set()
     seen_players = set()
@@ -178,11 +190,14 @@ def score_player(result, pos):
     return pts
 
 
-def score_entry(picks, results_by_player):
+def score_entry(picks, results_by_player, captain_slot=None):
     """
     Score a lineup with same-nation auto-subs.
     If a starter's result has played=False, their bench player of the same role
     AND same nation replaces them. Cross-nation subs never trigger.
+
+    captain_slot (0..4): the captain starter gets double points. If the captain
+    is auto-subbed, the bonus transfers to the sub.
     """
     starter_picks = [p for p in picks if p.slot < 5]
     # bench keyed by role, only one sub per role
@@ -195,7 +210,9 @@ def score_entry(picks, results_by_player):
             continue
         result = results_by_player.get(pk.player_id)
         did_not_play = result is not None and not getattr(result, "played", True)
+        is_captain = captain_slot is not None and pk.slot == captain_slot
 
+        pts = 0.0
         if did_not_play:
             sub_pk = sub_by_role.get(pk.role)
             if sub_pk:
@@ -203,10 +220,69 @@ def score_entry(picks, results_by_player):
                 # Only sub in if same nation — prevents cheap-starter / expensive-bench exploit
                 if sub_player and sub_player["team"] == player["team"]:
                     sub_result = results_by_player.get(sub_pk.player_id)
-                    total += score_player(sub_result, sub_player["pos"])
-                    continue
+                    pts = score_player(sub_result, sub_player["pos"])
             # no valid same-nation sub → starter scores 0
         else:
-            total += score_player(result, player["pos"])
+            pts = score_player(result, player["pos"])
+
+        if is_captain:
+            pts *= 2
+        total += pts
 
     return round(total, 1)
+
+
+def player_score_detail(picks, results_by_player, captain_slot=None):
+    """
+    Per-slot scoring breakdown for the review/my-team page.
+
+    Returns a list of dicts keyed by slot (0..4 only), each containing:
+      slot, role, player, is_captain, played, sub_in (player dict or None),
+      goals, assists, clean_sheet, yellows, reds, base_points, points
+    `points` already includes the captain x2 multiplier.
+    """
+    starter_picks = sorted([p for p in picks if p.slot < 5], key=lambda p: p.slot)
+    sub_by_role = {p.role: p for p in picks if p.slot >= 5}
+
+    rows = []
+    for pk in starter_picks:
+        player = PLAYERS_BY_ID.get(pk.player_id)
+        if not player:
+            continue
+        result = results_by_player.get(pk.player_id)
+        did_not_play = result is not None and not getattr(result, "played", True)
+        is_captain = captain_slot is not None and pk.slot == captain_slot
+
+        scoring_player = player
+        scoring_result = result
+        sub_in = None
+
+        if did_not_play:
+            sub_pk = sub_by_role.get(pk.role)
+            sub_player = PLAYERS_BY_ID.get(sub_pk.player_id) if sub_pk else None
+            if sub_player and sub_player["team"] == player["team"]:
+                sub_in = sub_player
+                scoring_player = sub_player
+                scoring_result = results_by_player.get(sub_pk.player_id)
+            else:
+                scoring_result = None  # no valid sub → 0 pts
+
+        base = score_player(scoring_result, scoring_player["pos"])
+        points = base * 2 if is_captain else base
+
+        rows.append({
+            "slot": pk.slot,
+            "role": pk.role,
+            "player": player,
+            "is_captain": is_captain,
+            "played": not did_not_play,
+            "sub_in": sub_in,
+            "goals": scoring_result.goals if scoring_result else 0,
+            "assists": scoring_result.assists if scoring_result else 0,
+            "clean_sheet": bool(scoring_result.clean_sheet) if scoring_result else False,
+            "yellows": scoring_result.yellows if scoring_result else 0,
+            "reds": scoring_result.reds if scoring_result else 0,
+            "base_points": round(base, 1),
+            "points": round(points, 1),
+        })
+    return rows

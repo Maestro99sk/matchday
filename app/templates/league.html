@@ -18,4 +18,38 @@
     <td>{% if display_md %}<a href="{{ url_for('view_team', league_id=league.id, user_id=row.user_id, matchday_id=display_md.id) }}" style="color:var(--accent);text-decoration:none">{{ row.username }}</a>{% else %}{{ row.username }}{% endif %}</td>
     <td class="num">{{ '%.1f'|format(row.score) }}</td></tr>{% endfor %}</table>
 </div>
+
+{% if past_matchdays %}
+<div class="card mt">
+  <h2>Matchday history</h2>
+  <p class="muted" style="font-size:12px;margin:0 0 10px">Tap any score to review that team.</p>
+  {% for block in past_matchdays %}
+  <details {% if loop.first %}open{% endif %} style="margin-bottom:8px;border:1px solid var(--line);border-radius:10px;overflow:hidden">
+    <summary style="cursor:pointer;padding:10px 12px;background:var(--bg);display:flex;justify-content:space-between;align-items:center;font-weight:600">
+      <span>{{ block.matchday.label }}</span>
+      <span class="muted mono" style="font-size:11px;font-weight:400">{{ block.matchday.date.strftime('%b %d') }}</span>
+    </summary>
+    <div style="padding:8px 12px;background:var(--panel)">
+      <table class="table" style="margin:0">
+        <tr><th>#</th><th>Player</th><th class="num">Pts</th></tr>
+        {% for row in block.rows %}
+        <tr>
+          <td class="rank-pill {{ 'rank-1' if loop.index==1 and row.score is not none }}">{{ loop.index }}</td>
+          <td>
+            {% if row.has_entry %}
+              <a href="{{ url_for('view_team', league_id=league.id, user_id=row.user_id, matchday_id=block.matchday.id) }}"
+                 style="color:var(--accent);text-decoration:none">{{ row.username }}</a>
+            {% else %}
+              <span class="muted">{{ row.username }}</span>
+            {% endif %}
+          </td>
+          <td class="num">{% if row.score is not none %}{{ '%.1f'|format(row.score) }}{% else %}<span class="muted">—</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </details>
+  {% endfor %}
+</div>
+{% endif %}
 {% endblock %}

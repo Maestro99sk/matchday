@@ -55,6 +55,7 @@
   let lineup = {};      // slotIndex (0-4) -> player
   let subsLineup = {};  // slotIndex (5-8) -> player
   let activeSlot = null;
+  let captainSlot = null;  // slotIndex (0-4) of the captain — gets double points
 
   const pitch = document.getElementById("pitch");
   const fName = document.getElementById("fName");
@@ -77,6 +78,9 @@
         if (pk.slot < 5) lineup[pk.slot] = pl;
         else subsLineup[pk.slot] = pl;
       });
+      if (typeof cfg.existing.captain_slot === "number") {
+        captainSlot = cfg.existing.captain_slot;
+      }
     }
   }
 
@@ -85,7 +89,7 @@
     const b = document.createElement("button");
     b.className = "fdot" + (i === idx ? " on" : "");
     b.setAttribute("aria-label", id);
-    b.onclick = () => { idx = i; lineup = {}; subsLineup = {}; activeSlot = null; render(); };
+    b.onclick = () => { idx = i; lineup = {}; subsLineup = {}; activeSlot = null; captainSlot = null; render(); };
     fDots.appendChild(b);
   });
 
@@ -93,7 +97,7 @@
 
   function cycle(d) {
     idx = (idx + d + fIds.length) % fIds.length;
-    lineup = {}; subsLineup = {}; activeSlot = null; render();
+    lineup = {}; subsLineup = {}; activeSlot = null; captainSlot = null; render();
   }
   document.getElementById("fPrev").onclick = () => cycle(-1);
   document.getElementById("fNext").onclick = () => cycle(1);
@@ -165,8 +169,25 @@
         btn.appendChild(nameLabel);
         const xBtn = document.createElement("span");
         xBtn.className = "tok-remove"; xBtn.textContent = "×";
-        xBtn.onclick = (e) => { e.stopPropagation(); delete lineup[i]; if (activeSlot===i) activeSlot=null; render(); };
+        xBtn.onclick = (e) => {
+          e.stopPropagation();
+          delete lineup[i];
+          if (activeSlot === i) activeSlot = null;
+          if (captainSlot === i) captainSlot = null;
+          render();
+        };
         btn.appendChild(xBtn);
+        const cBtn = document.createElement("span");
+        const isCap = captainSlot === i;
+        cBtn.className = "tok-captain" + (isCap ? " on" : "");
+        cBtn.textContent = "C";
+        cBtn.title = isCap ? "Captain — double points" : "Make captain";
+        cBtn.onclick = (e) => {
+          e.stopPropagation();
+          captainSlot = isCap ? null : i;
+          render();
+        };
+        btn.appendChild(cBtn);
       } else {
         tok.innerHTML = `<span class="tok-role" style="color:${color}">${role}</span>`;
         btn.appendChild(tok);
@@ -181,11 +202,18 @@
 
     const filled = Object.keys(lineup).length;
     const bs = benchSlots();
-    progress.textContent = `${filled}/${shp.length} starters · ${Object.keys(subsLineup).length}/${bs.length} subs`;
-    const ok = filled === shp.length && rem >= 0;
+    // If the captain slot was removed/changed by a formation switch, clear it
+    if (captainSlot !== null && !lineup[captainSlot]) captainSlot = null;
+    const captainOk = captainSlot !== null && lineup[captainSlot];
+    progress.textContent = `${filled}/${shp.length} starters · ${Object.keys(subsLineup).length}/${bs.length} subs`
+      + (captainOk ? ` · C ${shortName(lineup[captainSlot].name)}` : "");
+    const ok = filled === shp.length && rem >= 0 && captainOk;
     confirmBtn.style.opacity = ok ? 1 : .4;
     confirmBtn.style.pointerEvents = ok ? "auto" : "none";
-    confirmBtn.textContent = ok ? "Confirm lineup" : (rem < 0 ? "Over budget" : "Tap a slot to fill");
+    confirmBtn.textContent = ok ? "Confirm lineup"
+      : (rem < 0 ? "Over budget"
+      : filled < shp.length ? "Tap a slot to fill"
+      : "Pick a captain (tap C)");
 
     renderBench();
     renderTray();
@@ -325,11 +353,19 @@
       player_id: subsLineup[slot].id,
     }));
     if (starterPicks.length !== shp.length) return;
+    if (captainSlot === null || !lineup[captainSlot]) {
+      alert("Pick a captain — tap the C badge on one of your starters.");
+      return;
+    }
     confirmBtn.disabled = true; confirmBtn.textContent = "Saving…";
     try {
       const res = await fetch(cfg.submitUrl, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ formation: fIds[idx], picks: [...starterPicks, ...subPicks] }),
+        body: JSON.stringify({
+          formation: fIds[idx],
+          picks: [...starterPicks, ...subPicks],
+          captain_slot: captainSlot,
+        }),
       });
       const data = await res.json();
       if (data.ok) {
