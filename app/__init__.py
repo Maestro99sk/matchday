@@ -333,7 +333,7 @@ def create_app():
         return jsonify(ok=True, msg="Lineup locked in.", total=total,
                        redirect=url_for("dashboard"))
 
-    def _build_team_view_context(entry):
+    def _build_team_view_context(entry, md):
         """Shared data for my_team / view_team templates."""
         picks_data = []
         for pk in entry.picks:
@@ -344,7 +344,6 @@ def create_app():
                     "is_captain": entry.captain_slot is not None and pk.slot == entry.captain_slot,
                 })
         details = []
-        md = entry.matchday
         if md and md.settled:
             results = {r.player_id: r for r in Result.query.filter_by(matchday_id=md.id).all()}
             details = player_score_detail(entry.picks, results, entry.captain_slot)
@@ -361,7 +360,7 @@ def create_app():
         entry = Entry.query.filter_by(user_id=u.id, league_id=lg.id, matchday_id=md.id).first()
         if not entry:
             return redirect(url_for("play", league_id=league_id, matchday_id=matchday_id))
-        picks_data, details = _build_team_view_context(entry)
+        picks_data, details = _build_team_view_context(entry, md)
         return render_template("my_team.html", league=lg, matchday=md, entry=entry,
                                picks=picks_data, formation=entry.formation,
                                formations=FORMATIONS, is_own=True, team_username=u.username,
@@ -382,7 +381,7 @@ def create_app():
         picks_data = []
         details = []
         if entry:
-            picks_data, details = _build_team_view_context(entry)
+            picks_data, details = _build_team_view_context(entry, md)
         return render_template("my_team.html", league=lg, matchday=md, entry=entry,
                                picks=picks_data,
                                formation=entry.formation if entry else None,
